@@ -301,8 +301,8 @@
       "settings": {
       }
     },
-    "ec8055d2-e907-41a4-b3c5-4d08a6aacc93": {
-      "type": "image-banner-test",
+    "e645b313-3a1e-4fd1-b5fc-377eba28cde0": {
+      "type": "before-footer-home-section",
       "settings": {
       }
     }
@@ -322,6 +322,6 @@
     "rich-text",
     "newsletter",
     "pagefly-home",
-    "ec8055d2-e907-41a4-b3c5-4d08a6aacc93"
+    "e645b313-3a1e-4fd1-b5fc-377eba28cde0"
   ]
 }
