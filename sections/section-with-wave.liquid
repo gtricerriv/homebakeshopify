@@ -1,0 +1,19 @@
+<section class="section-with-wave">
+    {% if section.settings.image != blank %}
+        <div class="image-wrapper">
+            <img src= "{{ section.settings.image |  img_url: 'master' }}" alt="{{ section.settings.alt-image }}"/>
+        </div>
+    {% endif %}
+    
+    {% if section.settings.title != blank %}
+        <div class="heading-title">
+            <h2> {{section.settings.title | escape }} </h2>
+        </div>
+    {% endif %}
+
+    {% if section.settings.description != blank %}
+        <div class="description-">
+            <h2> {{section.settings.title | escape }} </h2>
+        </div>
+    {% endif %}
+</section>{%- comment -%}  {%- endcomment -%}
