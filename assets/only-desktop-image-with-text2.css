@@ -36,8 +36,12 @@
     display: inline-block;
 }
 @media(max-width:989px){
-    .image-wrapper2.image-column2 {
-        display: none;
+    .only-desktop-image2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    img.image-only-on-desktop2 {
+        width: 100%;
     }
     img.collection-list__image {
         width: 101.81px;
@@ -90,7 +94,7 @@
         height: 803px;
     }
     .image-only-on-desktop2{
-        width: 40vw;
+     /*    width: 40vw; */
         height: 100%;
         object-fit: cover;
         min-width: 440px;
