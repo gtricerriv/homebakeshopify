@@ -16,6 +16,7 @@
       "type": "image-with-text-bg",
       "settings": {
         "image": "shopify:\/\/shop_images\/asset_81_1.png",
+        "oval": "shopify:\/\/shop_images\/Oval.png",
         "background-color": "#b52555",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -65,12 +66,106 @@
         "title": "",
         "title_color": "#ffffff"
       }
+    },
+    "c6148721-231c-45b4-a3a1-580dd5f04176": {
+      "type": "only-desktop-image-with-text",
+      "blocks": {
+        "template--15967528812720__c6148721-231c-45b4-a3a1-580dd5f04176-1666255129eb5d28c8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Less time cooking,  more time with the family.",
+            "heading_size": "h1"
+          }
+        },
+        "template--15967528812720__c6148721-231c-45b4-a3a1-580dd5f04176-1666255129eb5d28c8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HOMEBAKE 425°:30™ dishes are delicious, quality meals your family will love- like homemade.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15967528812720__c6148721-231c-45b4-a3a1-580dd5f04176-1666255129eb5d28c8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "KNOW OUR STORY",
+            "button_link": "shopify:\/\/pages\/our-story"
+          }
+        }
+      },
+      "block_order": [
+        "template--15967528812720__c6148721-231c-45b4-a3a1-580dd5f04176-1666255129eb5d28c8-0",
+        "template--15967528812720__c6148721-231c-45b4-a3a1-580dd5f04176-1666255129eb5d28c8-1",
+        "template--15967528812720__c6148721-231c-45b4-a3a1-580dd5f04176-1666255129eb5d28c8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Picture1.jpg",
+        "background_image": "shopify:\/\/shop_images\/Group_39978.png",
+        "text_marquee": "SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •",
+        "layout": "image_first"
+      }
+    },
+    "751a2b9f-1e98-4664-886c-4e722b144d6b": {
+      "type": "only-desktop-image-with-text2",
+      "blocks": {
+        "template--15967528812720__751a2b9f-1e98-4664-886c-4e722b144d6b-1666267087639b06b0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose from family favorite mains, sides and veggies",
+            "heading_size": "h1"
+          }
+        },
+        "dd245ba8-49e8-4802-be59-12698a09c712": {
+          "type": "collection",
+          "settings": {
+            "image_collection": "shopify:\/\/shop_images\/asset_43dish1.png",
+            "link_collection": "shopify:\/\/collections\/main-retail",
+            "title_collection": ""
+          }
+        },
+        "e7c4ff2f-c4aa-4c47-b60f-9ad1c472c195": {
+          "type": "collection",
+          "settings": {
+            "image_collection": "shopify:\/\/shop_images\/asset_41dish2.png",
+            "link_collection": "shopify:\/\/collections\/sides",
+            "title_collection": ""
+          }
+        },
+        "c7421f30-8572-4169-80db-1b7a7ad32581": {
+          "type": "collection",
+          "settings": {
+            "image_collection": "shopify:\/\/shop_images\/asset_46dish3.png",
+            "link_collection": "shopify:\/\/collections\/veggies",
+            "title_collection": ""
+          }
+        },
+        "template--15967528812720__751a2b9f-1e98-4664-886c-4e722b144d6b-1666267087639b06b0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BROWSE DISHES",
+            "button_link": "shopify:\/\/collections\/shop"
+          }
+        }
+      },
+      "block_order": [
+        "template--15967528812720__751a2b9f-1e98-4664-886c-4e722b144d6b-1666267087639b06b0-0",
+        "dd245ba8-49e8-4802-be59-12698a09c712",
+        "e7c4ff2f-c4aa-4c47-b60f-9ad1c472c195",
+        "c7421f30-8572-4169-80db-1b7a7ad32581",
+        "template--15967528812720__751a2b9f-1e98-4664-886c-4e722b144d6b-1666267087639b06b0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pic2.png",
+        "text_marquee": "MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE •  AIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE •",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "pagefly-home",
     "02616e40-593b-4fd8-a2ad-11d8a547bf93",
     "70395968-e4a1-4460-bf87-3d74ff83d08b",
-    "c9cf1bda-318c-45ac-880c-06673c769bec"
+    "c9cf1bda-318c-45ac-880c-06673c769bec",
+    "c6148721-231c-45b4-a3a1-580dd5f04176",
+    "751a2b9f-1e98-4664-886c-4e722b144d6b"
   ]
 }

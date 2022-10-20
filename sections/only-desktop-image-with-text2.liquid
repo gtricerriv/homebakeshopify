@@ -1,43 +1,60 @@
-{{ 'only-desktop-image-with-text.css' | asset_url | stylesheet_tag }}
+{{ 'only-desktop-image-with-text2.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
 {%- endstyle -%}
 
-<div class="only-desktop-image">
-      <div class="image-wrapper image-column">
+<div class="only-desktop-image2">
+      <div class="image-wrapper2 image-column2">
       {%- if section.settings.image != blank -%}
-        <img loading="lazy" src="{{ section.settings.image | img_url: 'grande' }} " alt="{{ block.settings.image.alt | escape }}" class="image-only-on-desktop">
+        <img loading="lazy" src="{{ section.settings.image | img_url: 'grande' }} " alt="{{ block.settings.image.alt | escape }}" class="image-only-on-desktop2">
       {%- else -%}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       </div>
 
-      <div class="image-with-text__text-item text-column">
-        <div class="background-image">
-          {%- if section.settings.background_image != blank -%}
-            <img loading="lazy" src="{{ section.settings.background_image | img_url: 'grande' }} " alt="{{ block.settings.background_image.alt | escape }}" class="background-image">
-          {%- else -%}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
-        </div>
+      <div class="image-with-text__text-item2 text-column2">
         <marquee>{{ section.settings.text_marquee }}</marquee>
-        <div id="ImageWithText--{{ section.id }}" class="content-wrapper">
+        <div id="ImageWithText--{{ section.id }}" class="content-wrapper2">
           {%- for block in section.blocks -%}
             {% case block.type %}
               {%- when 'heading' -%}
-                <h2 class="section-heading image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                <h2 class="section-heading2 image-with-text__heading2 {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                   {{ block.settings.heading | escape }}
                 </h2>
               {%- when 'caption' -%}
-                <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
+                <p class="image-with-text__text2 image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
               {%- when 'text' -%}
-                <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+                <div class="image-with-text__text2 rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
               {%- when 'button' -%}
                 {%- if block.settings.button_label != blank -%}
-                  <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="section-button" {{ block.shopify_attributes }}>
+                  <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="section-button2" {{ block.shopify_attributes }}>
                     {{ block.settings.button_label | escape }}
                   </a>
                 {%- endif -%}
+                {%- when 'collection' -%}
+                    <div class="collection__item" {{ block.shopify_attributes }}>
+                        {%- if block.settings.image_collection != blank -%}
+                
+                          {%- if block.settings.link_collection != blank -%}
+                            <a href="{{ block.settings.link_collection }}">
+                          {%- endif -%}
+                
+                          {{ block.settings.image_collection | image_url: width: 160 | image_tag: 
+                            class: 'collection-list__image',
+                            widths: '160, 220, 300, 420, 640, 960',
+                            sizes: image_sizes,
+                            loading: 'lazy' }}
+                
+                            {%- if block.settings.link_collection != blank -%}
+                              </a>
+                            {%- endif -%}
+                        {%- else -%}
+                          {{ 'logo' | placeholder_svg_tag: 'logo-list__image placeholder-svg' }}
+                        {%- endif -%}
+                        {%- if block.settings.title_collection != blank %}
+                          {{ block.settings.title_collection }}
+                        {%- endif -%}
+                      </div>
             {%- endcase -%}
           {%- endfor -%}
         </div>
@@ -48,7 +65,7 @@
 
 {% schema %}
 {
-  "name": "Image w/text on desktop",
+  "name": "Image w/text on desktop 2",
   "class": "section",
   "settings": [
     {
@@ -56,11 +73,6 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
-    {
-      "type": "image_picker",
-      "id": "background_image",
-      "label": "Background image"
-    },    
     {
       "type": "text",
       "id": "text_marquee",
@@ -215,11 +227,32 @@
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
         }
       ]
-    }
+    },
+    {
+        "type": "collection",
+        "name": "Collection images",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_collection",
+            "label": "Image collection"
+          },
+          {
+            "type": "url",
+            "id": "link_collection",
+            "label": "URL"
+          },
+          {
+            "type": "richtext",
+            "id": "title_collection",
+            "label": "Text"
+          }
+        ]
+      }
   ],
   "presets": [
     {
-      "name": "Image w/text on desktop",
+      "name": "Image w/text on desktop 2",
       "blocks": [
         {
           "type": "heading"

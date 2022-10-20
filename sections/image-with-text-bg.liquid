@@ -36,6 +36,9 @@
     {% endif %}
     {% if section.settings.heading != blank %}
         <div class="flex-child-heading">
+          {% if section.settings.oval != blank %}
+            <img loading="lazy" src="{{ section.settings.oval | img_url: 'grande' }} " alt="{{ block.settings.oval.alt | escape }}" class="oval-image">
+          {% endif %}
            <h2 class="heading"> {{ section.settings.heading }}</h2>
            {% if section.settings.subheading != blank %}
                 <div class="subheading"> {{ section.settings.subheading }}</div>
@@ -58,6 +61,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "oval",
+      "label": "Ival image"
     },
     {
       "type": "color",
