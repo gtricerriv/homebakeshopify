@@ -35,7 +35,7 @@ menu-drawer > details[open] > summary::before {
   z-index: 3;
   left: 0;
   top: 100%;
-  width: calc(100vw - 4rem);
+  width:100vw;
   padding: 0;
   border-width: 0 var(--drawer-border-width) 0 0;
   background-color: rgb(var(--color-background));
@@ -95,6 +95,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   align-content: space-between;
   overflow-y: auto;
   height: 100%;
+  justify-items: center;
 }
 
 .menu-drawer__navigation {
@@ -154,7 +155,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__close-button:focus,
 .menu-drawer__menu-item:hover,
 .menu-drawer__close-button:hover {
-  color: rgb(var(--color-foreground));
+  color: #fff;
   background-color: rgba(var(--color-foreground), 0.04);
 }
 
@@ -226,7 +227,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   padding: 1.2rem;
   margin-left: -1.2rem;
   font-size: 1.4rem;
-  color: rgb(var(--color-foreground));
+  color: #fff;
 }
 
 .menu-drawer__account .icon-account {
@@ -251,4 +252,11 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer .list-social__link {
   padding: 1.3rem 1.25rem;
+}
+.mobile-logo{
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 5;
 }
