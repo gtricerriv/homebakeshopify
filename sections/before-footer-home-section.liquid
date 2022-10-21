@@ -1,0 +1,181 @@
+<style>
+  .bottom__section__container {
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
+    padding: 120px 17px;
+  }
+
+  .ig__handle{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+  }
+
+  .bottom__section__container h1 {
+    font-family: 'Calluna';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+
+   #shopify-section-{{section.id}}{
+    background: #B52555;
+   }
+
+   .mobile-hide {
+    display: none !important;
+   }
+
+   .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #B52555;
+        height: 800px;
+        max-width: 1280px;
+    }
+    .container__watermark {
+        position: absolute;
+        right: 0px;
+        margin: 64px;
+        width: 25%;
+        height: fit-content;
+    }
+    .container__content {
+        max-width: 1280px;
+    }
+    .container__content--wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .container__content--wrap__text {
+        margin: 0 0 16px 0;
+
+        text-align: center;
+        font-family: 'Calluna';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 90%;
+        color: #FFFFFF;
+    }
+
+    .container__content--wrap__divider {
+        width: 100%;
+    }
+
+    .mobile-hide{
+      display: flex;
+     }
+    
+    
+    @media screen and (max-width: 990px) {
+        
+        .container__watermark {
+            width: 28%;
+            height: fit-content;
+            margin: 40px;
+        }
+        .container__content--wrap__text {
+            font-size: 42px;
+        }
+    }
+    @media screen and (max-width: 590px) {
+        .container__watermark {
+            width: 43%;
+            height: fit-content;
+            margin: 21px;
+        }
+        
+        .container__content--wrap__text {
+            font-size: 32px;
+        }
+        .container__content--wrap__divider {
+            width: 90%;
+        }
+        .container__content--wrap {
+            margin-top: 64px;
+        }
+    }
+    
+
+  @media(min-width:768px){
+    .bottom__section__container h1 {
+      font-size: 64px;
+      line-height: 53px;
+      max-width: 470px;
+      margin: 0 auto;
+      margin-top: 40px !important;
+    }
+     .mobile-hide{
+      display: flex !important;
+     }
+     .app-placeholder {
+        max-width: 75%;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-bottom: 40p;
+        z-index: 2;
+        position: relative;
+     }
+
+     .ig__handle{
+        font-size: 20px;
+        line-height: 24px;
+      }
+  }
+</style>
+
+<div class="bottom__section__container">
+  <div class="container">
+    <img 
+        src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Group_39979.svg?v=1666278989" 
+        class="container__watermark"
+        loading="lazy" 
+        width="318" 
+        height="318" 
+    />
+    <div class="container__content">
+        <div class="container__content--wrap">
+            <h3 class="container__content--wrap__text">Check out how much <br /> customers love Homebake 425/30</h3>
+            <img 
+                src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Group_9_Traced.svg?v=1666223352" 
+                class="container__content--wrap__divider"
+                loading="lazy" 
+                width="707" 
+                height="15" 
+            />
+            <p class="ig__handle">Follow us on @homebake425_30 and tag #homebake42530 to get featured!</p>
+        </div>
+        <div class="container__content--appSpace">
+          <img class="mobile-hide app-placeholder" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Frame_40334.png?v=1666297895">
+        </div>
+    </div>
+</div>
+  <h1>Food that makes family happen.</h1>
+</div>
+{% schema %}
+{
+  "name": "Bottom Section",
+  "tag": "section",
+  "class": "section",
+  "presets": [
+    {
+      "name": "Bottom Section"
+    }
+  ]
+}
+{% endschema %}
