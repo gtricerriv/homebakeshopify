@@ -123,7 +123,7 @@ img.background-image {
 }
 @media(min-width:1200px){
     .section-heading{
-        width: 70%;
+        width: 65%;
     }
     img.background-image{  
         left: 71%;
@@ -135,6 +135,6 @@ img.background-image {
 }
 @media (min-width:1440px){
     .only-desktop-image{
-        height: 615px;
+        height: 64rem;
     }
 }
