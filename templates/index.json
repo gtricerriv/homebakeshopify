@@ -92,6 +92,8 @@
         "template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f-16664079940a965c98-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/RectanglePicture2.png",
+        "background_image": "shopify:\/\/shop_images\/Group_39978.png",
         "text_marquee": "SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •",
         "layout": "image_first"
       }
