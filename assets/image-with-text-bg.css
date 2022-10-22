@@ -46,7 +46,6 @@ img.oval-image {
 }
 @media(min-width:375px){
     img.oval-image{
-        top: 463px;
         height: 61px;
         right: 0;
     }
@@ -59,7 +58,7 @@ img.oval-image {
         font-size: 50px;
     }
     img.oval-image{
-        top: 440px;
+        top: 51vh;
         height: 55px;
         right: 8%;
     }
