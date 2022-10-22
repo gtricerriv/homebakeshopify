@@ -146,7 +146,7 @@ img.background-image {
       justify-content: space-evenly;
   }
 }
-@media( min-width: 1800pxp ){
+@media( min-width: 1800px ){
   .image-only-on-desktop{
     width: 25vw;
   }
