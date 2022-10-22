@@ -184,6 +184,13 @@ img.oval-image {
     right: 34%;
   }   
 }
+@media (min-width: 2000px){
+  img.oval-image {
+    top: 64rem;
+    height: 6rem;
+    right: 34%;
+  }   
+}
 @media (min-width: 2560px){
     img.oval-image{
         top: 78rem;
