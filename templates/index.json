@@ -29,6 +29,7 @@
         "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-1": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/asset_5.png",
             "link": "",
             "title": ""
           }
@@ -36,6 +37,7 @@
         "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-2": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/asset_7.png",
             "link": "",
             "title": ""
           }
@@ -43,6 +45,7 @@
         "90bf3b06-f56e-4d89-b1fb-273e7e80cd17": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/asset_9.png",
             "link": "",
             "title": ""
           }
