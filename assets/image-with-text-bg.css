@@ -80,7 +80,7 @@ img.oval-image {
 }
 @media(min-width:700px){
     img.oval-image{
-        top: 420px;
+        top: 48vh;
         height: 65px;
         right: 7rem;
     }
