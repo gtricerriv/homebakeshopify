@@ -178,11 +178,11 @@ img.oval-image {
   }
 }
 @media (min-width: 1900px){
-    img.oval-image{
-        height: 8rem;
-        right: 32%;
-    }
-    
+  img.oval-image {
+    top: 61rem;
+    height: 6rem;
+    right: 34%;
+  }   
 }
 @media (min-width: 2560px){
     img.oval-image{
