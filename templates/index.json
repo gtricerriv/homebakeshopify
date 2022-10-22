@@ -1,104 +1,5 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "16550527455ba31f69": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1655052745182f58fd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Where to Buy",
-            "button_link": "shopify:\/\/collections\/shop",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1655052745182f58fd-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 48,
-        "padding_bottom": 20
-      }
-    },
-    "multicolumn-1": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/homebake-icon1.png",
-            "imagetwo": "shopify:\/\/shop_images\/homebake-icon1-hover_7d1fcfdd-f628-4ee7-98ce-a05728a9767f.png",
-            "title": "Select",
-            "text": "<p>Mix and match your family’s favorite mains, sides, and vegetables.​<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/homebake-icon3.png",
-            "imagetwo": "shopify:\/\/shop_images\/homebake-icon3-hover.png",
-            "title": "Bake",
-            "text": "<p>Place up to 3 dishes in the oven together and bake at 425°F for 30 minutes​.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/homebake-icon2.png",
-            "imagetwo": "shopify:\/\/shop_images\/homebake-icon2-icon.png",
-            "title": "Serve",
-            "text": "<p>30 min and family dinner is done​.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1",
-        "column-2"
-      ],
-      "settings": {
-        "title": "How It Works",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "pagefly-home": {
       "type": "pagefly-home",
       "disabled": true,
@@ -112,9 +13,6 @@
     }
   },
   "order": [
-    "slideshow",
-    "16550527455ba31f69",
-    "multicolumn-1",
     "pagefly-home",
     "e645b313-3a1e-4fd1-b5fc-377eba28cde0"
   ]
