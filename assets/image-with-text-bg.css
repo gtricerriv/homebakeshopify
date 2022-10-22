@@ -118,8 +118,7 @@ img.oval-image {
     }
 }
 @media(min-width:1200px){
-    img.oval-image{    
-        top: 44.5rem;
+    img.oval-image{  
         height: 47px;
         right: 33%;
     }
@@ -157,7 +156,7 @@ img.oval-image {
 }
 @media(min-width: 1400px){
     img.oval-image{    
-        top: 55rem;
+        top: 66vh;
         height: 8rem;
         right: 26%;
     }
@@ -165,6 +164,11 @@ img.oval-image {
         width: 360px;
         height: auto;
     }
+}
+@media (min-width:1600px){
+  img.oval-image {
+      top: 62vh;
+  }
 }
 @media (min-width:1800px){
   img.oval-image {
