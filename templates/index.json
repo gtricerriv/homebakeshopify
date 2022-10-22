@@ -91,11 +91,6 @@
         "layout": "image_first"
       }
     },
-    "e645b313-3a1e-4fd1-b5fc-377eba28cde0": {
-      "type": "before-footer-home-section",
-      "settings": {
-      }
-    },
     "f30b588c-f0e3-4dc8-9109-6b7ce29c3a67": {
       "type": "only-desktop-image-with-text2",
       "blocks": {
@@ -146,6 +141,11 @@
         "text_marquee": "SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •",
         "layout": "image_first"
       }
+    },
+    "e645b313-3a1e-4fd1-b5fc-377eba28cde0": {
+      "type": "before-footer-home-section",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -153,7 +153,7 @@
     "pagefly-home",
     "317b1f75-599f-4d23-8a25-0f4dab25722e",
     "c6558f93-6f72-41ce-a4a2-475b78d25c5f",
-    "e645b313-3a1e-4fd1-b5fc-377eba28cde0",
-    "f30b588c-f0e3-4dc8-9109-6b7ce29c3a67"
+    "f30b588c-f0e3-4dc8-9109-6b7ce29c3a67",
+    "e645b313-3a1e-4fd1-b5fc-377eba28cde0"
   ]
 }
