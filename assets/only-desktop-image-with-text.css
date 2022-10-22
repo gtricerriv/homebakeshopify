@@ -91,7 +91,7 @@ img.background-image {
         flex-direction: row;
         align-content: center;
         justify-content: space-between;
-        height: 803px;
+        height: 59vh;
     }
     .image-only-on-desktop{
         width: 33vw;
