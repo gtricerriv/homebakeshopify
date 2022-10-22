@@ -74,6 +74,9 @@ img.background-image {
     .section-heading{
         margin-top: 75px;
     }
+    .image-with-text__text-item.text-column{
+      height: 63vh;
+    }
 }
 @media(min-width:990px){
     .image-with-text__text.rte.body{
