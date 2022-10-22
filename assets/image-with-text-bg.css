@@ -153,6 +153,13 @@ img.oval-image {
         right: 23%;
     }
 }
+@media(min-witdh: 1350px){
+    img.oval-image {
+      top: 48.5rem;
+      height: 7rem;
+      right: 28%;
+  }
+}
 @media(min-width: 1400px){
     img.oval-image{    
         top: 55rem;
