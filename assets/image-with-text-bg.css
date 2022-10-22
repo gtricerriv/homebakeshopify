@@ -36,7 +36,7 @@
 }
 img.oval-image {
     position: absolute;
-    top: 44rem;
+    top: 463px;
     right: 3rem;
     height: 38px;
     z-index: 0;
@@ -46,7 +46,7 @@ img.oval-image {
 }
 @media(min-width:375px){
     img.oval-image{
-        top: 44rem;
+        top: 463px;
         height: 61px;
         right: 0;
     }
@@ -59,7 +59,7 @@ img.oval-image {
         font-size: 50px;
     }
     img.oval-image{
-        top: 41.5rem;
+        top: 440px;
         height: 55px;
         right: 8%;
     }
@@ -69,21 +69,21 @@ img.oval-image {
         font-size: 61px;
     }
     img.oval-image{  
-        top: 38rem;
+        top: 440px;
         height: 68px;
         right: 5%;
     }
 }
 @media(min-width:600px){
     img.oval-image{
-        top: 38rem;
+        top: 440px;
         height: 61px;
         right: 8rem;
     }
 }
 @media(min-width:700px){
     img.oval-image{
-        top: 36rem;
+        top: 420px;
         height: 65px;
         right: 7rem;
     }
@@ -97,7 +97,7 @@ img.oval-image {
         font-size: 40px;
     }
     img.oval-image {
-        top: 40.5rem;
+        top: 425px;
         height: 45px;
         right: 25%;
     }
