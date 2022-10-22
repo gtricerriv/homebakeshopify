@@ -67,15 +67,13 @@ img.oval-image {
     .heading{
         font-size: 61px;
     }
-    img.oval-image{  
-        top: 440px;
+    img.oval-image{ 
         height: 68px;
         right: 5%;
     }
 }
 @media(min-width:600px){
     img.oval-image{
-        top: 440px;
         height: 61px;
         right: 8rem;
     }
