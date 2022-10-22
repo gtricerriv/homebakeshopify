@@ -143,6 +143,6 @@ img.background-image {
 }
 @media (min-width: 1600px){
   .text-column{
-      justify-content: space-between;
+      justify-content: space-evenly;
   }
 }
