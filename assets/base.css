@@ -4124,4 +4124,5 @@ details-disclosure > details {
   margin: 4rem 0;
   color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
+  height: 20px;
 }
