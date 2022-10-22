@@ -21,21 +21,9 @@
       "settings": {
       }
     },
-    "e645b313-3a1e-4fd1-b5fc-377eba28cde0": {
-      "type": "before-footer-home-section",
-      "settings": {
-      }
-    },
     "317b1f75-599f-4d23-8a25-0f4dab25722e": {
       "type": "images-in-a-row",
       "blocks": {
-        "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-0": {
-          "type": "logo_image",
-          "settings": {
-            "link": "",
-            "title": ""
-          }
-        },
         "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-1": {
           "type": "logo_image",
           "settings": {
@@ -49,23 +37,71 @@
             "link": "",
             "title": ""
           }
+        },
+        "90bf3b06-f56e-4d89-b1fb-273e7e80cd17": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "title": ""
+          }
         }
       },
       "block_order": [
-        "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-0",
         "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-1",
-        "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-2"
+        "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-2",
+        "90bf3b06-f56e-4d89-b1fb-273e7e80cd17"
       ],
       "settings": {
         "title": "",
         "title_color": "#ffffff"
+      }
+    },
+    "c6558f93-6f72-41ce-a4a2-475b78d25c5f": {
+      "type": "only-desktop-image-with-text",
+      "blocks": {
+        "template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f-16664079940a965c98-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Less time cooking,  more time with the family.",
+            "heading_size": "h1"
+          }
+        },
+        "template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f-16664079940a965c98-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HOMEBAKE 425°:30™ dishes are delicious, quality meals your family will love- like homemade.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f-16664079940a965c98-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f-16664079940a965c98-0",
+        "template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f-16664079940a965c98-1",
+        "template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f-16664079940a965c98-2"
+      ],
+      "settings": {
+        "text_marquee": "SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •",
+        "layout": "image_first"
+      }
+    },
+    "e645b313-3a1e-4fd1-b5fc-377eba28cde0": {
+      "type": "before-footer-home-section",
+      "settings": {
       }
     }
   },
   "order": [
     "b13aee93-1a45-4c2b-b2a7-2a841d83b5b0",
     "pagefly-home",
-    "e645b313-3a1e-4fd1-b5fc-377eba28cde0",
-    "317b1f75-599f-4d23-8a25-0f4dab25722e"
+    "317b1f75-599f-4d23-8a25-0f4dab25722e",
+    "c6558f93-6f72-41ce-a4a2-475b78d25c5f",
+    "e645b313-3a1e-4fd1-b5fc-377eba28cde0"
   ]
 }
