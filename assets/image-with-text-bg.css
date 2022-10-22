@@ -205,6 +205,20 @@ img.oval-image {
     right: 35%;
   }   
 }
+@media (min-width: 2300px){
+  img.oval-image {
+    top: 73rem;
+    height: 7rem;
+    right: 35%;
+  }   
+}
+@media (min-width: 2400px){
+  img.oval-image {
+    top: 76rem;
+    height: 7rem;
+    right: 37%;
+  }   
+}
 @media (min-width: 2560px){
     img.oval-image{
         top: 78rem;
