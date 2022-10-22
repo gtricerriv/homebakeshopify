@@ -13,7 +13,7 @@
       </div>
 
       <div class="image-with-text__text-item2 text-column2">
-        <marquee>{{ section.settings.text_marquee }}</marquee>
+        <p class="marquee">{{ section.settings.text_marquee }}</p>
         <div id="ImageWithText--{{ section.id }}" class="content-wrapper2">
           {%- for block in section.blocks -%}
             {% case block.type %}
@@ -58,7 +58,7 @@
             {%- endcase -%}
           {%- endfor -%}
         </div>
-        <marquee>{{ section.settings.text_marquee }}</marquee>
+        <p class="marquee">{{ section.settings.text_marquee }}</p>
   </div>
 </div>
 
