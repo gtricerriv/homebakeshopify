@@ -179,63 +179,57 @@ img.oval-image {
 }
 @media (min-width:1800px){
   img.oval-image {
-      top: 57.8rem;
+      top: 58vh;
       height: 7rem;
       right: 32%;
   }
 }
 @media (min-width: 1900px){
   img.oval-image {
-    top: 586px;
     height: 6rem;
     right: 34%;
   }   
 }
 @media (min-width: 2000px){
   img.oval-image {
-    top: 64rem;
     height: 6rem;
     right: 34%;
   }   
 }
 @media (min-width: 2100px){
   img.oval-image {
-    top: 68rem;
     height: 6rem;
     right: 35%;
   }   
 }
 @media (min-width: 2200px){
   img.oval-image {
-    top: 70rem;
+    top: 57vh;
     height: 7rem;
     right: 35%;
   }   
 }
 @media (min-width: 2300px){
   img.oval-image {
-    top: 73rem;
     height: 7rem;
     right: 35%;
   }   
 }
 @media (min-width: 2400px){
   img.oval-image {
-    top: 76rem;
     height: 7rem;
     right: 37%;
   }   
 }
 @media (min-width: 2500px){
   img.oval-image {
-    top: 78rem;
     height: 7rem;
     right: 37%;
   }   
 }
 @media (min-width: 2560px){
     img.oval-image{
-        top: 85rem;
+        top: 56.5vh;
     }
     
 }
