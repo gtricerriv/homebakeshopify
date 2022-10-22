@@ -112,7 +112,7 @@ img.oval-image {
 }
 @media(min-width:1024px){
     img.oval-image{    
-        top: 44rem;
+        top: 53.5vh;
         height: 45px;
         right: 31%;
     }
