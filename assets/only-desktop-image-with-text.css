@@ -135,6 +135,6 @@ img.background-image {
 }
 @media (min-width:1440px){
     .only-desktop-image{
-        height: 803px;
+        height: 675px;
     }
 }
