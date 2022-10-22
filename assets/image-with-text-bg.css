@@ -170,6 +170,13 @@ img.oval-image {
         height: auto;
     }
 }
+@media (min-width:1800px){
+  img.oval-image {
+      top: 57.8rem;
+      height: 7rem;
+      right: 32%;
+  }
+}
 @media (min-width: 1900px){
     img.oval-image{
         height: 8rem;
