@@ -61,7 +61,7 @@ img.background-image {
     }
     img.background-image {
         position: absolute;
-        margin-top: 80%;
+        margin-top: 53%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
