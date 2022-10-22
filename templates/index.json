@@ -118,15 +118,15 @@
         "526553a3-6863-4e6e-a266-68122b1c9fa2": {
           "type": "collection",
           "settings": {
-            "link_collection": "",
-            "title_collection": ""
+            "image_collection": "shopify:\/\/shop_images\/asset_41dish2.png",
+            "link_collection": "shopify:\/\/collections\/sides"
           }
         },
         "ed339279-b40e-4b09-9e49-9ccb96e303c4": {
           "type": "collection",
           "settings": {
-            "link_collection": "",
-            "title_collection": ""
+            "image_collection": "shopify:\/\/shop_images\/asset_46dish3.png",
+            "link_collection": "shopify:\/\/collections\/veggies"
           }
         },
         "template--15956248690864__f30b588c-f0e3-4dc8-9109-6b7ce29c3a67-166640799444a207b6-2": {
