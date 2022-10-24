@@ -90,6 +90,9 @@
     .font-heading2{
         font-size: 56px;
     }
+    .image-only-on-desktop2-mobile{
+        display: none;
+    }
     .only-desktop-image2 {
         display: flex;
         flex-direction: row-reverse;
