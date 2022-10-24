@@ -37,7 +37,7 @@ img.background-image {
         display: none;
     }
     .image-with-text__text-item.text-column {
-        height: 67vh;
+        min-height: 67vh;
     }
     .content-wrapper {
         margin: 0 auto;
@@ -75,7 +75,7 @@ img.background-image {
         margin-top: 75px;
     }
     .image-with-text__text-item.text-column{
-      height: 63vh;
+      min-height: 63vh;
     }
 }
 @media(min-width:990px){
