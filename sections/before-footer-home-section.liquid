@@ -138,9 +138,10 @@
       }
   }
   .wave{
+    display: block !important;
     height: 10px;
     position: relative;
-    background: linear-gradient(90deg, #850D35  0%, #850D35 100%);
+    background: linear-gradient(90deg, transparent  0%, transparent 100%);
   }
   .wave::before{
     content: "";
@@ -152,7 +153,7 @@
     height: 10px;
     background-size: 20px 20px;
     background-image:
-     radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
+     radial-gradient(circle at 10px -5px,  transparent 12px,  #850D35 13px);
   }
   .wave::after{
     content: "";
@@ -164,7 +165,7 @@
     height: 15px;
     background-size: 40px 20px;
     background-image:
-      radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+      radial-gradient(circle at 10px 15px, #850D35 12px, transparent 13px);
   }
 </style>
 
