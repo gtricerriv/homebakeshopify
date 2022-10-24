@@ -40,6 +40,10 @@
         display: flex;
         flex-direction: column-reverse;
     }
+      .image-wrapper2.image-column2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     img.image-only-on-desktop2 {
         display: none;
        /*  width: 100%; */
