@@ -44,6 +44,9 @@
         display: none;
        /*  width: 100%; */
     }
+    img.image-only-on-desktop2-mobile{
+      width: 100%;
+    }
     img.collection-list__image {
         width: 101.81px;
         height: 101px;
