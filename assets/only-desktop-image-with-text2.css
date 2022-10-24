@@ -95,6 +95,10 @@
     img.image-only-on-section2-mobile{
         display: none;
     }
+    .image-wrapper2.image-column2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .only-desktop-image2 {
         display: flex;
         flex-direction: row-reverse;
