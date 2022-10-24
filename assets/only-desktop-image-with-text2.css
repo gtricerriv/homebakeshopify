@@ -41,7 +41,8 @@
         flex-direction: column-reverse;
     }
     img.image-only-on-desktop2 {
-        width: 100%;
+        display: none;
+       /*  width: 100%; */
     }
     img.collection-list__image {
         width: 101.81px;
