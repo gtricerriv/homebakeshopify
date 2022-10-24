@@ -3043,7 +3043,7 @@ details-disclosure > details {
     margin-top: -38px;
   }
   .footer-wave {
-/*     background: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/footer-top_592fbc53-afd1-4e21-ab3c-7bf125a7654d.png?v=1654839676') repeat-x center center; */
+    background: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/footer-top_592fbc53-afd1-4e21-ab3c-7bf125a7654d.png?v=1654839676') repeat-x center center; 
     background-size: contain;
     width: 100%;
     height: 35px;
