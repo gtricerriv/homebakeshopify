@@ -44,7 +44,7 @@
         display: none;
        /*  width: 100%; */
     }
-    img.image-only-on-desktop2-mobile{
+    img.image-only-on-section2-mobile{
       width: 100%;
       height: 70vh;
       margin-bottom: -1rem;
@@ -92,7 +92,7 @@
     .font-heading2{
         font-size: 56px;
     }
-    .image-only-on-desktop2-mobile{
+    img.image-only-on-section2-mobile{
         display: none;
     }
     .only-desktop-image2 {
