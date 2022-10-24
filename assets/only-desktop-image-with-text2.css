@@ -46,6 +46,8 @@
     }
     img.image-only-on-desktop2-mobile{
       width: 100%;
+      height: 70vh;
+      margin-bottom: -1rem;
     }
     img.collection-list__image {
         width: 101.81px;
