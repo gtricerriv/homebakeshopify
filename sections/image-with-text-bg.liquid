@@ -36,10 +36,14 @@
     {% endif %}
     {% if section.settings.heading != blank %}
         <div class="flex-child-heading">
-          {% if section.settings.oval != blank %}
-            <img loading="lazy" src="{{ section.settings.oval | img_url: 'grande' }} " alt="{{ block.settings.oval.alt | escape }}" class="oval-image">
-          {% endif %}
-           <h2 class="heading"> {{ section.settings.heading }}</h2>
+        
+           <h2 class="heading"> {{ section.settings.heading }}
+            <div class="relative-image-with-text">
+                {% if section.settings.oval != blank %}
+                  <img loading="lazy" src="{{ section.settings.oval | img_url: 'grande' }} " alt="{{ block.settings.oval.alt | escape }}" class="oval-image">
+                {% endif %}
+            </div>
+           </h2>
            {% if section.settings.subheading != blank %}
                 <div class="subheading"> {{ section.settings.subheading }}</div>
             {% endif %}
