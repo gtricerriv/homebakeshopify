@@ -58,9 +58,9 @@ img.oval-image {
     }
 }
 @media(min-width: 425px){
-    .heading{
+  /*   .heading{
         font-size: 50px;
-    }
+    } */
     img.oval-image{
         /* top: 51vh; */
         height: 55px;
@@ -68,17 +68,17 @@ img.oval-image {
     }
 }
 @media (min-width:500px){
-    .heading{
+    /* .heading{
         font-size: 61px;
-    }
+    } */
     img.oval-image{ 
         height: 68px;
     }
 }
 @media(min-width:600px){
-    img.oval-image{
+   /*  img.oval-image{
         height: 61px;
-    }
+    } */
 }
 @media(min-width:700px){
     img.oval-image{
