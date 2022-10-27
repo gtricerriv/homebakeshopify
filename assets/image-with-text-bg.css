@@ -36,7 +36,7 @@
 }
 img.oval-image {
     position: absolute;
- /*    top: 53vh; */
+    top: 53vh;
     right: 3rem;
     height: 38px;
     z-index: 0;
@@ -57,33 +57,33 @@ img.oval-image {
     .heading{
         font-size: 50px;
     }
- /*    img.oval-image{
+    img.oval-image{
         top: 51vh;
         height: 55px;
         right: 8%;
-    } */
+    }
 }
 @media (min-width:500px){
     .heading{
         font-size: 61px;
     }
-   /*  img.oval-image{ 
+    img.oval-image{ 
         height: 68px;
         right: 5%;
-    } */
+    }
 }
 @media(min-width:600px){
-   /*  img.oval-image{
+    img.oval-image{
         height: 61px;
         right: 8rem;
-    } */
+    }
 }
 @media(min-width:700px){
-   /*  img.oval-image{
+    img.oval-image{
         top: 48vh;
         height: 65px;
         right: 7rem;
-    } */
+    }
 }
 @media (min-width:768px){
     .flex-child-heading {
@@ -93,35 +93,35 @@ img.oval-image {
         line-height: 45px;
         font-size: 40px;
     }
-   /*  img.oval-image {
+    img.oval-image {
         top: 49vh;
         height: 45px;
         right: 25%;
-    } */
+    }
 }
 @media(min-width:900px){
-  /*   img.oval-image{
+    img.oval-image{
         right: 28%;
-    } */
+    }
 }
 @media(min-width:989px){
-    /* img.oval-image{ 
+    img.oval-image{ 
         height: 45px;
         right: 30%;
-    } */
+    }
 }
 @media(min-width:1024px){
-    /* img.oval-image{    
+    img.oval-image{    
         top: 53.5vh;
         height: 45px;
         right: 31%;
-    } */
+    }
 }
 @media(min-width:1200px){
-    /* img.oval-image{  
+    img.oval-image{  
         height: 47px;
         right: 33%;
-    } */
+    }
 }
 @media (min-width:1280px){
     .heading{
@@ -142,47 +142,47 @@ img.oval-image {
     .flex-child-image {
         margin-top: 64px;
     }
-   /*  img.oval-image{ 
+    img.oval-image{ 
         height: 8rem;
         right: 23%;
-    } */
+    }
 }
 @media(min-witdh: 1350px){
-   /*  img.oval-image {
+    img.oval-image {
       top: 48.5rem;
       height: 7rem;
       right: 28%;
-  } */
+  }
 }
 @media(min-width: 1400px){
-   /*  img.oval-image{    
+    img.oval-image{    
         top: 66vh;
         height: 8rem;
         right: 26%;
-    } */
+    }
     .flex-child-image img {
         width: 360px;
         height: auto;
     }
 }
 @media (min-width:1600px){
- /*  img.oval-image {
+  img.oval-image {
       top: 62vh;
-  } */
+  }
 }
 @media (min-width:1700px){
-  /* img.oval-image {
+  img.oval-image {
     top: 58vh;
     height: 8rem;
     right: 30%;
-  } */
+  }
 }
 @media (min-width:1800px){
-  /* img.oval-image {
+  img.oval-image {
       top: 58vh;
       height: 7rem;
       right: 32%;
-  } */
+  }
 }
 @media (min-width: 1900px){
   img.oval-image {
