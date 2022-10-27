@@ -3775,16 +3775,15 @@ details-disclosure > details {
     border: none;
   } */
   
-/*   .card__information h3.card__heading.h5 a {
-    font-family: 'Calluna' !important;
+  .card__information h3.card__heading.h5 a {
     font-style: normal;
-    font-weight: 900;
-    font-size: 2.5rem;
-    line-height: 120%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 125%;
     text-align: center;
     letter-spacing: 0.33px;
     margin-top: -40px;
-  } */
+  }
   
   .card__media {
     margin: 5% 10% 0 10% !important;
