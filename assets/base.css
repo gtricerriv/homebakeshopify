@@ -3755,9 +3755,9 @@ details-disclosure > details {
     padding-bottom: 25px;
   }
   
-  h3.card__heading.h5 a.full-unstyled-link {
+/*   h3.card__heading.h5 a.full-unstyled-link {
     font-size: 1.6em !important;
-  }
+  } */
   
   .underlined-link, .customer a {
     color: #000;
