@@ -52,14 +52,7 @@ img.oval-image {
  
 }
 @media(min-width: 425px){
-  /*   .heading{
-        font-size: 50px;
-    } */
-    img.oval-image{
-        /* top: 51vh; */
-        height: 55px;
-    /*     right: 8%; */
-    }
+
 }
 @media (min-width:500px){
     /* .heading{
