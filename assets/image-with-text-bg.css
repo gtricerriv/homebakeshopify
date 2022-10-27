@@ -44,6 +44,9 @@ img.oval-image {
 .flex-child-heading {
     margin-bottom: 8rem;
 }
+.relative-image-with-text{
+  position: relative;
+}
 @media(min-width:375px){
     img.oval-image{
         height: 61px;
