@@ -10,7 +10,7 @@
     height: 100%;
 }
 .heading{
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Calluna';
     font-style: normal;
     font-weight: 700;
@@ -55,7 +55,7 @@ img.oval-image {
         right: 0;
     }
     .heading{
-        font-size: 63px;
+       /*  font-size: 63px; */
     }
 }
 @media(min-width: 425px){
