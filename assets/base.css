@@ -3775,7 +3775,7 @@ details-disclosure > details {
     border: none;
   } */
   
-  .card__information h3.card__heading.h5 a {
+/*   .card__information h3.card__heading.h5 a {
     font-family: 'Calluna' !important;
     font-style: normal;
     font-weight: 900;
@@ -3784,7 +3784,7 @@ details-disclosure > details {
     text-align: center;
     letter-spacing: 0.33px;
     margin-top: -40px;
-  }
+  } */
   
   .card__media {
     margin: 5% 10% 0 10% !important;
