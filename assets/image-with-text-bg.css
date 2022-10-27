@@ -36,7 +36,7 @@
 img.oval-image {
     position: absolute;
     top: 0;
-    right: 3rem;
+    right: 0;
     height: 38px;
     z-index: 0;
    width: max-content;
