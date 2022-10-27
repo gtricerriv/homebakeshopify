@@ -22,9 +22,12 @@
 
 .card--card,
 .card--standard .card__inner {
-  border-radius: var(--card-corner-radius);
-  border: var(--card-border-width) solid rgba(var(--color-foreground), var(--card-border-opacity));
+  background: #fff;
+  border-radius: 8px;
+  border: none;
   position: relative;
+  box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
   box-sizing: border-box;
 }
 
@@ -37,8 +40,6 @@
   top: calc(var(--card-border-width) * -1);
   left: calc(var(--card-border-width) * -1);
   z-index: -1;
-  border-radius: var(--card-corner-radius);
-  box-shadow: var(--card-shadow-horizontal-offset) var(--card-shadow-vertical-offset) var(--card-shadow-blur-radius) rgba(var(--color-shadow), var(--card-shadow-opacity));
 }
 
 .card .card__inner .card__media {
