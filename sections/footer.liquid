@@ -197,7 +197,14 @@ footer{
 <div class="footer__container">
   <div class="f-div">
     <div class="newsletter__container">
-      <h1 class="f-h1">Stay updated</h1>
+      <div class="">
+        <h1 class="f-h1">Stay updated</h1>
+        {% if section.settings.oval != blank %}
+          <span> make a meal</span>
+          <img loading="lazy" src="{{ section.settings.oval | img_url: 'grande' }} " alt="{{ block.settings.oval.alt | escape }}" class="oval-image">
+        {% endif %}
+      </div>
+
       <p class="f-p1">Be the first one to know when we are open and get limited-time discounts!</p>
       <div >
         <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="newsletter-form" onsubmit="window.Shopify.recaptchaV3.addToken(this, &quot;customer&quot;); return false;"><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
