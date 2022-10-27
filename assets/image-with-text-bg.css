@@ -41,6 +41,7 @@ img.oval-image {
     height: 38px;
     z-index: 0;
    width: 100%;
+  transform: translate(50%, -50%)
 }
 .flex-child-heading {
     margin-bottom: 8rem;
