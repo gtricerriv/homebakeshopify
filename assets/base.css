@@ -3764,12 +3764,12 @@ details-disclosure > details {
   }
   
   .card-wrapper {
-    background-color: rgba(255,222,199,0.3) !important;
+    background-color: #fff;
     border-radius: 25px;
   }
   
   .card--card, .card--standard .card__inner {
-    background-color: rgba(255,222,199,0.3) !important;
+    background-color: #fff;
     display: none;
     border: 5px solid #FFDEC7 !important;
   }
