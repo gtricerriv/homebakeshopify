@@ -200,8 +200,7 @@ footer{
       <div class="">
         <h1 class="f-h1">Stay updated</h1>
         {% if section.settings.oval != blank %}
-          <span> make a meal</span>
-          <img loading="lazy" src="{{ section.settings.oval | img_url: 'grande' }} " alt="{{ block.settings.oval.alt | escape }}" class="oval-image">
+          <img loading="lazy" src="{{ section.settings.oval | img_url: 'grande' }} " alt="{{ block.settings.oval.alt | escape }}" class="oval-image-footer">
         {% endif %}
       </div>
 
