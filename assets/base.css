@@ -3544,7 +3544,7 @@ details-disclosure > details {
   }
   
   .button, .shopify-challenge__button, .customer button {
-    background: #FFE485;
+    background: #fff;
     color: #010F11;
     border: 2px solid #010F11;
     display: block;
@@ -3556,10 +3556,8 @@ details-disclosure > details {
     font-size: 1.8rem;
     line-height: 120%;
     letter-spacing: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     box-shadow: none;
-    outline: 0 !important;
+    outline: 0;
     transition: all 0.2s ease;
   }
   
