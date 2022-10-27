@@ -3295,7 +3295,7 @@ details-disclosure > details {
   }
   
   .content-for-layout .color-background-1  {
-    background: transparent !important;
+    background: transparent;
   }
   
   #shopify-section-template--15698317902000__multicolumn-1, #shopify-section-template--15765367881904__165990725100ce86ce {
@@ -3304,7 +3304,7 @@ details-disclosure > details {
   }
   
   #shopify-section-template--15698317902000__multicolumn-1 .multicolumn.color-background-2.gradient, #shopify-section-template--15765367881904__165990725100ce86ce .multicolumn.color-background-2.gradient {
-    background: none !important;
+    background: none;
     z-index: 2;
     margin-top: -670px !important;
     margin-bottom: 250px;
