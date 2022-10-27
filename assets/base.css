@@ -3770,8 +3770,8 @@ details-disclosure > details {
   
   .card--card, .card--standard .card__inner {
     background-color: #fff;
-    display: none;
-    border: 5px solid #FFDEC7 !important;
+/*     display: none; */
+    border: none;
   }
   
   .card__information h3.card__heading.h5 a {
