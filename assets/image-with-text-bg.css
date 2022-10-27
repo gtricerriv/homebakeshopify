@@ -45,6 +45,7 @@ img.oval-image {
     margin-bottom: 8rem;
 }
 .relative-image-with-text{
+  display: inline;
   position: relative;
 }
 @media(min-width:375px){
