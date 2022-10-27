@@ -74,20 +74,16 @@ img.oval-image {
     }
     img.oval-image{ 
         height: 68px;
-  /*       right: 5%; */
     }
 }
 @media(min-width:600px){
     img.oval-image{
         height: 61px;
-     /*    right: 8rem; */
     }
 }
 @media(min-width:700px){
     img.oval-image{
-     /*    top: 48vh; */
         height: 65px;
-       /*  right: 7rem; */
     }
 }
 @media (min-width:768px){
@@ -99,33 +95,25 @@ img.oval-image {
         font-size: 40px;
     }
     img.oval-image {
-       /*  top: 49vh; */
         height: 45px;
-    /*     right: 25%; */
     }
 }
 @media(min-width:900px){
-   /*  img.oval-image{
-        right: 28%;
-    } */
+  
 }
 @media(min-width:989px){
     img.oval-image{ 
         height: 45px;
-/*         right: 30%; */
     }
 }
 @media(min-width:1024px){
     img.oval-image{    
-   /*      top: 53.5vh; */
         height: 45px;
-/*         right: 31%; */
     }
 }
 @media(min-width:1200px){
     img.oval-image{  
         height: 47px;
-     /*    right: 33%; */
     }
 }
 @media (min-width:1280px){
@@ -149,21 +137,16 @@ img.oval-image {
     }
     img.oval-image{ 
         height: 8rem;
-/*         right: 23%; */
     }
 }
 @media(min-witdh: 1350px){
     img.oval-image {
-/*       top: 48.5rem; */
       height: 7rem;
-/*       right: 28%; */
   }
 }
 @media(min-width: 1400px){
     img.oval-image{    
-/*         top: 66vh; */
         height: 8rem;
-/*         right: 26%; */
     }
     .flex-child-image img {
         width: 360px;
@@ -171,70 +154,54 @@ img.oval-image {
     }
 }
 @media (min-width:1600px){
-/*   img.oval-image {
-      top: 62vh;
-  } */
+
 }
 @media (min-width:1700px){
   img.oval-image {
-    top: 58vh;
     height: 8rem;
-    right: 30%;
   }
 }
 @media (min-width:1800px){
   img.oval-image {
-      top: 58vh;
       height: 7rem;
-      right: 32%;
   }
 }
 @media (min-width: 1900px){
   img.oval-image {
     height: 6rem;
-    right: 34%;
   }   
 }
 @media (min-width: 2000px){
   img.oval-image {
     height: 6rem;
-    right: 34%;
   }   
 }
 @media (min-width: 2100px){
   img.oval-image {
     height: 6rem;
-    right: 35%;
   }   
 }
 @media (min-width: 2200px){
   img.oval-image {
-    top: 57vh;
     height: 7rem;
-    right: 35%;
   }   
 }
 @media (min-width: 2300px){
   img.oval-image {
     height: 7rem;
-    right: 35%;
   }   
 }
 @media (min-width: 2400px){
   img.oval-image {
     height: 7rem;
-    right: 37%;
   }   
 }
 @media (min-width: 2500px){
   img.oval-image {
     height: 7rem;
-    right: 37%;
   }   
 }
 @media (min-width: 2560px){
-    img.oval-image{
-        top: 56.5vh;
-    }
+  
     
 }
