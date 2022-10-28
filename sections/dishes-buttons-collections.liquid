@@ -10,7 +10,7 @@
   </div>
   <div class="mobile-container">
     <div class="dropdown">
-      <button class="dropdown-select">View </button>
+      <button class="dropdown-select selected-collection">View </button><span> {% render 'icon-down-chevron' %}</span>
       <div class="dropdown-content">
         <a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections">All Dishes</a>
         <a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/mains">Main</a>
@@ -101,11 +101,11 @@
 
 {% javascript %}
     if (window.location.href == 'https://homebake42530.com/collections/') {
-    document.querySelector('.dropdown-select').innerHTML = "All Dishes <span> {% render 'icon-down-chevron' %}</span>"
+    document.querySelector('.selected-collection').innerHTML = "All Dishes"
   } else if (window.location.href == 'https://homebake42530.com/collections/mains') {
-    document.querySelector('.dropdown-select').innerHTML = "Main <span> {% render 'icon-down-chevron' %}</span>"
+    document.querySelector('.dropdown-select').innerHTML = "Main"
   } else if (window.location.href == 'https://homebake42530.com/collections/veggies') {
-    document.querySelector('.dropdown-select').innerHTML = "Veggies <span> {% render 'icon-down-chevron' %}</span>"
+    document.querySelector('.dropdown-select').innerHTML = "Veggies"
   } else if (window.location.href == 'https://homebake42530.com/collections/sides') {
     document.querySelector('.dropdown-select').innerHTML = "Sides"
   }
