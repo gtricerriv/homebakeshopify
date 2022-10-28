@@ -95,4 +95,13 @@
 </style>
 
 {% javascript %}
+    if (window.location.href == 'https://homebake42530.com/collections/') {
+    document.querySelector('.dropdown-select').innerHTML = "All Dishes"
+  } else if (window.location.href == 'https://homebake42530.com/collections/mains') {
+    document.querySelector('.dropdown-select').innerHTML = "Main"
+  } else if (window.location.href == 'https://homebake42530.com/collections/veggies') {
+    document.querySelector('.dropdown-select').innerHTML = "Veggies"
+  } else if (window.location.href == 'https://homebake42530.com/collections/sides') {
+    document.querySelector('.dropdown-select').innerHTML = "Sides"
+  }
 {% endjavascript %}
