@@ -41,18 +41,18 @@
 {% javascript %}
     if (window.location.href == 'https://homebake42530.com/collections/') {
     document.querySelector('.selected-collection').innerHTML = "All Dishes";
-    document.querySelector('.item1').classList.toggle("active");
+    document.querySelector('.item1').classList.add("active");
   } 
     else if (window.location.href == 'https://homebake42530.com/collections/mains') {
     document.querySelector('.selected-collection').innerHTML = "Main";
-    document.querySelector('.item2').classList.toggle("active")
+    document.querySelector('.item2').classList.add("active")
   } 
     else if (window.location.href == 'https://homebake42530.com/collections/veggies') {
     document.querySelector('.selected-collection').innerHTML = "Veggies";
-    document.querySelector('.item3').classList.toggle("active")
+    document.querySelector('.item3').classList.add("active")
   } 
     else if (window.location.href == 'https://homebake42530.com/collections/sides') {
     document.querySelector('.selected-collection').innerHTML = "Sides";
-    document.querySelector('.item4').classList.toggle("active")
+    document.querySelector('.item4').classList.add("active")
   }
 {% endjavascript %}
