@@ -1,16 +1,5 @@
 {
   "sections": {
-    "rich-text-0": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
     "main": {
       "type": "main-list-collections",
       "disabled": true,
@@ -21,10 +10,15 @@
         "columns_desktop": 4,
         "columns_mobile": "2"
       }
+    },
+    "3a817150-27b4-4287-9ac3-da6fb55b6e73": {
+      "type": "dishes-buttons-collections",
+      "settings": {
+      }
     }
   },
   "order": [
-    "rich-text-0",
-    "main"
+    "main",
+    "3a817150-27b4-4287-9ac3-da6fb55b6e73"
   ]
 }
