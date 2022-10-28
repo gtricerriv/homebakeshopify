@@ -10,66 +10,17 @@
   </div>
   <div class="mobile-container">
     <div class="dropdown">
-      <div class="dropdown-wrapper">
-        <a onclick="myFunction()" class="dropdown-btn"></a>
-        <span>{%- render 'icon-down-chevron' -%}</span>
+      <button>View</button>
+      <div class="dropdown-content">
+        <a class="link-underline-hover subnav-collection" href="#">All Dishes</a>
+        <a class="link-underline-hover subnav-collection" href="#">Main</a>
+        <a class="link-underline-hover subnav-collection" href="#">Sides</a>
+        <a class="link-underline-hover subnav-collection" href="#">Veggies</a>
       </div>
-      <ul id="dropdown-collection-filter" class="dropdown-content blog-tag-filter-list">
-        <li class="collection-filter-list">
-          <span class="static-text">View:
-          </span>
-          <a class="link-underline-hover subnav-collection" href="#">All Dishes</a>
-        </li>
-        <li class="collection-filter-list">
-          <span class="static-text">View:
-          </span>
-          <a class="link-underline-hover subnav-collection" href="#">Main</a>
-        </li>
-        <li class="collection-filter-list">
-          <span class="static-text">View:
-          </span>
-          <a class="link-underline-hover subnav-collection" href="#">Sides</a>
-        </li>
-        <li class="collection-filter-list">
-          <span class="static-text">View:
-          </span>
-          <a class="link-underline-hover subnav-collection" href="#">Veggies</a>
-        </li>
-      </ul>
     </div>
   </div>
 </div>
 
-<script>
-  /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-  function myFunction() {
-    document.getElementById("dropdown-collection-filter").classList.toggle("show");
-  }
-
-// Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
-    if (! event.target.matches('.dropdown-btn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
-
-  if (window.location.href == 'https://homebake42530.com/collections/') {
-    document.querySelector('.dropdown-btn').innerHTML = "All Dishes"
-  } else if (window.location.href == 'https://homebake42530.com/collections/mains') {
-    document.querySelector('.dropdown-btn').innerHTML = "Main"
-  } else if (window.location.href == 'https://homebake42530.com/collections/veggies') {
-    document.querySelector('.dropdown-btn').innerHTML = "Veggies"
-  } else if (window.location.href == 'https://homebake42530.com/collections/sides') {
-    document.querySelector('.dropdown-btn').innerHTML = "Sides"
-  }
-</script>
 {% schema %}
   {
     "name": "Collection nav",
@@ -96,63 +47,7 @@
   .mobile-container{
     display: block;
   }
-  .dropdown-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    color: inherit;
-    padding: 11px 2rem;
-    font-size: 16px;
-    border: 1px solid #dddddd;
-    width: 300px;
-    margin: 0 auto;
-    border-radius: 0;
-  }
-  .dropdown{
-    display: block;
-    margin: 0 auto;
-  }
-  ul#dropdown-collection-filter {
-    list-style: none;
-    margin-top: 0;
-    margin-left: 2rem;
-    font-size: 16px;
-    font-family: 'Apercu', sans-serif;
-    text-align: left;
-    padding-left: 0%;
-    background: #ffffff;
-    font-weight: 400;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0 8px 16px #0003;
-    z-index: 1;
-  }
-  .collection-filter-list{
-    list-style: none;
-    margin-top: 0;
-    margin-left: 2rem;
-    font-size: 16px;
-    font-family: montserratregular;
-    text-align: left;
-    padding-left: 0%;
-    background: #ffffff;
-  }
-/*   .dropdown-content a {
-    color: #000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  } */
-  .show {
-    display: block;
-  }
+  
 </style>
 
 {% javascript %}
