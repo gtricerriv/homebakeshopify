@@ -1,0 +1,100 @@
+body{
+    background: #F5F5F5;
+  }
+  h2.heading {
+    text-align: center;
+    font-family: 'Apercu';
+    font-size: 32px;
+    font-weight: 700;
+    color: #C72063;
+    margin-top: 80px;
+  }
+  .desktop-container{
+    display: none;
+  }
+  .mobile-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .dropdown {
+  display: inline-block;
+  position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 40%);
+    z-index: 10;
+    background: #fff;
+    padding: 1rem;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  button.dropdown-select {
+    width: 300px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  svg.bi.bi-chevron-compact-down {
+    color: #B52548;
+  }
+  span.static-text {
+    color: #7e7b7b;
+  }
+  @media (min-width: 990px){
+    .mobile-container{
+      display: none;
+    }
+    .desktop-container{
+      display: block;
+    }
+      ul.list-collection-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-around;
+      align-items: center;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      font-family: 'Apercu', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      color: #5E5E5E;
+      width: 340px;
+      margin: 0 auto;
+      padding: 0;
+    }
+    li.collection-filter-list {
+      list-style: none;
+    }
+    .subnav-collection {
+      text-decoration: none;
+      color: #5E5E5E;
+    }
+    .active{
+      color: rgb(199, 32, 99);
+      border-bottom: 2px solid rgb(199,32,99);
+      padding-bottom: 1rem;
+    }
+  }
