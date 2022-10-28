@@ -16,10 +16,10 @@
     <div class="dropdown">
       <button class="dropdown-select "> <span class="selected-collection">View</span>{% render 'icon-down-chevron' %} </button>
       <div class="dropdown-content">
-        <a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections">All Dishes</a>
-        <a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/mains">Main</a>
-        <a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/sides">Sides</a>
-        <a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/veggies">Veggies</a>
+        <a class="link-underline-hover subnav-collection item1" href="https://homebake42530.com/collections">All Dishes</a>
+        <a class="link-underline-hover subnav-collection item2" href="https://homebake42530.com/collections/mains">Main</a>
+        <a class="link-underline-hover subnav-collection item3" href="https://homebake42530.com/collections/sides">Sides</a>
+        <a class="link-underline-hover subnav-collection item4" href="https://homebake42530.com/collections/veggies">Veggies</a>
       </div>
     </div>
   </div>
@@ -41,18 +41,18 @@
 {% javascript %}
     if (window.location.href == 'https://homebake42530.com/collections/') {
     document.querySelector('.selected-collection').innerHTML = "All Dishes";
-    document.querySelector('.subnav-collection').classList.add("active");
+    document.querySelector('.item1').classList.toggle("active");
   } 
     else if (window.location.href == 'https://homebake42530.com/collections/mains') {
     document.querySelector('.selected-collection').innerHTML = "Main";
-    document.querySelector('.subnav-collection').classList.add("active")
+    document.querySelector('.item2').classList.toggle("active")
   } 
     else if (window.location.href == 'https://homebake42530.com/collections/veggies') {
     document.querySelector('.selected-collection').innerHTML = "Veggies";
-    document.querySelector('.subnav-collection').classList.add("active")
+    document.querySelector('.item3').classList.toggle("active")
   } 
     else if (window.location.href == 'https://homebake42530.com/collections/sides') {
     document.querySelector('.selected-collection').innerHTML = "Sides";
-    document.querySelector('.subnav-collection').classList.add("active")
+    document.querySelector('.item4').classList.toggle("active")
   }
 {% endjavascript %}
