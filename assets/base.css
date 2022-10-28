@@ -3555,7 +3555,7 @@ details-disclosure > details {
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 120%;
-    letter-spacing: 1px;
+    letter-spacing: 0.06em;
     box-shadow: none;
     outline: 0;
     transition: all 0.2s ease;
