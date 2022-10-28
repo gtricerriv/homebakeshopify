@@ -9,6 +9,11 @@
         "color_scheme": "background-1"
       }
     },
+    "038c9e66-db0e-4b1a-9121-7898d22b090f": {
+      "type": "dishes-buttons-collections",
+      "settings": {
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -30,6 +35,7 @@
   },
   "order": [
     "banner",
+    "038c9e66-db0e-4b1a-9121-7898d22b090f",
     "product-grid"
   ]
 }
