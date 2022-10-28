@@ -1,26 +1,83 @@
 <div class="dishes-buttons">
-    <h2 class="heading">DISHES</h2>
-    <div class="desktop-container">
-        <ul>
-            <li><a class="link-underline-hover subnav-collection" href="#">View all</a></li>
-            <li><a class="link-underline-hover subnav-collection" href="#">Main</a></li>
-            <li><a class="link-underline-hover subnav-collection" href="#">Sides</a></li>
-            <li><a class="link-underline-hover subnav-collection" href="#">Veggies</a></li>
-        </ul>
+  <h2 class="heading">DISHES</h2>
+  <div class="desktop-container">
+    <ul>
+      <li><a class="link-underline-hover subnav-collection" href="#">View all</a></li>
+      <li><a class="link-underline-hover subnav-collection" href="#">Main</a></li>
+      <li><a class="link-underline-hover subnav-collection" href="#">Sides</a></li>
+      <li><a class="link-underline-hover subnav-collection" href="#">Veggies</a></li>
+    </ul>
+  </div>
+  <div class="mobile-container">
+    <div class="dropdown">
+      <div class="dropdown-wrapper">
+        <a onclick="myFunction()" class="dropdown-btn"></a>
+        <span>
+          {%- render 'icon-down-chevron' -%}</span>
+      </div>
+      <ul id="dropdown-collection-filter" class="dropdown-content blog-tag-filter-list">
+        <li>
+          <span class="static-text">View:
+          </span>
+          <a class="link-underline-hover subnav-collection" href="#">View all</a>
+        </li>
+        <li>
+          <span class="static-text">View:
+          </span>
+          <a class="link-underline-hover subnav-collection" href="#">Main</a>
+        </li>
+        <li>
+          <span class="static-text">View:
+          </span>
+          <a class="link-underline-hover subnav-collection" href="#">Sides</a>
+        </li>
+        <li>
+          <span class="static-text">View:
+          </span>
+          <a class="link-underline-hover subnav-collection" href="#">Veggies</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </div>
-{% schema %}
-    {
-      "name":"Collection nav",
-      "tag": "section",
-      "settings": [],
-      "presets": [
-        {
-          "name": "collection nav"
-        }
-      ]
-    }
 
+<script>
+  /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("dropdown-collection-filter").classList.toggle("show");
+  }
+
+// Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (! event.target.matches('.dropdown-btn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
+  if (window.location.href == 'https://homebake42530.com/collections/') {
+    document.querySelector('.dropdown-btn').innerHTML = "All Dishes"
+  } else if (window.location.href == 'https://homebake42530.com/collections/mains') {
+    document.querySelector('.dropdown-btn').innerHTML = "Main"
+  } else if (window.location.href == 'https://homebake42530.com/collections/veggies') {
+    document.querySelector('.dropdown-btn').innerHTML = "Veggies"
+  } else if (window.location.href == 'https://homebake42530.com/collections/sides') {
+    document.querySelector('.dropdown-btn').innerHTML = "Sides"
+  }
+</script>
+{% schema %}
+  {
+    "name": "Collection nav",
+    "tag": "section",
+    "settings": []
+  }
 {% endschema %}
 
 {% stylesheet %}
