@@ -1,0 +1,292 @@
+<div class="container">
+        <h1 class="container__title">FREQUENTLY ASKED QUESTIONS</h1>
+        <div class="container__accordion">
+            <ul>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>How do I cook the dishes?</h2>
+                    <p>All HOMEBAKE 425°:30™ products cook for 30 minutes at 425°F.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>Do I leave the film on when I cook it?</h2>
+                    <p>Yes! Film should remain on the tray when it cooks in the oven. Remove film before serving.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>How should product be stored?</h2>
+                    <p>All HOMEBAKE 425°:30™ products should be stored in the freezer.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>How many people does a tray serve?</h2>
+                    <p>On average, each HOMEBAKE 425°:30™ has around 4 servings. You can find exact serving sizes for each product on the back of the packaging or on the product page.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>What type of food is HOMEBAKE 425°:30™ ?</h2>
+                    <p>HOMEBAKE 425°:30™ dishes are delicious, quality meals your family will love- like homemade.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="container__bottomBanner"></div>
+    </div>
+
+{% schema %}
+{
+  "name": "Faq section",
+  "tag": "section",
+  "class": "section",
+  "presets": [
+    {
+      "name": "Faq section"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+    
+#shopify-section-{{section.id}} .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #F5F5F5;
+}
+
+#shopify-section-{{section.id}} .container__title {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 5rem 0 5rem 0;
+    text-align: center;
+
+    color: #B52548;
+}
+
+#shopify-section-{{section.id}} .container__accordion {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    max-width: 640px;
+    padding: 30px;
+    margin: 1rem 0 5rem 0;
+
+    box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+}
+
+#shopify-section-{{section.id}} .container__bottomBanner {
+    width: 100%;
+    height: 400px;
+    background: url("https://cdn.shopify.com/s/files/1/0607/3571/7552/files/50.svg?v=1666749241") no-repeat center;
+}
+
+@media screen and (max-width: 900px) {
+    #shopify-section-{{section.id}} .container__accordion {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #shopify-section-{{section.id}} .container__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #shopify-section-{{section.id}} .container__accordion {
+        margin: 1rem;
+    }
+}
+
+/* ------------------------------------------------------ */
+
+#shopify-section-{{section.id}} .transition,
+#shopify-section-{{section.id}} ul li i:before,
+#shopify-section-{{section.id}} ul li i:after,
+#shopify-section-{{section.id}} p {
+    transition: all 0.25s ease-in-out;
+}
+
+#shopify-section-{{section.id}} .flipIn,
+#shopify-section-{{section.id}} ul li {
+    animation: flipdown 0.5s ease both;
+}
+
+#shopify-section-{{section.id}} .no-select,
+#shopify-section-{{section.id}} h2 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (max-width: 550px) {
+    #shopify-section-{{section.id}} .container {
+        box-sizing: border-box;
+        transform: translate(0, 0);
+        max-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        left: 0;
+    }
+}
+
+#shopify-section-{{section.id}} h2 {
+    letter-spacing: 1px;
+    display: block;
+    background-color: #ffffff;
+    margin: 0;
+    cursor: pointer;
+
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#shopify-section-{{section.id}} p {
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+    z-index: 2;
+
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#shopify-section-{{section.id}} ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+}
+
+#shopify-section-{{section.id}} li {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+#shopify-section-{{section.id}} ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-top: 18px;
+}
+
+#shopify-section-{{section.id}} ul li:nth-of-type(1) {
+    animation-delay: 0.5s;
+}
+
+#shopify-section-{{section.id}} ul li:nth-of-type(2) {
+    animation-delay: 0.75s;
+}
+
+#shopify-section-{{section.id}} ul li:nth-of-type(3) {
+    animation-delay: 1s;
+}
+
+#shopify-section-{{section.id}} ul li:last-of-type {
+    padding-bottom: 0;
+}
+
+#shopify-section-{{section.id}} ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 0;
+}
+
+#shopify-section-{{section.id}} ul li i:before,
+#shopify-section-{{section.id}} ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #B52548;
+    width: 3px;
+    height: 9px;
+    top: -10px;
+}
+
+#shopify-section-{{section.id}} ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+}
+
+#shopify-section-{{section.id}} ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+}
+
+#shopify-section-{{section.id}} ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+#shopify-section-{{section.id}} ul li input[type=checkbox]:checked~p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+}
+
+#shopify-section-{{section.id}} ul li input[type=checkbox]:checked~i:before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+
+#shopify-section-{{section.id}} ul li input[type=checkbox]:checked~i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
+
+@keyframes flipdown {
+    0% {
+        opacity: 0;
+        transform-origin: top center;
+        transform: rotateX(-90deg);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    80% {
+        transform: rotateX(8deg);
+    }
+
+    83% {
+        transform: rotateX(6deg);
+    }
+
+    92% {
+        transform: rotateX(-3deg);
+    }
+
+    100% {
+        transform-origin: top center;
+        transform: rotateX(0deg);
+    }
+}
+</style>
+
+{% javascript %}
+{% endjavascript %}
