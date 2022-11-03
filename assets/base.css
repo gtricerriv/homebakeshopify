@@ -2622,7 +2622,7 @@ details[open] > .header__submenu {
   padding: 0 5px;
   transition: all 0.2s ease;
   font-size:14px;
-  font-weight:bold;
+  font-weight:500;
 }
 
 /*.header__menu-item:hover span {  
