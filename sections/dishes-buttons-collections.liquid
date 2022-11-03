@@ -3,14 +3,28 @@
   <h2 class="heading">DISHES</h2>
   <div class="desktop-container">
     <ul class="list-collection-wrapper">
-      <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections">View all</a></li>
+      
+      {%- if request.path contains '/collections' -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection active" href="https://homebake42530.com/collections">View all</a></li>
+      {%- else -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections">View all</a></li>
+      {%- endif -%}
       {%- if request.path contains '/collections/mains' -%}
         <li class="collection-filter-list"><a class="link-underline-hover subnav-collection active" href="https://homebake42530.com/collections/mains">Main</a></li>
       {%- else -%}
         <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/mains">Main</a></li>
       {%- endif -%}
-      <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/sides">Sides</a></li>
-      <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/veggies">Veggies</a></li>
+      {%- if request.path contains '/collections/sides' -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection active" href="https://homebake42530.com/collections/sides">Sides</a></li>
+      {%- else -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/sides">Sides</a></li>
+      {%- endif -%}
+      {%- if request.path contains '/collections/veggies' -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection active" href="https://homebake42530.com/collections/veggies">Veggies</a></li>
+      {%- else -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/veggies">Veggies</a></li>
+      {%- endif -%}
+      
     </ul>
     <div style="border-bottom: 2px solid #EBEBEB; display: block !important;width: 320px;
     margin: 0 auto;
