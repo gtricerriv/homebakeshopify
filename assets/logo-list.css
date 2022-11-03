@@ -16,6 +16,10 @@ img.logo-list__image {
   display:flex;
   align-items:center;
 }
+.logo-list__item img{
+  width:100%;
+  max-width:150px;
+}
 @media (min-width: 768px){
     .logo-list__container{
         justify-content: space-evenly;
