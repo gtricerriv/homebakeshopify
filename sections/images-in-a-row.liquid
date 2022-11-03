@@ -48,8 +48,6 @@
   
             {{ block.settings.image | image_url: width: 960 | image_tag: 
               class: 'logo-list__image',
-              widths: '160, 220, 300, 420, 640, 960',
-              sizes: image_sizes,
               loading: 'lazy' }}
   
               {%- if block.settings.link != blank -%}
