@@ -4114,14 +4114,12 @@ details-disclosure > details {
   letter-spacing: -0.02em;
   text-align: center;
   text-transform: uppercase;
-  margin: 4rem 0;
+  margin: 20px 0;
   color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
   height: 20px;
 }
-.image-with-text__text-item .marquee{
-  margin: 20px 0;
-}
+
 #ImageWithText--template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f{
   height:100%;
   display:flex;
