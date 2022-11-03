@@ -2643,6 +2643,7 @@ details[open] > .header__submenu {
   height: auto;
   display: block;
   padding: 0 5px;
+  font-weight:700;
 }
   
 details[open]:hover > .header__menu-item {
