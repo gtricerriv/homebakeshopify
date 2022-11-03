@@ -2636,9 +2636,6 @@ details[open] > .header__submenu {
 }*/
   
 .header__menu-item:hover span.header__active-menu-item {  
-  background: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/text-link-underline-2_3266e459-bca4-4724-9bb0-bd9f578ef976.png?v=1655880707') no-repeat;
-  background-size: 44px 4px;
-  background-position: bottom center;
   width: 100%;
   height: auto;
   display: block;
