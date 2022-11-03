@@ -12,6 +12,10 @@ img.logo-list__image {
     height: auto;
     /* margin: 0 16px; */
 }
+.logo-list__item{
+  display:flex;
+  align-items:center;
+}
 @media (min-width: 768px){
     .logo-list__container{
         justify-content: space-evenly;
