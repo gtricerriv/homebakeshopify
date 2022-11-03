@@ -2640,7 +2640,7 @@ details[open] > .header__submenu {
   height: auto;
   display: block;
   padding: 0 5px;
-  font-weight:700;
+  
 }
   
 details[open]:hover > .header__menu-item {
@@ -2652,9 +2652,6 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__active-menu-item {
-  background: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/text-link-underline-2_3266e459-bca4-4724-9bb0-bd9f578ef976.png?v=1655880707') no-repeat;
-  background-size: 44px 4px;
-  background-position: bottom center;
   width: 100%;
   height: auto;
   display: block;
@@ -2662,6 +2659,7 @@ details[open] > .header__menu-item .icon-caret {
   font-weight: 600;
   transition: text-decoration-thickness var(--duration-short) ease;
   color: #fff;
+  font-weight:700;
 }
 
 .header__submenu {
