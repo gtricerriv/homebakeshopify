@@ -4,7 +4,12 @@
   <div class="desktop-container">
     <ul class="list-collection-wrapper">
       <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections">View all</a></li>
-      <li class="collection-filter-list"><a class="link-underline-hover subnav-collection {%- if request.path contains '/collections/mains' -%} active {%- endif -%}" href="https://homebake42530.com/collections/mains">Main</a></li>
+      {%- if request.path contains '/collections/mains' -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection active" href="https://homebake42530.com/collections/mains">Main</a></li>
+      {%- else -%}
+        <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/mains">Main</a></li>
+      {%- endif -%}
+      <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections/mains">Main</a></li>
       <li class="collection-filter-list"><a class="link-underline-hover subnav-collection {%- if request.path contains '/collections/sides' -%} active {%- endif -%}" href="https://homebake42530.com/collections/sides">Sides</a></li>
       <li class="collection-filter-list"><a class="link-underline-hover subnav-collection {%- if request.path contains '/collections/veggies' -%} active {%- endif -%}" href="https://homebake42530.com/collections/veggies">Veggies</a></li>
     </ul>
