@@ -2606,7 +2606,7 @@ details[open] > .header__submenu {
   color: #fff;
 }
   
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1440px) {
     .header__menu-item {
   	  margin: 1.2rem 1.8em;
     }
