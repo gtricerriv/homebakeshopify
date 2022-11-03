@@ -288,8 +288,8 @@ body,
   background-color:#F5F5F5;
 }
 
-.color-background-3{
-  background: #C72063;
+.color-background-3 {
+  background: #C72063 !important;
 }
 
 .background-secondary {
