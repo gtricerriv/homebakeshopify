@@ -4,7 +4,7 @@
   <div class="desktop-container">
     <ul class="list-collection-wrapper">
       
-      {%- if request.path contains '/collections/' -%}
+      {%- if request.path == '/collections' -%}
         <li class="collection-filter-list"><a class="link-underline-hover subnav-collection active" href="https://homebake42530.com/collections">View all</a></li>
       {%- else -%}
         <li class="collection-filter-list"><a class="link-underline-hover subnav-collection" href="https://homebake42530.com/collections">View all</a></li>
