@@ -31,7 +31,10 @@
     top: 3rem;
     z-index: 2;
   }
-  
+
+  #Slide-template--15956248723632__main-24069561647280 > modal-opener > .product__media{
+    background: transparent !important;
+  }
 
   .product--thumbnail .thumbnail-list {
     padding-right: var(--media-shadow-horizontal-offset);
