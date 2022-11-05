@@ -21,15 +21,6 @@
       }
     }
 
-    #GalleryViewer-{{ section.id }}{
-      display:grid !important;
-      grid-template-columns: 100px 1fr;
-    }
-    #GalleryThumbnails-{{ section.id }}{
-      order:-1;
-      flex-direction:column;
-      align-items:center;
-    }
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
