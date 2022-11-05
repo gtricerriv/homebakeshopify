@@ -1054,6 +1054,9 @@ a.product__text {
     width: 48px;
     height:48px;
   }
+  .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide button {
+    border-radius:8px;
+  }
 
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
     display: flex;
