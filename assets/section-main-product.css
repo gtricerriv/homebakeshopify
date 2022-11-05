@@ -26,6 +26,7 @@
   .product--stacked .product__info-container--sticky {
     display: grid;
     grid-template-columns:100px 1fr;
+    gap:50px;
     position: sticky;
     top: 3rem;
     z-index: 2;
