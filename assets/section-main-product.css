@@ -1064,9 +1064,10 @@ a.product__text {
     object-fit:cover;
   }
 
-  .product--thumbnail_slider .slider-mobile-gutter .slider-button {
-    display: flex;
-  }
+  
+}
+.product--thumbnail_slider .slider-mobile-gutter .slider-button {
+    display: none;
 }
 
 @media screen and (min-width: 900px) {
