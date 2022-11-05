@@ -450,6 +450,9 @@ a.product__text {
 .product-form__buttons {
   max-width: 44rem;
 }
+.product-form__buttons button{
+  background: #FFE485;
+}
 
 .product--no-media .product__info-container > modal-opener {
   display: block;
