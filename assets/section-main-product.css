@@ -31,6 +31,7 @@
     top: 3rem;
     z-index: 2;
   }
+  
 
   .product--thumbnail .thumbnail-list {
     padding-right: var(--media-shadow-horizontal-offset);
@@ -1031,7 +1032,9 @@ a.product__text {
 @media screen and (min-width: 750px) {
   .product--thumbnail_slider .thumbnail-slider {
     display: flex;
+    flex-direction:column;
     align-items: center;
+    order:-1;
   }
 
   .thumbnail-slider .thumbnail-list.slider--tablet-up {
