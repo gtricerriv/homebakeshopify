@@ -1051,11 +1051,12 @@ a.product__text {
   }
 
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
-    width: 48px;
-    height:48px;
+    width: 100%;
   }
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide button {
     border-radius:8px;
+    width: 48px;
+    height:48px;
   }
 
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
