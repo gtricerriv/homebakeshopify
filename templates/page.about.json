@@ -1,1 +1,21 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":0}},"165484054178a0c27f":{"type":"video","settings":{"heading":"","heading_size":"h1","cover_image":"shopify:\/\/shop_images\/article-banner_1.png","video_url":"","description":"","full_width":false,"color_scheme":"background-1","padding_top":36,"padding_bottom":0}},"165484066958b7eb2a":{"type":"image-with-text","blocks":{"16548406690cbac509-0":{"type":"heading","settings":{"heading":"Food that Makes Family Happen.​","heading_size":"h1"}},"16548406690cbac509-1":{"type":"text","settings":{"text":"<p>You know your family best: what they love, what they crave, what they need. We’re here to help you make that happen, any night. For your picky eaters and meat-lovers, devoted mac n’ cheese fans and veggie enthusiasts, we’ve got you covered. <\/p><p>Mains, veggies, and sides all cook together in 30 minutes. We created HOMEBAKE 425°:30™ to help you make family happen. Now you can spend more time with the ones you love and less time cooking. <\/p>","text_style":"body"}}},"block_order":["16548406690cbac509-0","16548406690cbac509-1"],"settings":{"image":"shopify:\/\/shop_images\/Rectangle_143.png","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"left","padding_top":52,"padding_bottom":100}},"16548408434788e212":{"type":"rich-text","disabled":true,"blocks":{"1654840843bce6bac9-2":{"type":"button","settings":{"button_label":"Where to Buy","button_link":"shopify:\/\/collections\/shop","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["1654840843bce6bac9-2"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":0,"padding_bottom":100}},"newsletter":{"type":"newsletter","blocks":{"heading":{"type":"heading","settings":{"heading":"Stay Updated","heading_size":"h2"}},"paragraph":{"type":"paragraph","settings":{"text":"<p>Be the first one to know when we are open and get limited-time discounts!<\/p>"}},"email-form":{"type":"email_form","settings":{}}},"block_order":["heading","paragraph","email-form"],"settings":{"color_scheme":"background-2","full_width":true,"padding_top":100,"padding_bottom":100}}},"order":["main","165484054178a0c27f","165484066958b7eb2a","16548408434788e212","newsletter"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "45ab0b7c-7580-4d26-84bf-700199205ca4": {
+      "type": "our-story-section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "45ab0b7c-7580-4d26-84bf-700199205ca4"
+  ]
+}

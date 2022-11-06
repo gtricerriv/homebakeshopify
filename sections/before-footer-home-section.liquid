@@ -36,12 +36,11 @@
     display: none !important;
    }
 
-   .container {
+   #shopify-section-{{section.id}} .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #B52555;
-        height: 800px;
         max-width: 1280px;
     }
     .container__watermark {
@@ -79,6 +78,12 @@
 
     .mobile-hide{
       display: flex;
+     }
+
+     .mobile-app-placeholder{
+        max-width: 100%;
+        width: 100%;
+        vertical-align:top;
      }
     
     
@@ -123,6 +128,9 @@
      .mobile-hide{
       display: flex !important;
      }
+     .desktop-hide{
+      display: none;
+     }
      .app-placeholder {
         max-width: 75%;
         margin: 0 auto;
@@ -131,7 +139,6 @@
         z-index: 2;
         position: relative;
      }
-
      .ig__handle{
         font-size: 20px;
         line-height: 24px;
@@ -192,6 +199,7 @@
         </div>
         <div class="container__content--appSpace">
           <img class="mobile-hide app-placeholder" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Frame_40334.png?v=1666297895">
+          <img class="desktop-hide mobile-app-placeholder" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Frame_40339_1.png?v=1667777524">
         </div>
     </div>
 </div>

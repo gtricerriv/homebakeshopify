@@ -1,0 +1,299 @@
+<div class="Frame">
+    <div class="Frame__FAQ">
+        <img class="Frame__FAQ__logo" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/asset_81.svg?v=1667447089" width="192" height="148" loading="lazy"/>
+        <div class="Frame__FAQ__wrap">
+            <h3 class="Frame__FAQ__wrap__title">Food that Makes Family Happen.</h3>
+            <p class="Frame__FAQ__wrap__text">
+                We created HOMEBAKE 425:30 to give families more time together and spend less time cooking.
+                <br />
+                <br />
+                We developed 15 mains, veggies, and sides that the whole family will love that cook together in 30 minutes at 425 degrees.
+                <br />
+                <br />
+                You know your family best: what they love, what they crave, what they need. We're here to help you make that happen, any night.
+            </p>
+        </div>
+        <a href="/pages/faq" class="Frame--a">
+            <button class="Frame__FAQ__button">
+                VISIT FAQ
+            </button>
+        </a>
+        
+    </div>
+    <div class="Frame__Dishes">
+        <img class="Frame__Dishes__img" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/veggie.svg?v=1667447095" loading="lazy" width="3542" height="20" alt="side main veggie">
+        <div class="Frame__Dishes__wrap">
+            <img class="Frame__Dishes__wrap__img" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/image_9.svg?v=1667447089" loading="lazy" width="500" height="500" alt="same oven, same temp, same time">
+            <span class="Frame__Dishes__wrap__text">
+                For your picky eaters and meat-lovers, devoted mac'n'cheese fans and veggie enthusiasts, we've got you covered.
+            </span>
+            <a href="/collections/shop" class="Frame--a">
+                <button class="Frame__Dishes__wrap__button">BROWSE DISHES</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+    "name": "Our Story section",
+    "tag": "section",
+    "class": "section",
+    "presets": [
+        {
+        "name": "Our Story section"
+        }
+    ]
+    }
+{% endschema %}
+
+{% stylesheet %}
+
+    .Frame--a {
+        text-decoration: none;
+    }
+
+    .Frame__FAQ {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #B52555;
+        width: 100%;
+        margin: auto;
+    }
+
+    .Frame__FAQ__logo {
+        width: 15%;
+        max-width: 192px;
+
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .Frame__FAQ__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Frame__FAQ__wrap__title {
+        max-width: 600px;
+        height: 40px;
+
+        font-family: 'Apercu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFFFF;
+
+        text-align: center;
+    }
+
+    .Frame__FAQ__wrap__text {
+        max-width: 516px;
+        /* height: 280px; */
+
+        font-family: 'Apercu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+
+        margin: 0;
+
+        text-align: center;
+    }
+
+    .Frame__FAQ__button {
+        width: 280px;
+        height: 48px;
+
+        background-color: transparent;
+        border-radius: 24px;
+        padding: 14px 36px 14px 36px;
+        margin-top: 5rem;
+        margin-bottom: 6.25rem;
+
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        cursor: pointer;
+        text-decoration: none:
+    }
+
+    @media screen and (max-width: 900px) {
+        .Frame__FAQ__logo {
+            width: 30%;
+            max-width: 130px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .Frame__FAQ__logo{
+            width: 40%;
+            max-width: 130px;
+
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+        }
+        .Frame__FAQ__wrap__title {
+            max-width: 288px;
+            height: 60px;
+        
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        .Frame__FAQ__wrap__text {
+            max-width: 288px;
+            height: 286px;
+        
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        .Frame__FAQ__button { 
+            padding: 14px 36px 14px 36px;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            
+        }
+    }
+
+    /* -------------------------------------------------- */
+
+    .Frame__Dishes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        margin: auto;
+
+        background-color: #F5F5F5;
+        overflow: hidden;
+    }
+
+    .Frame__Dishes__img{
+        height: 20px;
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .Frame__Dishes__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 10rem;
+        margin-bottom: 8rem;
+    }
+
+    .Frame__Dishes__wrap__img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .Frame__Dishes__wrap__text {
+        max-width: 600px;
+        height: 48px;
+
+        font-family: 'Apercu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.02em;
+
+        margin: 4rem 0 0 0;
+
+        color: #5E5E5E;
+    }
+
+    .Frame__Dishes__wrap__button {
+        width: 280px;
+        height: 48px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        border-radius: 24px;
+        padding: 14px 36px;
+        gap: 10px;
+        margin: 2.5rem 0;
+
+        background-color: #FFE485;
+
+        font-family: 'Apercu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #000000;
+        text-decoration: none;
+
+        border: none;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 900px) {
+        .Frame__Dishes__img {
+            height: 17px;
+
+            margin-top: .7rem;
+            margin-bottom: .7rem;
+        }
+        .Frame__Dishes__wrap {
+            margin-top: 7rem;
+            margin-bottom: 5rem;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .Frame__Dishes__img {
+            height: 13px;
+
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
+
+        .Frame__Dishes__wrap {
+            margin-top: 4rem;
+            margin-bottom: 3rem;
+        }
+
+        .Frame__Dishes__wrap__text {
+            max-width: 288px;
+            height: 57px;
+        
+            font-size: 16px;
+            line-height: 19px;
+
+            margin-top: 2rem;
+        }
+    }
+
+    @media(min-width:768px){
+        .Frame__Dishes__img {
+            height: 20px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-left: -48%;
+            width: 150vw;
+            overflow: hidden;
+        }
+    }
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
