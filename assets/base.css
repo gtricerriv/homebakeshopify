@@ -2971,9 +2971,7 @@ details-disclosure > details {
   }
   @font-face {
     font-family: 'GT-America-Trial';
-    src: url('{{ 'GT-America-Compressed-Bold-Trial.woff' | asset_url }}') format("woff");
-    font-style: normal;
-    font-display: swap;
+    src: url({{ "GT-America-Compressed-Bold-Trial.woff" | asset_url }}) format("woff");
   }
   @font-face {
       font-family: Apercu;
