@@ -3564,9 +3564,10 @@ details-disclosure > details {
     text-transform: uppercase;
     font-family: 'Apercu';
     font-style: normal;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 120%;
-    letter-spacing: 0.06em;
+    line-height: 17px
+    letter-spacing: 0.04em;
     box-shadow: none;
     outline: 0;
     transition: all 0.2s ease;
