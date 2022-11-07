@@ -4133,7 +4133,7 @@ details-disclosure > details {
 .marquee{
   font-family: 'GT-America';
   font-size: 24px;
-  line-height: 20px;
+  line-height: 83%;
   letter-spacing: -0.02em;
   text-align: center;
   text-transform: uppercase;
