@@ -2971,7 +2971,10 @@ details-disclosure > details {
   }
   @font-face {
     font-family: 'GT-America-Trial';
-    src: url({{ "GT-America-Compressed-Bold-Trial.woff" | asset_url }}) format("woff");
+    src: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/GT-America-Compressed-Bold-Trial.woff?v=1667856401') format('woff');
+    font-weight: 700; 
+    font-style: normal;
+    font-display: swap;
   }
   @font-face {
       font-family: Apercu;
