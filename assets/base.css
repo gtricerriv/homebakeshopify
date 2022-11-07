@@ -3562,10 +3562,9 @@ details-disclosure > details {
     display: block;
     width: 100%;
     text-transform: uppercase;
-    font-family: 'Apercu';
+    font-family: 'Apercu_reg';
     font-style: normal;
-    font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 14px;
     line-height: 120%;
     letter-spacing: 0.06em;
     box-shadow: none;
