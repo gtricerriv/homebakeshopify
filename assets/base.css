@@ -2962,7 +2962,7 @@ details-disclosure > details {
   }
   @font-face {
     font-family: 'Calluna';
-    src: url({{ "Calluna-Regular.woff" | asset_url }}) format("woff");
+    src: url('{{ 'Calluna-Regular.woff' | asset_url }}') format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
