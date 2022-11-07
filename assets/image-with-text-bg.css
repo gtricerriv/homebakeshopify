@@ -91,6 +91,9 @@ img.oval-image {
     img.oval-image{ 
         height: 45px;
     }
+    .heading{
+      margin-top: 32px;
+    }
 }
 @media(min-width:1024px){
     img.oval-image{    
