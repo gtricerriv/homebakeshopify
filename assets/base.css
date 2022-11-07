@@ -2970,6 +2970,12 @@ details-disclosure > details {
     font-display: swap;
   }
   @font-face {
+    font-family: 'GT-America';
+    src: url('{{ 'GT-America-Compressed-Bold-Trial.woff' | asset_url }}') format("woff");
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
       font-family: Apercu;
       src: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Apercu_Medium.woff2?v=1646914754') format('woff2'), 
         url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Apercu_Medium.woff?v=1646914754') format('woff');
