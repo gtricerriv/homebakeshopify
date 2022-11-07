@@ -28,3 +28,8 @@ img.logo-list__image {
         width: 150px;
     }
 }
+@media ( min-width: 998px ){
+  .logo-list__container {
+    height: 300px;
+  }
+}
