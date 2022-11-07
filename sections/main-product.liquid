@@ -1,4 +1,255 @@
+<style>
+
+#MainProduct-{{ section.id }}{
+  padding: 10px 15px;
+  font-family: 'Apercu';
+  font-style: normal;
+}
+
+#MainProduct-{{ section.id }} .product__title h1 {
+  font-family: 'Apercu' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0D0D0D;
+  margin-top: 20px;
+ }
+
+ .comming__soon__tag span{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #808080;
+    text-align: center;
+    display: flex;
+    height: 23px;
+    justify-content: center;
+    align-items: center;
+ }
+
+  .comming__soon__tag{
+    background: #F5F5F5;
+    border: 1px solid #808080;
+    border-radius: 5px;
+ }
+
+
+  .mobile-hide{
+    display: none;
+  }
+
+  .desktop-hide{
+    display: block;
+  }
+
+  .product__media-icon, .thumbnail__badge{
+    display: none !important;
+  }
+
+  .global-media-settings{
+    background-color: #F5F5F5 !important;
+  }
+
+  #MainProduct-{{ section.id }} .product__description.rte.quick-add-hidden {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #0D0D0D;
+    padding: 15px 0px;
+
+  }
+
+  #MainProduct-{{ section.id }} .product-form__input.product-form__quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+   #MainProduct-{{ section.id }} .button{
+    border:none !important;
+  }
+
+  #MainProduct-{{ section.id }} .upsell__container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .upsell__divider span{
+    justify-content: center;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 20px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px 20px;
+    background: #F5F5F5;
+    letter-spacing: 0.04em;
+    color: #808080;
+    position: relative;
+    width: 23%;
+    margin: 0 auto;
+  }
+
+  .upsell__divider hr {
+    height: 2px;
+    margin: 0;
+    background: #EBEBEB;
+    color: #EBEBEB;
+    margin-top: -13px;
+    width: 100vw;
+  }
+
+  h2.upsell__header {
+    text-align: center;
+  }
+
+  .upsell__text__content p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #808080;
+  }
+
+  .upssell__images {
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .upsell__list__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    gap: 4px;
+    font-size: 12px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  .upsell__list__item img{
+    margin-right: 6px;
+  }
+
+  .upsell__list__item .price__color{
+    color: #B52555;
+  }
+
+  .upssell__images img {
+    max-width: 80px;
+  }
+
+  .upsell__container button{
+    width: 288px;
+    padding: 14px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: #F5F5F5;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin: 20px;
+    color: #0D0D0D;
+  }
+
+   #MainProduct-{{ section.id }} .product-form__buttons {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .title__plus_description{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+ @media(min-width:768px){
+    .desktop-hide{
+      display: none;
+    }
+    .mobile-hide{
+      display: flex;
+    }
+
+    .upsell__divider hr {
+    width: 28vw;
+  }
+
+  #MainProduct-{{ section.id }} .product__title h1 {
+    margin-bottom: 0;
+  }
+
+  #MainProduct-{{ section.id }} .product__description.rte.quick-add-hidden {
+    margin: 10px 0px;
+  }
+  .ingredients__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ingredients__container h2{
+    margin: 0;
+  }
+
+  .upsell__text__content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap:10px;
+    width: 100%;
+  }
+  h2.upsell__header {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .upsell__text__content p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .upssell__images img {
+    max-width: 140px;
+  }
+  .upsell__items__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .upsell__container button {
+    width: 500px;
+  }
+ }
+
+</style>
 <section id="MainProduct-{{ section.id }}" class="page-width section-{{ section.id }}-padding" data-section="{{ section.id }}">
+  
+   {% render 'breadcrumbs' %} 
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -7,7 +258,6 @@
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
-
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -31,7 +281,17 @@
     <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
     <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
   {%- endif -%}
-
+<div class="comming__soon__tag desktop-hide">
+  <span>Coming soon to a retailer near you</span>
+</div>
+<div class="product__title desktop-hide" {{ block.shopify_attributes }}>
+  <h1>{{ product.title | escape }}</h1>
+  <a href="{{ product.url }}" class="product__title">
+    <h2 class="h1">
+      {{ product.title | escape }}
+    </h2>
+  </a>
+</div>
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">
       <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}class="product__media-gallery"{% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="{{ section.settings.gallery_layout }}">
@@ -199,10 +459,14 @@
         {%- endif -%}
       </media-gallery>
       {%- if product.description != blank -%}
-        <div class="product__description rte quick-add-hidden">
+        <div class="product__description rte quick-add-hidden desktop-hide">
           {{ product.description }}
         </div>
       {%- endif -%}
+      <div class="ingredients__container mobile-hide">
+        <h2>INGREDIENTS</h2>
+        <p>Sous vide cooked seasoned roasted chicken breast with rib meat (chicken breast with rib meat, water, contains 2% or less of seasoning [maltodextrin, onion powder, spices, garlic powder, natural flavor], salt, rice starch, soybean oil, sodium phosphate, seasoning [chicken fat, chicken broth, natural flavor], black pepper, paprika), sauce (water, half & half [milk, cream], pasteurized process white cheddar cheese [cheddar cheese (cultured milk, salt, enzymes), water, sodium phosphate, milkfat, salt], tomato paste, chipotle pepper puree [chipotle peppers, water, salt, vinegar], corn starch, roasted garlic puree, cheese flavor blend [cheddar cheese (pasteurized milk, cheese cultures, salt, enzymes), water, sodium phosphate, enzymes], onion powder, salt, cumin, smoked paprika, spices, xanthan gum, dried chili peppers, oregano, annatto (color), garlic powder), roasted red bell peppers, monterey jack cheese (cultured milk, salt, enzymes), roasted poblano peppers.</p>
+      </div>
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
@@ -217,22 +481,18 @@
               {{- block.settings.text -}}
             </p>
           {%- when 'title' -%}
-            <div class="product__title" {{ block.shopify_attributes }}>
-              <h1>{{ product.title | escape }}</h1>
-              <a href="{{ product.url }}" class="product__title">
-                <h2 class="h1">
-                  {{ product.title | escape }}
-                </h2>
-              </a>
+            <div class="product__title mobile-hide" {{ block.shopify_attributes }}>
+              <div class="title__plus_description">
+                <h1>{{ product.title | escape }}</h1>
+                <div class="product__description rte quick-add-hidden mobile-hide">
+                  {{ product.description }}
+                </div>
+              </div>
+
             </div>
           <div class="product-count-price-wrapper" >
             {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
-              {% comment %}
-              <label class="form__label" for="Quantity-{{ section.id }}">
-                {{ 'products.product.quantity.label' | t }}
-              </label>
-              {% endcomment %}
               <quantity-input class="quantity">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
@@ -251,12 +511,8 @@
                   {% render 'icon-plus' %}
                 </button>
               </quantity-input>
-            </div>
-            {%- when 'price' -%}
-            <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
-            
             {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
               <div class="product__tax caption rte">
                 {%- if shop.taxes_included -%}
@@ -472,7 +728,52 @@
                   </div>
                 {%- endform -%}
               </product-form>
-
+              <div class="upsell__container">
+                <div class="upsell__divider">
+                  <span>
+                    or
+                  </span>
+                  <hr class="upsell__lines">
+                </div>
+                <div class="upsell__text__content">
+                    <h2 class="upsell__header">
+                      Complete your meal
+                    </h2>
+                    <p>
+                      Based on what other users purchased.
+                    </p>
+                </div>
+                <div class="upssell__images">
+                  <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/asset_4.png?v=1667834382">
+                  <p>+</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/asset_4_1.png?v=1667834382">
+                  <p>+</p>
+                  <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/asset_4_2.png?v=1667834382">
+                </div>
+                <div class="upsell__items__list">
+                  <div class="upsell__list__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Toggle.svg?v=1667834477">
+                    <p><b>Current item</b></p>
+                    <p>Southwest Style Chipotle...</p>
+                    <p class="price__color">$15</p>
+                  </div>
+                  <div class="upsell__list__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Toggle.svg?v=1667834477">
+                    <p>Side </p>
+                    <p style="text-decoration:underline;">Southwest Style Cheesy Rice</p>
+                    <p class="price__color">$9.50</p>
+                  </div>
+                  <div class="upsell__list__item">
+                    <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Toggle.svg?v=1667834477">
+                    <p>Veggie</p>
+                    <p style="text-decoration:underline;">Cheesy Brocolli</p>
+                    <p class="price__color">$9.50</p>
+                  </div>
+                </div>
+                <div>
+                  <button>ADD 3 ITEMS FOR $34</button>
+                </div>
+              </div>
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}

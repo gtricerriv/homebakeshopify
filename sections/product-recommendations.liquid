@@ -20,10 +20,31 @@
   }
 {%- endstyle -%}
 
+<style>
+   #shopify-section-{{section.id}} {
+    padding: 0px 15px;
+   }
+  #shopify-section-{{section.id}} h2.product-recommendations__heading{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0D0D0D;
+  }
+
+  @media(min-width:768px){
+    #shopify-section-{{section.id}} h2.product-recommendations__heading{
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+</style>
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <product-recommendations class="product-recommendations page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
     {% if recommendations.performed and recommendations.products_count > 0 %}
-      <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+      <h2 class="product-recommendations__heading">{{ section.settings.heading | escape }}</h2>
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
         {% for recommendation in recommendations.products %}
           <li class="grid__item">
