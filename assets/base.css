@@ -4202,3 +4202,7 @@ main#MainContent {
 #shopify-section-template--15956248690864__b13aee93-1a45-4c2b-b2a7-2a841d83b5b0 .image-with-text{
   justify-content:center;
 }
+.card-media-fixed-size {
+    width: 236px !important;
+    height: 236px !important;
+}
