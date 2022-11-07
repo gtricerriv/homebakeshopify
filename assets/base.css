@@ -3879,7 +3879,7 @@ details-disclosure > details {
       margin-top: -400px;
     }
     
-    ##shopify-section-template--15698317902000__1654837998d1ff0e2b {
+    #shopify-section-template--15698317902000__1654837998d1ff0e2b {
       margin-bottom: 1000px !important;
     }
     
@@ -3905,6 +3905,14 @@ details-disclosure > details {
     .image-with-text--overlap .image-with-text__content {
       width: 100% !important;
       margin: 0 auto !important;
+    }
+
+    .image-with-text{
+      justify-content: center !important;
+    }
+    .flex-child-image img{
+      max-width: 80%;
+      height: auto;
     }
     .footer-block:first-of-type {
       display: none !important;
