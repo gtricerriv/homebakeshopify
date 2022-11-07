@@ -89,6 +89,9 @@
     }
 }
 @media(min-width:990px){
+    .only-desktop-image2 .marquee{
+        height: 20px !important;
+    }
     .image-with-text__text2.rte.body{
         font-size: 20px;
         font-weight: 400;
