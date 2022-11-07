@@ -94,6 +94,10 @@ img.oval-image {
     .heading{
       margin-top: 32px;
     }
+    .subheading{
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
 }
 @media(min-width:1024px){
     img.oval-image{    
