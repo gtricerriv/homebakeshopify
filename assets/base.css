@@ -3786,7 +3786,7 @@ details-disclosure > details {
   } */
   
   .card__information h3.card__heading.h5 a {
-    font-family: Apercu !important;
+    font-family: Apercu_reg;
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
