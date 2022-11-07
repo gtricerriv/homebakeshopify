@@ -96,6 +96,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   overflow-y: auto;
   height: 100%;
   justify-items: center;
+  align-items: center;
 }
 
 .menu-drawer__navigation {
