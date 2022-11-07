@@ -91,7 +91,7 @@ img.background-image {
         flex-direction: row;
         align-content: center;
         justify-content: space-between;
-        height: 59vh;
+        height: 800px;
     }
     .image-only-on-desktop{
         width: 33vw;
@@ -132,14 +132,10 @@ img.background-image {
         left: 71%;
         padding-top: 6%;
     }
-    .only-desktop-image{
-        height: 667px;
-    }
+   
 }
 @media (min-width:1440px){
-    .only-desktop-image{
-        height: 64rem;
-    }
+  
 }
 @media (min-width: 1600px){
   .text-column{
