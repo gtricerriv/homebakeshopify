@@ -2218,6 +2218,7 @@ input[type='checkbox'] {
   justify-content: space-between;
   align-content: center;
   height: 60px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
   /* display: grid;
   grid-template-areas: 'left-icon heading icons';
   grid-template-columns: 1fr 2fr 1fr;
