@@ -38,3 +38,8 @@
 #stockist-widget .stockist-map{
   left:380px;
 }
+#stockist-widget .stockist-query-entry .stockist-search-button button{
+  min-width:53px;
+  height:48px;
+  background:#C72063;
+}
