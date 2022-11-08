@@ -6,12 +6,15 @@
   flex-direction:column;
   gap:10px;
   margin-top:25px !important;
-  margin-bottom:5px;
+  margin-bottom:5px !important;
 }
 .stockist-search-filter-checkboxes{
   display:flex;
   flex-direction:column;
   gap:10px;
+}
+.stockist-search-filter-checkboxes label{
+  font-size:14px;
 }
 #shopify-section-template--15956248559792__newsletter{
   display:none;
