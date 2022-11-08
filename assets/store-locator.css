@@ -22,4 +22,7 @@
 
 .stockist-query-entry input{
   height:48px;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
 }
