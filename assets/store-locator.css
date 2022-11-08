@@ -6,6 +6,13 @@
 #MainContent{
   background:#FDFAFB !important;
 }
+h1.main-page-title.page-title{
+  color: #B52548 !important;
+  font-size: 32px !important;
+  margin-bottom: 24px !important;
+  text-align: left !important;
+  padding-top: 140px !important;
+}
 .stockist-search-filters{
   display:flex;
   flex-direction:column;
