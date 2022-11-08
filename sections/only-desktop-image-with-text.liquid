@@ -11,8 +11,8 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       </div>
-<p class="marquee"><img class="marquee_img" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/image_2022-11-08_11-42-07.png?v=1667922244" alt="SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •"></p>
       <div class="image-with-text__text-item text-column">
+        <p class="marquee"><img class="marquee_img" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/image_2022-11-08_11-42-07.png?v=1667922244" alt="SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •"></p>
         <div class="background-image">
           {%- if section.settings.background_image != blank -%}
             <img loading="lazy" src="{{ section.settings.background_image | img_url: 'grande' }} " alt="{{ block.settings.background_image.alt | escape }}" class="background-image">
