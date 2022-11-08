@@ -27,8 +27,11 @@
 </style>
   
 {%- endif -%}
-
-<div class="page-width {%- if request.path == '/pages/store-locator' -%}store-locator-layout{%- else -%}page-width--narrow section-{{ section.id }}-padding{%- endif -%} ">
+{%- if request.path == '/pages/store-locator' -%}
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding store-locator-layout">
+{%- else -%}
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+{%- endif -%}
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
