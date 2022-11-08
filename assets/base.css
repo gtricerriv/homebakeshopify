@@ -244,8 +244,9 @@ html.no-js .no-js-hidden {
   }
 
   .page-width-desktop {
-    max-width: calc(var(--page-width) + 80px);
+    max-width: 1200px;
     padding: 0 3rem;
+    margin: 0 auto;
   }
 }
 
