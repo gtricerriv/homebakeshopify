@@ -61,10 +61,13 @@
 }
 #stockist-widget .stockist-result .stockist-result-name{
   color: #850D35;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 #stockist-widget .stockist-list-result>div{
   padding-left:60px;
   font-size:14px;
   color: #5E5E5E;
+}
+#stockist-widget .stockist-result-address{
+  margin-bottom: 8px;
 }
