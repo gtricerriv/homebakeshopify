@@ -1,8 +1,4 @@
-@media screen and (max-width: 769px) {
-  .store-locator-layout{
-    padding: 0px 20px;
-  }
-}
+
 .store-locator-layout{
   padding-bottom:65px;
   margin-bottom:100px;
@@ -103,4 +99,10 @@ h1.main-page-title.page-title{
 }
 #stockist-widget .stockist-powered-by-link, .stockist-powered-by-link a{
   display:none;
+}
+
+@media screen and (max-width: 768px) {
+  .store-locator-layout{
+    padding: 0px 20px;
+  }
 }
