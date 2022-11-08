@@ -59,7 +59,7 @@
 }
 #stockist-widget .stockist-result-list ul{
   max-height:280px;
-  
+  overflow-y: auto;
 }
 #stockist-widget .stockist-result-list ul>li{
   border-style:solid;
