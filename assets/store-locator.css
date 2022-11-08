@@ -101,11 +101,14 @@ h1.main-page-title.page-title{
   display:none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .store-locator-layout{
     padding: 0px 20px;
   }
   h1.main-page-title.page-title{
     padding-top:70px !important;
+  }
+  #stockist-widget .stockist-map.stockist-map-leaflet .stockist-map-inner{
+    min-height: unset !important;
   }
 }
