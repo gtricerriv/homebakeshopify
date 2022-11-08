@@ -1,0 +1,274 @@
+{% render 'breadcrumbs' %}
+
+<div class="formFrame" >
+  <form class="formFrame__form" id="checkout-form">
+      <h3 class="formFrame__form__h3">To proceed, we'll need some contact information.</h3>
+      <div class="formFrame__form__inputWrap">
+          <label for="email" class="formFrame__form__label">Email</label>
+          <input type="email" name="email" class="formFrame__form__input" id="mail" required/>
+          <div class="formFrame__form__inputWrap--check">
+              <input type="checkbox" name="emailMe" class="formFrame__form__check" />
+              <label for="emailMe" class="formFrame__form__check--label">Email me with news and offers</label>
+          </div>
+      </div>
+      <div class="formFrame__form__inputWrap">
+          <label for="zipCode" class="formFrame__form__label">Zip Code</label>
+          <input type="text" name="zipCode" class="formFrame__form__input"/>
+      </div>
+      <button type="button" id="checkout-btn" class="formFrame__form__button">CONTINUE</button>
+  </form>
+</div>
+<div class="formFrame" id="store-driver">
+  <div class="formFrame__form">
+      <div class="formFrame__form__wrap">
+          <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Vector.svg?v=1667900526" alt="attention" loading="lazy" width="32" height="32" class="formFrame__form__icon" />
+          <h3 class="formFrame__form__h3">It seems we can't ship<br /> to your location yet</h3>
+      </div>
+      <p class="formFrame__form__content">We are working on making HOMEBAKE 425°:30™ meals reach your family table.<br /><br /> In the meantime, you can search for our stores located near you.</p>
+      
+      
+    <button type="button" class="formFrame__form__button--bold"><a href="https://homebake42530.com/pages/store-locator" class="link">FIND US IN STORE</a></button>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "checkout form",
+"tag": "section",
+"class": "section",
+"presets": [
+  {
+    "name": "checkout form"
+  }
+]
+}
+{% endschema %}
+
+<style>
+  .formFrame {
+      display: flex;
+      justify-content: center;
+
+      background-color: #F5F5F5;
+  }
+
+  .formFrame__form {
+      width: 420px;
+      height: 458px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 32px;
+      gap: 32px;
+
+      margin: 10rem 0;
+
+      background: #FFFFFF;
+      box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.03);
+      border-radius: 8px;
+  }
+
+  .formFrame__form__inputWrap {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .formFrame__form__inputWrap--check {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      margin: 0.75rem 0;
+  }
+
+  .formFrame__form__h3 {
+      width: 356px;
+      height: 50px;
+
+      font-family: 'Apercu';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+
+      color: #0D0D0D;
+  }
+
+  .formFrame__form__label {
+
+      font-family: 'Apercu';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+
+      margin: 0.5rem 0;
+
+      color: #0D0D0D;
+  }
+
+  .formFrame__form__input {
+      width: 356px;
+      height: 48px;
+
+      background: #FFFFFF;
+
+      border: 1px solid #D4D4D4;
+      border-radius: 4px;
+
+      font-family: 'Apercu';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 14px;
+      letter-spacing: -0.02em;
+
+      color: #0D0D0D;
+  }
+
+  .formFrame__form__check {
+      width: 16px;
+      height: 16px;
+
+      box-sizing: border-box;
+
+      border: 1px solid #C3C3C3;
+      border-radius: 4px;
+  }
+
+  .formFrame__form__check--label {
+      width: 212px;
+      height: 14px;
+
+      font-family: 'Apercu';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 14px;
+      letter-spacing: -0.02em;
+
+      color: #525252;
+  }
+
+  .formFrame__form__button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 14px 36px;
+      gap: 10px;
+
+      width: 260px;
+      height: 48px;
+
+      background: #FFE485;
+      border-radius: 24px;
+      border: none;
+
+      font-family: 'Apercu';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.04em;
+
+      margin: auto;
+      color: #0D0D0D;
+  }
+
+
+  .formFrame__form__wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .formFrame__form__icon {
+      width: 32px;
+      height: 32px;
+  }
+
+  .formFrame__form__content {
+      font-family: 'Apercu';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+
+      color: #5E5E5E;
+
+      flex: none;
+      align-self: stretch;
+      flex-grow: 0;
+  }
+
+  .formFrame__form__button--bold {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      padding: 14px 36px;
+      gap: 10px;
+
+      width: 260px;
+      height: 48px;
+
+      background: #FFE485;
+      border-radius: 24px;
+      border: none;
+
+      margin: auto;
+
+
+
+
+      font-family: 'Apercu';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.04em;
+
+      color: #0D0D0D;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  }
+
+  #store-driver{
+    display: none;}
+
+    button.formFrame__form__button--bold a {
+    color: black;
+    text-decoration: none;
+  }
+
+</style>
+
+<script>
+
+$(document).ready(function(){
+  $('#checkout-btn').click(function(){
+    $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
+    setTimeout(function() { 
+      $('#checkout-form').hide(200);
+      $("#store-driver").show(400).css("display", "flex");
+    }, 1000);
+  });
+  $("#checkout-btn").click(function(){
+  });
+});
+
+
+
+
+</script>
+
+{% javascript %}
+{% endjavascript %}
