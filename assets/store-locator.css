@@ -1,3 +1,8 @@
+@media screen and (max-width: 769px) {
+  .store-locator-layout{
+    padding: 0px 20px;
+  }
+}
 .store-locator-layout{
   padding-bottom:65px;
   margin-bottom:100px;
