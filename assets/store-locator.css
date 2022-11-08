@@ -12,6 +12,7 @@ h1.main-page-title.page-title{
   margin-bottom: 24px !important;
   text-align: left !important;
   padding-top: 140px !important;
+  padding-bottom: 0px !important;
 }
 .stockist-search-filters{
   display:flex;
