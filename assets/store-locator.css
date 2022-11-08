@@ -72,6 +72,7 @@ h1.main-page-title.page-title{
 }
 #stockist-widget .stockist-result-list ul>li{
   border-style:solid;
+  border-color:#EBEBEB;
 }
 #stockist-widget .stockist-list-result>.stockist-result-distance>.stockist-icon{
   color: #850D35;
