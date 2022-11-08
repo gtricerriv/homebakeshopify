@@ -31,6 +31,7 @@ img.background-image {
 .text-column{
     background-color: #00945F;
     color: #fff;
+    width: 100%
 }
 @media(max-width:989px){
     .image-wrapper.image-column {
