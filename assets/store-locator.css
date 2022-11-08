@@ -42,4 +42,9 @@
   min-width:53px;
   height:48px;
   background:#C72063;
+  display:grid;
+  place-content:center;
+}
+#stockist-widget .stockist-icon{
+  font-size:18px;
 }
