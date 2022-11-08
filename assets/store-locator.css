@@ -39,6 +39,10 @@
 
 #stockist-widget .stockist-horizontal .stockist-side-panel{
   width:350px;
+  max-height:420px;
+}
+#stockist-widget .stockist-map.stockist-map-leaflet .stockist-map-inner{
+  min-height:420px !important;
 }
 #stockist-widget .stockist-map{
   left:380px;
