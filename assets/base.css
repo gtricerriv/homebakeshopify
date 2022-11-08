@@ -4209,3 +4209,6 @@ main#MainContent {
     width: 236px !important;
     height: 236px !important;
 }
+.marquee img {
+    height: 20px;
+}
