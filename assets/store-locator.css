@@ -2,12 +2,12 @@
   
 }
 .stockist-search-filters{
-  display:flex:
+  display:flex;
   flex-direction:column;
   gap:10px;
 }
 .stockist-search-filter-checkboxes{
-  display:flex:
+  display:flex;
   flex-direction:column;
   gap:10px;
 }
