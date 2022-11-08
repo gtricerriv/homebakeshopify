@@ -6,6 +6,7 @@
   flex-direction:column;
   gap:10px;
   margin-top:25px !important;
+  margin-bottom:5px;
 }
 .stockist-search-filter-checkboxes{
   display:flex;
