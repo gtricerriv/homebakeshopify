@@ -56,3 +56,6 @@
 #stockist-widget .stockist-result-list ul>li{
   border-style:solid;
 }
+#stockist-widget .stockist-list-result>.stockist-result-distance>.stockist-icon{
+  color:#C72063;
+}
