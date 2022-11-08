@@ -18,14 +18,13 @@
   }
 {%- endstyle -%}
 
-{%- if request.path == '/pages/store-locator' -%}
+{%- if request.path contains '/pages/store-locator' -%}
   
 <style>
   .page-width{
       display:none !important;
     }
 </style>
-    
   
 {%- endif -%}
 
