@@ -77,3 +77,6 @@
 #stockist-widget .stockist-result .stockist-result-phone a{
   color: #850D35;
 }
+#stockist-widget .stockist-powered-by-link, .stockist-powered-by-link a{
+  display:none;
+}
