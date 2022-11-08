@@ -11,8 +11,8 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       </div>
-
       <div class="image-with-text__text-item text-column">
+        <p class="marquee"><img class="marquee_img" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/image_2022-11-08_11-42-07.png?v=1667922244" alt="SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •"></p>
         <div class="background-image">
           {%- if section.settings.background_image != blank -%}
             <img loading="lazy" src="{{ section.settings.background_image | img_url: 'grande' }} " alt="{{ block.settings.background_image.alt | escape }}" class="background-image">
@@ -20,7 +20,7 @@
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
         </div>
-        <p class="marquee">{{ section.settings.text_marquee }}</p>
+      
         <div id="ImageWithText--{{ section.id }}" class="content-wrapper">
           {%- for block in section.blocks -%}
             {% case block.type %}
@@ -41,7 +41,7 @@
             {%- endcase -%}
           {%- endfor -%}
         </div>
-        <p class="marquee">{{ section.settings.text_marquee }}</p>
+        <p class="marquee"><img class="marquee_img" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/image_2022-11-08_11-42-07.png?v=1667922244" alt="SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •"></p>
   </div>
 </div>
 
@@ -50,6 +50,7 @@
 {
   "name": "Image w/text on desktop",
   "class": "section",
+  "tag": "section",
   "settings": [
     {
       "type": "image_picker",
@@ -61,12 +62,6 @@
       "id": "background_image",
       "label": "Background image"
     },    
-    {
-      "type": "text",
-      "id": "text_marquee",
-      "label": "Marquee text",
-      "default": "SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •"
-    },
     {
       "type": "select",
       "id": "layout",

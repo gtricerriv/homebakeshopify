@@ -244,8 +244,9 @@ html.no-js .no-js-hidden {
   }
 
   .page-width-desktop {
-    max-width: calc(var(--page-width) + 80px);
+    max-width: 1200px;
     padding: 0 3rem;
+    margin: 0 auto;
   }
 }
 
@@ -1099,7 +1100,8 @@ summary::-webkit-details-marker {
 
   .grid--3-col-desktop .grid__item {
     width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
-    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+    max-width: 281px;
+    margin: 0 16px;
   }
 
   .grid--2-col-desktop .grid__item {
@@ -3786,7 +3788,7 @@ details-disclosure > details {
   } */
   
   .card__information h3.card__heading.h5 a {
-    font-family: Apercu_reg;
+    font-family: Apercu;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -4165,7 +4167,6 @@ details-disclosure > details {
     background: #f5f5f5;
 }
 .collection__title h2.title.h1 {
-    margin-top: 2rem;
     font-family: 'Apercu';
     font-style: normal;
     font-weight: 500;
@@ -4174,6 +4175,8 @@ details-disclosure > details {
     text-transform: uppercase;
     color: #0D0D0D;
     letter-spacing: -.05em;
+    max-width: 1100px;
+    margin: 2rem auto 0;
 }
 main#MainContent {
     background: #f5f5f5;
@@ -4205,4 +4208,7 @@ main#MainContent {
 .card-media-fixed-size {
     width: 236px !important;
     height: 236px !important;
+}
+.marquee_img {
+    height: 20px;
 }
