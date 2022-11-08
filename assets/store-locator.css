@@ -53,3 +53,6 @@
 #stockist-widget .stockist-icon{
   font-size:18px;
 }
+#stockist-widget .stockist-result-list ul>li{
+  border-style:solid;
+}
