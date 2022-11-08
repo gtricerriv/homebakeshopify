@@ -62,3 +62,6 @@
 #stockist-widget .stockist-result .stockist-result-name{
   color: #850D35;
 }
+#stockist-widget .stockist-list-result>div{
+  padding-left:60px;
+}
