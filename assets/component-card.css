@@ -3,6 +3,7 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+  max-height: 390px;
 }
 
 .card {
