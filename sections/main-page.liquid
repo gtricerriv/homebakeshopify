@@ -1,6 +1,10 @@
 <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 
+{%- if request.path == '/pages/store-locator' -%}
+  <link rel="stylesheet" href="{{ 'store-locator.css' | asset_url }}" media="print" onload="this.media='all'">
+{%- endif -%}
+
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -18,15 +22,7 @@
   }
 {%- endstyle -%}
 
-{%- if request.path == '/pages/store-locator' -%}
-  
-{%- style -%}
-  .page-width{
-      
-    }
-{%- endstyle -%}
-  
-{%- endif -%}
+
 {%- if request.path == '/pages/store-locator' -%}
   <div class="page-width store-locator-layout">
 {%- else -%}
