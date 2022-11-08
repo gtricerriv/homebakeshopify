@@ -21,9 +21,9 @@
 }
 
 .stockist-query-entry input{
-  height:48px;
+  height:48px !important;
   background: #FFFFFF;
-  border: 1px solid #EBEBEB;
-  border-radius: 4px;
-  padding:15px;
+  border: 1px solid #EBEBEB !important;
+  border-radius: 4px !important;
+  padding:15px !important;
 }
