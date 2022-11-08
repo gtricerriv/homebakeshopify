@@ -71,3 +71,6 @@
 #stockist-widget .stockist-result-address{
   margin-bottom: 8px;
 }
+#stockist-widget .stockist-result .stockist-result-filter{
+  color:#000000;
+}
