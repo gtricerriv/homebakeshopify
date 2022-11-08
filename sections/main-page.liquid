@@ -18,6 +18,16 @@
   }
 {%- endstyle -%}
 
+{%- if request.path == '/pages/store-locator' -%}
+  
+<style>
+  .page-width{
+      display:none !important;
+    }
+</style>
+  
+{%- endif -%}
+
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
