@@ -50,6 +50,7 @@ h1.main-page-title.page-title{
 }
 #stockist-widget .stockist-map.stockist-map-leaflet .stockist-map-inner{
   min-height:420px !important;
+  border: 1px solid #EBEBEB;
 }
 #stockist-widget .stockist-map{
   left:380px;
