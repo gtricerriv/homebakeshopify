@@ -3602,7 +3602,7 @@ details-disclosure > details {
   }
   
   .button:hover, .shopify-challenge__button:hover, .customer button:hover {
-    color: #FFE485;
+    color: #fff;
     background: #010F11;
     border: 2px solid #010F11 !important;
     outline: 0 !important;
