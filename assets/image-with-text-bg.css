@@ -90,10 +90,10 @@ img.oval-image {
         height: 45px;
     }
     .relative-image {
-    position: absolute;
-    right: 20%;
-    top: 57%;
-  }
+      position: absolute;
+      right: 20%;
+      top: 57%;
+    }
 }
 @media(min-width:900px){
   
