@@ -1,7 +1,7 @@
 {{ 'logo-list.css' | asset_url | stylesheet_tag }}
   <style>
     .logo-list-section{
-      height: 300px;
+  
     }
     [data-section-id="{{ section.id }}"] {
       background-image: url({{ 'home-logos-section-background.png'| asset_img_url: 'master' }});
@@ -22,6 +22,7 @@
       padding-top: 2rem;
       padding-bottom: 2rem;
     }
+        
     @media(max-width: 768px) {
       .logo-list__item {
           min-height: 100px;
