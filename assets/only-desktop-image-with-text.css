@@ -81,6 +81,9 @@ img.background-image {
     section#shopify-section-template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f {
       height: 476px;
     }
+    img.background-image{
+      margin-top: 35%;
+    }
 }
 @media (max-width: 768px){
     section#shopify-section-template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f {
