@@ -3,7 +3,7 @@
     .logo-list-section{
   
     }
-    .logo-list__container {
+    [data-section-id="{{ section.id }}"] {
       background-image: url({{ 'background_paper.png'| asset_img_url: 'master' }});
       background-repeat: no-repeat;
       background-size: cover;
