@@ -902,4 +902,5 @@ customElements.define('variant-radios', VariantRadios);
 
 
 const storeLocatorInputSearch = document.querySelector('#stockist-widget .stockist-query-entry input.stockist-search-field');
-storeLocatorInputSearch.placeholder='Type a zipcode or address...';
+console.log(storeLocatorInputSearch)
+storeLocatorInputSearch.placeholder = 'Type a zipcode or address...';
