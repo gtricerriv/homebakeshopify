@@ -4,8 +4,9 @@
   position: relative;
   text-decoration: none;
   max-height: 390px;
+  background-color: #fff;
+  border-radius: 8px;
 }
-
 .card {
   text-align: var(--card-text-alignment);
   text-decoration: none;
