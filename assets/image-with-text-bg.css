@@ -142,7 +142,7 @@ img.oval-image {
     }
     img.oval-image{ 
         height: 8rem;
-        max-width: 372px;
+        max-width: 335px;
     }
 }
 @media(min-witdh: 1350px){
