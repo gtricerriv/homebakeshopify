@@ -2978,7 +2978,7 @@ details-disclosure > details {
     font-style: normal;
     font-display: swap;
   }
-  @font-face {
+   @font-face {
     font-family: 'MakroXM',
     src: url ('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/MakroXM-ExtraBold.woff?v=1667971009') format ('woff');
     font-style: normal;
