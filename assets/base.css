@@ -4152,6 +4152,11 @@ details-disclosure > details {
   overflow: hidden;
   height: 23px;
 }
+@media(max-width:768px){
+  .marquee {
+    height: 20px;
+  }
+}
 
 #ImageWithText--template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f{
   height:100%;
