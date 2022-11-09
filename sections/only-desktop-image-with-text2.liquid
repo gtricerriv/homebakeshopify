@@ -10,7 +10,7 @@
       </div>
 
       <div class="image-with-text__text-item2 text-column2">
-        <p class="marquee">MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE </p>
+        <p class="marquee">{{ section.settings.text_marquee }}</p>
         <div id="ImageWithText--{{ section.id }}" class="content-wrapper2">
           {%- for block in section.blocks -%}
             {% case block.type %}
@@ -74,7 +74,7 @@
       "type": "text",
       "id": "text_marquee",
       "label": "Marquee text",
-      "default": "SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME • SAME OVEN • SAME TEMP • SAME TIME •"
+      "default": "MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE •  AIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • MAIN • VEGGIE • SIDE • "
     },
     {
       "type": "select",
