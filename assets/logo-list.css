@@ -25,6 +25,12 @@ logo-list {
     flex-wrap: wrap;
     flex-direction: column;
 }
+img.side-image {
+    margin-bottom: -1rem;
+    object-fit: cover;
+    min-height: 275px;
+    height: 100%;
+}
 @media (min-width: 768px){
     .logo-list__container{
         justify-content: space-evenly;
