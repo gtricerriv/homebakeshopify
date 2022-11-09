@@ -38,6 +38,10 @@ img.side-image {
     img.logo-list__image{
         width: 150px;
     }
+  .logo-list {
+      display: flex;
+      flex-direction: row;
+  }
 }
 @media ( min-width: 998px ){
   .logo-list__container {
