@@ -20,6 +20,11 @@ img.logo-list__image {
   width:100%;
   max-width:150px;
 }
+logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 @media (min-width: 768px){
     .logo-list__container{
         justify-content: space-evenly;
