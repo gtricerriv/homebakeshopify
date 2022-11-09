@@ -1,6 +1,8 @@
 {{ 'logo-list.css' | asset_url | stylesheet_tag }}
   <style>
-
+    .logo-list-section{
+      height: 300px;
+    }
     [data-section-id="{{ section.id }}"] {
       background-image: url({{ 'home-logos-section-background.png'| asset_img_url: 'master' }});
       background-repeat: no-repeat;
