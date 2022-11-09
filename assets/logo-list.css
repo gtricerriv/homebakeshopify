@@ -48,6 +48,7 @@ img.side-image {
   .logo-list {
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
   }
 }
 @media ( min-width: 998px ){
