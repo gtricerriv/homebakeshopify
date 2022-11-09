@@ -3567,7 +3567,7 @@ details-disclosure > details {
   .button, .shopify-challenge__button, .customer button {
     background: #FFE485;
     color: #000;
-    border: 2px solid #D4D4D4;
+    border: 2px solid #FFE485;
     display: block;
     width: 100%;
     text-transform: uppercase;
