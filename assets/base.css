@@ -4171,6 +4171,11 @@ details-disclosure > details {
   #ImageWithText--template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f .section-button{
     width: fit-content;
   }
+  .grid {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .section-template--15956249116848__product-grid-padding {
     background: #f5f5f5;
