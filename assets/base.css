@@ -2978,6 +2978,12 @@ details-disclosure > details {
     font-style: normal;
     font-display: swap;
   }
+@font-face {
+    font-family: 'Makro',
+    src: url ('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/MakroXM-ExtraBold.woff?v=1667971009') format ('woff');
+    font-style: normal;
+    font-display: swap;
+}
   @font-face {
       font-family: Apercu;
       src: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Apercu_Medium.woff2?v=1646914754') format('woff2'), 
