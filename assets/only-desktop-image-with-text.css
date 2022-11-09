@@ -79,6 +79,11 @@ img.background-image {
       min-height: 63vh;
     }
 }
+@media (max-width: 768px){
+    section#shopify-section-template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f {
+      height: 434px;
+  }
+}
 @media(min-width:990px){
     .image-with-text__text.rte.body{
         font-size: 20px;
