@@ -57,3 +57,9 @@ img.side-image {
     height: 300px;
   }
 }
+@media (min-width: 1440px ){
+    .image-container {
+      width: auto;
+      overflow: hidden;
+    }
+}
