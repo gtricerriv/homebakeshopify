@@ -901,7 +901,7 @@ class VariantRadios extends VariantSelects {
 customElements.define('variant-radios', VariantRadios);
 
 window.addEventListener("DOMContentLoaded", async () => {
-  const storeLocatorInputSearch = document.querySelector('#stockist-widget .stockist-query-entry input.stockist-search-field');
+  const storeLocatorInputSearch = document.querySelector('#stockist-widget .stockist-query-entry .stockist-search-field');
   console.log(storeLocatorInputSearch)
   storeLocatorInputSearch.placeholder = 'Type a zipcode or address...';
 });
