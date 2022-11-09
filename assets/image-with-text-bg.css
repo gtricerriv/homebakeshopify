@@ -67,6 +67,7 @@ img.oval-image {
 }
 @media(min-width:600px){
    .relative-image {
+     display: block;
       position: absolute;
       right: 21%;
       top: 61%;
