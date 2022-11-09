@@ -899,3 +899,7 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+
+const storeLocatorInputSearch = document.querySelector('#stockist-widget .stockist-query-entry input.stockist-search-field');
+storeLocatorInputSearch.placeholder='Type a zipcode or address...';
