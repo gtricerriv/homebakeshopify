@@ -4,7 +4,6 @@
     Usage:
     {% render 'cart-drawer' %}
 {% endcomment %}
-
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
 <style>
@@ -295,10 +294,11 @@
               {{ 'sections.cart.update' | t }}
             </button>
           </noscript>
-
-          <button type="submit" id="CartDrawer-Checkout" class="cart__checkout-button button cart-drawer__button" name="checkout" form="CartDrawer-Form"{% if cart == empty %} disabled{% endif %}>
-            {{ 'sections.cart.checkout' | t }}
-          </button>
+          <a href="https://homebake42530.com/products/pulled-pork-with-bbq-sauce-1?view=product-checkout">   
+            <button id="CartDrawer-Checkout" class="cart__checkout-button button cart-drawer__button" name="checkout">
+              Checkout
+            </button>
+          </a>
         </div>
 
         <small class="tax-note caption-large rte">
