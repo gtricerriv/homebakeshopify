@@ -36,7 +36,8 @@ img.side-image {
 }
 @media (min-width: 768px){
     .logo-list__container{
-        justify-content: space-evenly;
+      justify-content: space-around;
+      width: 69%;
     }
     img.logo-list__image{
         width: 150px;
