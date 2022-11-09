@@ -114,7 +114,7 @@
         flex-direction: row-reverse;
         align-content: center;
         justify-content: space-between;
-        height: 800px;
+        min-height: 800px;
     }
     .image-only-on-desktop2{
      /*    width: 40vw; */

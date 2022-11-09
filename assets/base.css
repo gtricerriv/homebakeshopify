@@ -2978,6 +2978,13 @@ details-disclosure > details {
     font-style: normal;
     font-display: swap;
   }
+   @font-face {
+    font-family: 'MakroXM',
+    src: url ('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/MakroXM-ExtraBold.woff?v=1667971009') format ('woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
   @font-face {
       font-family: Apercu;
       src: url('https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Apercu_Medium.woff2?v=1646914754') format('woff2'), 
@@ -4144,6 +4151,11 @@ details-disclosure > details {
   color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
   height: 23px;
+}
+@media(max-width:768px){
+  .marquee {
+    height: 19px;
+  }
 }
 
 #ImageWithText--template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f{

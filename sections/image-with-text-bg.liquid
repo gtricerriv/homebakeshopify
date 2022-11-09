@@ -2,6 +2,9 @@
 <style>
     .section-with-color{
         background-color: {{ section.settings.background-color }};
+        background-image: url("https://cdn.shopify.com/s/files/1/0607/3571/7552/files/41.png?v=1667962434");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .heading, 
     .subheading{
@@ -15,6 +18,7 @@
       max-width: 180px;
       height: auto;
     }
+
 </style>
 <div class="image-with-text">
     {% if section.settings.image != blank %}
@@ -50,12 +54,16 @@
                 {% endif %}
             </div>
            </h2>
+            <div class="relative-image">
+              <img src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Right_arrow_curved.png?v=1667963513" alt="yellow right arrow curved" class="arrow-curved">
+            </div>
            {% if section.settings.subheading != blank %}
                 <div class="subheading"> {{ section.settings.subheading }}</div>
             {% endif %}
             {% if section.settings.button != blank %}
                 <a href="{{ section.settings.url }}" class="hero-button"> {{ section.settings.button }}</a>
             {% endif %}
+        
         </div>
     {% endif %}
 </div>
