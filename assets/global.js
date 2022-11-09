@@ -905,6 +905,6 @@ window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     const storeLocatorInputSearch = document.querySelector('#stockist-widget .stockist-query-entry .stockist-search-field');
     storeLocatorInputSearch.placeholder = 'Type a ZIP Code or Address...';
-  }, 1000);
+  }, 2000);
   
 });
