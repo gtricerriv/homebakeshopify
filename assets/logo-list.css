@@ -38,6 +38,10 @@ img.side-image {
     img.logo-list__image{
         width: 150px;
     }
+  .image-container {
+      width: 33%;
+      overflow: hidden;
+  }
   .logo-list {
       display: flex;
       flex-direction: row;
