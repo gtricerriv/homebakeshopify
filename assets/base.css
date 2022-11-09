@@ -4192,7 +4192,7 @@ details-disclosure > details {
     margin: 0 auto;
 }
 main#MainContent {
-    background: #FCFAFB;
+    background: #F5F5F5;
 }
 
 @media screen and (max-width:768px){
@@ -4224,4 +4224,10 @@ main#MainContent {
 }
 .marquee_img {
     height: 20px;
+}
+
+@media screen and (min-width:768px){
+  .cart-drawer .cart__checkout-button {
+    width: 380px;
+  }
 }
