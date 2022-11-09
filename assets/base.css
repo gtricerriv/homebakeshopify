@@ -4146,7 +4146,7 @@ details-disclosure > details {
   margin: 20px 0;
   color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
-  height: 23px;
+  height: 20px;
 }
 @media(max-width:768px){
   .marquee {
@@ -4230,4 +4230,8 @@ main#MainContent {
   .cart-drawer .cart__checkout-button {
     width: 380px;
   }
+  .only-desktop-image .text-column {
+    justify-content: space-between;
+  }
+
 }
