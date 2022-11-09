@@ -135,7 +135,7 @@
           "type": "button",
           "settings": {
             "button_label": "BROWSE DISHES",
-            "button_link": "shopify:\/\/pages\/our-dishes"
+            "button_link": "https:\/\/homebake42530.com\/collections"
           }
         }
       },
