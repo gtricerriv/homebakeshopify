@@ -108,11 +108,17 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "54c8dc7c-7dc3-4c2b-97b3-2df8b89561a7": {
+      "type": "custom-checkout",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "pagefly-product-section"
+    "pagefly-product-section",
+    "54c8dc7c-7dc3-4c2b-97b3-2df8b89561a7"
   ]
 }
