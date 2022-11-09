@@ -72,6 +72,13 @@ img.oval-image {
         height: 65px;
     }
 }
+@media(max-width:767px){
+  .relative-image {
+    position: absolute;
+    right: 21%;
+    top: 61%;
+  }
+}
 @media (min-width:768px){
     .flex-child-heading {
         width: 400px;
