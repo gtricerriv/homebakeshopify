@@ -324,3 +324,11 @@
 .card-article-info {
   margin-top: 1rem;
 }
+@media (max-width: 768px){
+  .card__media, .card .media{
+    bottom: 0;
+    position: absolute;
+    top: 10px;
+    transform: translate(10px, 10px);
+  }
+}
