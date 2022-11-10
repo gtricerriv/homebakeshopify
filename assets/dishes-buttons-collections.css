@@ -55,6 +55,9 @@ body{
     padding: 1rem;
     color: #000;
   }
+  span.selected-collection {
+      font-size: 16px;
+  }
   svg.bi.bi-chevron-compact-down {
     color: #B52548;
   }
