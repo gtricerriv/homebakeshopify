@@ -57,7 +57,7 @@ img.oval-image {
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) {
       img.oval-image{
-        left: -102px;
+        right: -102px;
         height: 32px;
       }
 }
