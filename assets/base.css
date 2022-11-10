@@ -4212,6 +4212,11 @@ main#MainContent {
   .collection__title h2.title.h1{
     text-align: center;
   }
+  .formFrame__form__input{
+    max-width: 356px !important;
+    width: 100%;
+    overflow: hidden;
+  }
 }
 
 #shopify-section-template--15956248592560__a5631ca2-db64-4956-905e-8d112ea7479b .container__accordion{
