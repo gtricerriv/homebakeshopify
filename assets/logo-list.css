@@ -48,7 +48,7 @@ img.side-image {
     max-width: 80px;
   }
   .logo-list__container{
-    height: 150px;
+    height: unset;
   }
   .logo-list__item p{
     font-size:16px;
