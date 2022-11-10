@@ -32,6 +32,7 @@ img.background-image {
     background-color: #00945F;
     color: #fff;
     width: 100%
+    overflow: hidden;
 }
 @media(max-width:989px){
     .image-wrapper.image-column {
