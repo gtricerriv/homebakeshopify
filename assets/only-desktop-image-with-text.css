@@ -84,7 +84,7 @@ img.background-image {
         width: 90%;
     }
     .section-heading{
-        
+        margin-top: 75px;
     }
     .image-with-text__text-item.text-column{
       min-height: 63vh;
