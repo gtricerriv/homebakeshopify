@@ -4217,6 +4217,9 @@ main#MainContent {
     width: 100%;
     overflow: hidden;
   }
+  .formFrame__form {
+    align-items: center !important;
+  }
 }
 
 #shopify-section-template--15956248592560__a5631ca2-db64-4956-905e-8d112ea7479b .container__accordion{
