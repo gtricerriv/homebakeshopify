@@ -467,7 +467,7 @@
       {%- endif -%}
       <div class="ingredients__container mobile-hide">
         <h2>INGREDIENTS</h2>
-        <p>Sous vide cooked seasoned roasted chicken breast with rib meat (chicken breast with rib meat, water, contains 2% or less of seasoning [maltodextrin, onion powder, spices, garlic powder, natural flavor], salt, rice starch, soybean oil, sodium phosphate, seasoning [chicken fat, chicken broth, natural flavor], black pepper, paprika), sauce (water, half & half [milk, cream], pasteurized process white cheddar cheese [cheddar cheese (cultured milk, salt, enzymes), water, sodium phosphate, milkfat, salt], tomato paste, chipotle pepper puree [chipotle peppers, water, salt, vinegar], corn starch, roasted garlic puree, cheese flavor blend [cheddar cheese (pasteurized milk, cheese cultures, salt, enzymes), water, sodium phosphate, enzymes], onion powder, salt, cumin, smoked paprika, spices, xanthan gum, dried chili peppers, oregano, annatto (color), garlic powder), roasted red bell peppers, monterey jack cheese (cultured milk, salt, enzymes), roasted poblano peppers.</p>
+        <p>{{product.metafields.my_fields.ingredients }}</p>
       </div>
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
