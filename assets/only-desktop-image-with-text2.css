@@ -28,6 +28,7 @@
     border-radius: 24px;
 }
 .text-column2{
+    width: 100% !important;
     background-color: #009DB8;
     color: #fff;
 }
