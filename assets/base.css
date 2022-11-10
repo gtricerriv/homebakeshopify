@@ -4267,4 +4267,12 @@ main#MainContent {
     justify-content: space-between;
   }
 
+  .header:not(.header--middle-left) .header__inline-menu {
+    margin-top: 0rem;
+  }
+  
+  div#ImageWithText--template--15956248690864__f30b588c-f0e3-4dc8-9109-6b7ce29c3a67 {
+    margin-left: 470px;
+  }
+
 }
