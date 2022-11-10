@@ -4,14 +4,14 @@
       <h3 class="formFrame__form__h3">To proceed, we'll need some contact information.</h3>
       <div class="formFrame__form__inputWrap">
           <label for="email" class="formFrame__form__label">Email</label>
-          <input type="email" name="email" class="formFrame__form__input" id="mail" required/>
+          <input type="email" name="email" class="formFrame__form__input" id="email" required/>
           <div class="formFrame__form__inputWrap--check">
               <input type="checkbox" name="emailMe" class="formFrame__form__check" />
               <label for="emailMe" class="formFrame__form__check--label">Email me with news and offers</label>
           </div>
       </div>
       <div class="formFrame__form__inputWrap">
-          <label for="zipCode" class="formFrame__form__label">ZIP Code</label>
+          <label for="zipCode" class="formFrame__form__label">Zip Code</label>
           <input type="text" name="zipCode" class="formFrame__form__input"/>
       </div>
       <button type="button" id="checkout-btn" class="formFrame__form__button">CONTINUE</button>
@@ -252,16 +252,30 @@
 
 <script>
 
+function validatorEmail() {
+  let email = $("input:text").val();
+  if(email !== ''){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+
 $(document).ready(function(){
   $('#checkout-btn').click(function(){
-    $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
-    setTimeout(function() { 
-      $('#checkout-form').hide(200);
-      $("#store-driver").show(400).css("display", "flex");
-    }, 1000);
+    if(validatorEmail()){ 
+      $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
+      setTimeout(function() { 
+        $('#checkout-form').hide(200);
+        $("#store-driver").show(400).css("display", "flex");
+      }, 1000);
+    }else{
+      alert("Email or Zipcode not inputed");
+      console.log(validatorEmail());
+    }
   });
-  $("#checkout-btn").click(function(){
-  });
+
 });
 
 
