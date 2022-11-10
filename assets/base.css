@@ -4213,7 +4213,7 @@ main#MainContent {
     text-align: center;
   }
   .formFrame__form__input{
-    max-width: 356px !important;
+    max-width: 340px !important;
     width: 100%;
     overflow: hidden;
   }
