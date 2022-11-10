@@ -773,7 +773,9 @@
                   </div>
                 </div>
                 <div>
-                  <button>ADD 3 ITEMS FOR $34</button>
+                  <form action="" method="post">
+                    <button>ADD 3 ITEMS FOR $34</button>
+                  </form>
                 </div>
               </div>
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
@@ -906,6 +908,20 @@
         hiddenInput.value = event.currentTarget.value;
       });
     });
+
+
+    fetch('/cart/add.js', {
+    method: "post",
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({
+        items: [
+            {
+                id: 7024051191984,
+                quantity: 5
+            }
+        ]
+    })
+})
   </script>
 
   {%- liquid
