@@ -19,10 +19,7 @@ img.logo-list__image {
   display:flex;
   align-items:center;
 }
-.logo-list__item img{
-  width:100%;
-  max-width:150px;
-}
+
 logo-list {
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +31,10 @@ img.side-image {
     min-height: 275px;
     height: 100%;
 }
+.logo-list__item img {
+  width:100%;
+  max-width:105px;
+}
 @media (min-width: 768px){
     .logo-list__container{
       justify-content: space-around;
@@ -42,15 +43,19 @@ img.side-image {
     img.logo-list__image{
         width: 150px;
     }
-  .image-container {
+    .image-container {
       width: 35%;
-      overflow: hidden;
-  }
-  .logo-list {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-  }
+        overflow: hidden;
+    }
+    .logo-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-list__item img{
+      width:100%;
+      max-width:150px;
+    }
 }
 @media ( min-width: 998px ){
   .logo-list__container {
