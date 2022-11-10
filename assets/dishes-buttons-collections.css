@@ -53,6 +53,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    color: #000;
   }
   svg.bi.bi-chevron-compact-down {
     color: #B52548;
