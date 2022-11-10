@@ -58,7 +58,7 @@ img.side-image {
 @media (min-width: 768px){
     .logo-list__container{
       justify-content: center;
-      gap:40px;
+      gap:10px;
       width: 69%;
       height: auto;
     } 
@@ -83,6 +83,7 @@ img.side-image {
 @media ( min-width: 998px ){
   .logo-list__container {
     height: 300px;
+    gap:40px;
   }
 }
 @media (min-width: 1440px ){
