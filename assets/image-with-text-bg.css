@@ -51,6 +51,16 @@ img.oval-image {
 .relative-image{
   display: none;
 }
+/* 2340x1080 pixels at 476ppi */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      img.oval-image{
+        left: -102px;
+        height: 32px;
+      }
+}
 @media(min-width:375px){
  
 }
