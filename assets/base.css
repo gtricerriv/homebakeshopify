@@ -4222,7 +4222,7 @@ main#MainContent {
     gap: 0 !important;
   }
   #shopify-section-template--15956248592560__a5631ca2-db64-4956-905e-8d112ea7479b ul li{
-    padding-right: 7px;
+    padding-right: 10px !important;
     max-width: 95vw;
   }
 }
