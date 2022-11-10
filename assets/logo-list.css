@@ -40,6 +40,7 @@ img.side-image {
     .logo-list__container{
       justify-content: space-around;
       width: 69%;
+      height: auto;
     } 
     img.logo-list__image{
         width: 150px;
