@@ -36,6 +36,9 @@ img.side-image {
   width:100%;
   max-width: 95px;
 }
+@media (max-width: 400px){
+  max-width: 80px;
+}
 @media (min-width: 768px){
     .logo-list__container{
       justify-content: space-around;
