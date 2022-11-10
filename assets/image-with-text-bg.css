@@ -35,7 +35,7 @@
 }
 img.oval-image {
     position: absolute;
-    transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%) scale(1.4);
     top: 55%;
     left: 50%;
     height: 28px;
