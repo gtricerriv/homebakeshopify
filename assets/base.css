@@ -4151,7 +4151,7 @@ details-disclosure > details {
 }
 @media(max-width:768px){
   .marquee {
-    height: 19px;
+    height: 33px;
   }
 }
 
