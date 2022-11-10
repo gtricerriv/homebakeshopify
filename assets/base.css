@@ -2661,7 +2661,7 @@ details[open] > .header__menu-item .icon-caret {
   padding: 0 5px;
   font-weight: 600;
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: #fff;
+  color: #fff !important;
   font-weight:700 !important;
 }
 
