@@ -2826,6 +2826,11 @@ details-disclosure > details {
   .content-container--full-width-mobile:after {
     display: none;
   }
+  .search__input.field__input:focus {
+    border: none !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+  }
 }
 
 .global-media-settings {
