@@ -134,11 +134,11 @@ img.oval-image {
 }
 @media (min-width:1280px){
     .heading{
-        font-size: 64px;
+        font-size: 72px;
         line-height: 70px;
     }
     .flex-child-heading {
-        width: 670px;
+        width: 800px;
     }
     .subheading {
         font-size: 20px;
