@@ -4152,6 +4152,7 @@ details-disclosure > details {
   display: flex;
   align-items: center;
   padding: 0px 5px;
+  opacity:.8;
 }
 @media(max-width:768px){
   .marquee {
