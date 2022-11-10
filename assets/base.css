@@ -2831,6 +2831,10 @@ details-disclosure > details {
     box-shadow: none !important;
     outline: 0 !important;
   }
+  .search .field:after{
+    border: none;
+    border-radius: 0;
+  }
 }
 
 .global-media-settings {
