@@ -2483,6 +2483,7 @@ details[open] .modal-overlay::after {
   padding: 0 5rem 0 1rem;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   position: relative;
+  background: #C72063;
 }
 
 .search-modal__content-bottom {
