@@ -2623,6 +2623,7 @@ details[open] > .header__submenu {
 /*   height: 35px !important; */
   padding: 0 5px;
   transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 0.75);
   font-size:14px;
   font-weight:500;
 }
