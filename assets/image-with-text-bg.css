@@ -35,11 +35,12 @@
 }
 img.oval-image {
     position: absolute;
-    top: 7px;
-    right: 0;
+    transform: translateY(-50%) translateX(-50%);
+    top: 55%;
+    left: 50%;
     height: 28px;
     z-index: 0;
-   width: max-content;
+    width: 130%;
 }
 .flex-child-heading {
     margin-bottom: 8rem;
