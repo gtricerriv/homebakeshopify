@@ -34,7 +34,7 @@ img.side-image {
 }
 .logo-list__item img {
   width:100%;
-  max-width:105px;
+  max-width: 95px;
 }
 @media (min-width: 768px){
     .logo-list__container{
