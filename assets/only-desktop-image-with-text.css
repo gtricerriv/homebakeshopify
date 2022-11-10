@@ -97,7 +97,7 @@ img.background-image {
       width: 145px;
     }
   .image-with-text__text.rte.body{
-        margin-bottom:0px;
+        margin-bottom:16px;
     }
 }
 
