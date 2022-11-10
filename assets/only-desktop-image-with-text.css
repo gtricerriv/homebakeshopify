@@ -96,6 +96,9 @@ img.background-image {
       margin-top: 22%;
       width: 145px;
     }
+  .image-with-text__text.rte.body{
+        margin-bottom:0px;
+    }
 }
 
 @media(min-width:990px){
