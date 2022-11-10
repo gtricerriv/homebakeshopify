@@ -50,6 +50,9 @@ img.side-image {
   .logo-list__container{
     height: 150px;
   }
+  .logo-list__item p{
+    font-size:16px;
+  }
 }
 @media (min-width: 768px){
     .logo-list__container{
