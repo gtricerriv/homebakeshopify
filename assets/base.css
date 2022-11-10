@@ -4138,15 +4138,15 @@ details-disclosure > details {
 }
 .marquee{
   font-family: 'GT-America-Trial' !important;
-  font-size: 24px;
-  line-height: 83%;
+  font-size: 30px;
+  line-height: 105%;
   letter-spacing: -0.02em;
   text-align: center;
   text-transform: uppercase;
   margin: 20px 0;
   color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
-  height: 22px;
+  height: 30px;
   transform: scale(1, 0.5);
 }
 @media(max-width:768px){
