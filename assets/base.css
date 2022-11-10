@@ -4146,7 +4146,8 @@ details-disclosure > details {
   margin: 20px 0;
   color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
-  height: 20px;
+  height: 26px;
+  transform: scale(1, 0.5);
 }
 @media(max-width:768px){
   .marquee {
