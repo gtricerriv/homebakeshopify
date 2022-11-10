@@ -91,7 +91,7 @@ img.background-image {
       
     }
     section#shopify-section-template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f {
-      height: 74vh;
+      height: 100vh;
     }
     img.background-image{
       margin-top: 22%;
@@ -105,7 +105,7 @@ img.background-image {
   }
   section#shopify-section-template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f .image-with-text__text-item{
     justify-content: space-between;
-    min-height: 74vh;
+    min-height: 100vh;
   }
   section#shopify-section-template--15956248690864__c6558f93-6f72-41ce-a4a2-475b78d25c5f .section-heading{
     margin:0px;
