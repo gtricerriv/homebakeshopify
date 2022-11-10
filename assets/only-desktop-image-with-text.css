@@ -31,7 +31,7 @@ img.background-image {
 .text-column{
     background-color: #00945F;
     color: #fff;
-    width: 100%
+    width: 100%;
     overflow: hidden;
 }
 @media(max-width:989px){
