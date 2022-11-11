@@ -4388,3 +4388,9 @@ p.custom-text {
     right: unset;
   }
 }
+@media (min-width:1600px){
+  p.custom-text {
+    left: 67%;
+    right: unset;
+  }
+}
