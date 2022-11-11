@@ -972,10 +972,9 @@
         document.querySelector("button.cbb-frequently-bought-add-button.button").click();
       });
 
-    document.querySelectorAll(".cbb-frequently-bought-selector-input").disabled=true;
-    document.querySelectorAll(".cbb-frequently-bought-selector-input").addEventListener("click", function() {
-      return false;
-    }
+    const checkboxSelector =  document.querySelectorAll(".cbb-frequently-bought-selector-input")
+    checkboxSelector.forEach ( element => 
+       document.querySelector(".cbb-frequently-bought-selector-input").disabled=true; )
 </script>
 {% schema %}
 {
