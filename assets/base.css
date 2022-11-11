@@ -4284,3 +4284,6 @@ ul.cbb-frequently-bought-products {
     justify-content: center;
     align-items: flex-start;
 }
+.cbb-frequently-bought-total-price-box {
+    display: none;
+}
