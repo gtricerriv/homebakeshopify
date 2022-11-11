@@ -973,8 +973,9 @@
       });
 
     const checkboxSelector =  document.querySelectorAll(".cbb-frequently-bought-selector-input")
-    checkboxSelector.forEach ( element => 
-       return false; )
+    checkboxSelector.forEach ( (e)=>{
+    e.preventDefault();
+  }
 </script>
 {% schema %}
 {
