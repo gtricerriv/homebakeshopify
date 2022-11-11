@@ -4340,3 +4340,11 @@ p.custom-text {
   }
 }
 
+@media (min-width: 768px){
+  p.custom-text {
+    top: 61rem;
+    right: 9.5rem;
+    left: unset;
+  }
+}
+
