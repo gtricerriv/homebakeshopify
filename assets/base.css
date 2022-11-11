@@ -4347,4 +4347,9 @@ p.custom-text {
     left: unset;
   }
 }
-
+@media (min-width: 850px){
+  p.custom-text {
+    top: 59rem;
+    right: 13.5rem;
+  }
+}
