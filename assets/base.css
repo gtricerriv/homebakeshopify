@@ -4323,3 +4323,8 @@ p.custom-text {
     color: #808080;
     font-family: 'Apercu_reg';
 }
+@media (min-width: 425px){
+  p.custom-text{
+    top: 114.5rem;
+  }
+}
