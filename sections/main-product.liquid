@@ -730,7 +730,10 @@
                 {%- endform -%} 
             <p style="color: #808080; font-family: 'Apercu_reg'; text-align: center;">──────────── or ───────────── </p>
               </product-form>
-           
+
+            <div class="">
+            <button id="triggers_realbtn">ADD 3 ITEMS FOR $34</button>
+            </div>
            <!--   <div class="upsell__container">
                 <div class="upsell__divider">
                   <span>
@@ -963,6 +966,12 @@
   </script>
 </section>
 
+<script>
+      btnOne = document.getElementById("triggers_realbtn")
+      btnOne.addEventListener("click", function() {
+        document.getElementByClassName("cbb-frequently-bought-add-button").click();
+      });
+</script>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
