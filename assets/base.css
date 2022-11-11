@@ -4364,3 +4364,8 @@ p.custom-text {
     right: 18rem;
   }
 }
+@media(min-width: 1024px){
+  p.custom-text {
+    right: 17rem;
+  }
+}
