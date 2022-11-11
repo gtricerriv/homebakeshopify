@@ -4309,7 +4309,7 @@ button#triggers_realbtn {
     cursor: pointer;
 }
 li.cbb-frequently-bought-product {
-    width: 165px;
+
     display: flex !important;
     flex-direction: row;
     align-content: center;
