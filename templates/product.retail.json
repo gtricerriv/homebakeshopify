@@ -46,6 +46,12 @@
           "type": "description",
           "settings": {
           }
+        },
+        "00d4a123-5ae9-42ac-84d9-981383a732ea": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"custom-text\">Based on what other users purchased.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -56,7 +62,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "00d4a123-5ae9-42ac-84d9-981383a732ea"
       ],
       "settings": {
         "enable_sticky_info": true,
