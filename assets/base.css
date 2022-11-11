@@ -4369,3 +4369,10 @@ p.custom-text {
     right: 17rem;
   }
 }
+@media(min-width: 1100px){
+  p.custom-text {
+    right: 1rem;
+    font-size: 10px;
+    top: 54rem;
+  }
+}
