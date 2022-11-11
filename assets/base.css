@@ -4276,3 +4276,11 @@ main#MainContent {
   }
 
 }
+
+ul.cbb-frequently-bought-products {
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
