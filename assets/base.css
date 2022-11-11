@@ -4288,3 +4288,21 @@ ul.cbb-frequently-bought-products {
 .cbb-frequently-bought-add-button{
     display: none !important;
 }
+button#triggers_realbtn {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 36px;
+    gap: 10px;
+    border: 1px solid #5E5E5E;
+    border-radius: 24px;
+    height: 48px;
+    width: 100%;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
