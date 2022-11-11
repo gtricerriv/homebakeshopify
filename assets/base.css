@@ -4381,4 +4381,10 @@ p.custom-text {
     right: 11rem;
   }
 }
+
+@media(min-width: 1280px){
+  p.custom-text {
+    left: 70%;
+    right: unset;
+  }
 }
