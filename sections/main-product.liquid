@@ -974,7 +974,7 @@
 
     const checkboxSelector =  document.querySelectorAll(".cbb-frequently-bought-selector-input")
     checkboxSelector.forEach ( element => 
-       document.querySelector(".cbb-frequently-bought-selector-input").disabled=true; )
+       return false; )
 </script>
 {% schema %}
 {
