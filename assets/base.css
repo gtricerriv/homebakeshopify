@@ -4353,3 +4353,9 @@ p.custom-text {
     right: 13.5rem;
   }
 }
+@media(min-width:  900px){
+  p.custom-text {
+    top: 56rem;
+    right: 15.5rem;
+  }
+}
