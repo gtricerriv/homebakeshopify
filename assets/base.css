@@ -4379,6 +4379,7 @@ p.custom-text {
 @media(min-width: 1200px){
   p.custom-text {
     right: 11rem;
+    font-size: 12px;
   }
 }
 
