@@ -59,6 +59,20 @@
           "settings": {
             "custom_liquid": "<h4><\/h4>"
           }
+        },
+        "fee80ae9-33c3-4d58-91eb-6ede7e83738d": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "e71fbefc-606b-4fc7-84fa-f15d7e3b9da1": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"color: #808080; font-family: 'Apercu_reg'; text-align: center;\">──────────── or ─────────────"
+          }
         }
       },
       "block_order": [
@@ -71,7 +85,9 @@
         "price",
         "buy_buttons",
         "description",
-        "0a82d066-ee1d-438e-8bd5-c9ab9b0b9e23"
+        "0a82d066-ee1d-438e-8bd5-c9ab9b0b9e23",
+        "fee80ae9-33c3-4d58-91eb-6ede7e83738d",
+        "e71fbefc-606b-4fc7-84fa-f15d7e3b9da1"
       ],
       "settings": {
         "enable_sticky_info": true,
