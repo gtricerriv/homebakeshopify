@@ -4376,3 +4376,9 @@ p.custom-text {
     top: 54rem;
   }
 }
+@media(min-width: 1200px){
+  p.custom-text {
+    right: 11rem;
+  }
+}
+}
