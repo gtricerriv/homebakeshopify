@@ -4308,3 +4308,11 @@ button#triggers_realbtn {
     line-height: 20px;
     cursor: pointer;
 }
+li.cbb-frequently-bought-product {
+    width: 165px;
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
