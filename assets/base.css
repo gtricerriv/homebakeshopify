@@ -4329,6 +4329,13 @@ p.custom-text {
   }
 }
 @media (min-width: 500px)
-p.custom-text {
-    top: 121.5rem;
+  p.custom-text {
+      top: 121.5rem;
+  }
+}
+@media (min-width: 600px)
+  p.custom-text {
+      top: 130rem;
+      left: 25rem;
+  }
 }
