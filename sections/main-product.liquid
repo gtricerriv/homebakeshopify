@@ -727,9 +727,11 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-                {%- endform -%}
+                {%- endform -%} 
+            <p style="color: #808080; font-family: 'Apercu_reg'; text-align: center;">──────────── or ───────────── </p>
               </product-form>
-              <div class="upsell__container">
+           
+           <!--   <div class="upsell__container">
                 <div class="upsell__divider">
                   <span>
                     or
@@ -774,7 +776,7 @@
                 <div>
                   <button>ADD 3 ITEMS FOR $34</button>
                 </div>
-              </div>
+              </div> -->
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}

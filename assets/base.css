@@ -3612,7 +3612,7 @@ details-disclosure > details {
   cart-remove-button .button:hover {
     background: none;
     padding: 10px 0 0 0 !important;
-    border: none !important;
+
   }
   
   .button:hover, .shopify-challenge__button:hover, .customer button:hover {
@@ -4275,4 +4275,15 @@ main#MainContent {
     margin-top: 0rem;
   }
 
+}
+
+ul.cbb-frequently-bought-products {
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cbb-frequently-bought-total-price-box {
+    display: none;
 }
