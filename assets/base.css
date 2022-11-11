@@ -4379,7 +4379,6 @@ p.custom-text {
 @media(min-width: 1200px){
   p.custom-text {
     right: 11rem;
-    font-size: 12px;
   }
 }
 
@@ -4387,6 +4386,7 @@ p.custom-text {
   p.custom-text {
     left: 70%;
     right: unset;
+    font-size: 12px;
   }
 }
 @media (min-width:1600px){
