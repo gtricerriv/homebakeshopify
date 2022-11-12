@@ -4286,13 +4286,9 @@ ul.cbb-frequently-bought-products {
     align-items: flex-start;
 }
 @media (max-width: 500px){
-  ul.cbb-frequently-bought-products{
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-  .cbb-frequently-bought-plus-icon{
-    display:none !important;
+  .cbb-frequently-bought-product-image-link{
+    width: 70px !important;
+    height: 60px !important;
   }
 }
 .cbb-frequently-bought-total-price-box,
