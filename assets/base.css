@@ -4432,6 +4432,7 @@ p.custom-text {
   background:#FDFAFB;
   padding:0px 10px;
   z-index:1;
+  color: #808080;
 }
 .product-form .or-divisor::after{
   content:'';
@@ -4441,7 +4442,7 @@ p.custom-text {
   transform: translateY(-50%);
   height:1px;
   width:calc(50% - 25px);
-  background:#808080; 
+  background:#EBEBEB; 
   z-index: -1;
 }
 .product-form .or-divisor::before{
@@ -4452,6 +4453,6 @@ p.custom-text {
   transform: translateY(-50%);
   height:1px;
   width:calc(50% - 25px);
-  background:#808080; 
+  background:#EBEBEB; 
   z-index: -1;
 }
