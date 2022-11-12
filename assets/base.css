@@ -4433,14 +4433,25 @@ p.custom-text {
   padding:0px 10px;
   z-index:1;
 }
-.product-form .or-divisor::before{
+.product-form .or-divisor::after{
   content:'';
   position:absolute;
   left:0px;
   top:50%;
   transform: translateY(-50%);
   height:1px;
-  width:100%;
+  width:50%;
+  background:#808080; 
+  z-index: -1;
+}
+.product-form .or-divisor::before{
+  content:'';
+  position:absolute;
+  right:0px;
+  top:50%;
+  transform: translateY(-50%);
+  height:1px;
+  width:150%;
   background:#808080; 
   z-index: -1;
 }
