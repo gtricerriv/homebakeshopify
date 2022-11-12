@@ -4397,7 +4397,7 @@ p.custom-text {
 }
 .cbb-frequently-bought-selector-input{
   pointer-events: none !important;
-  display:none;
+  display:none !important;
 }
 .cbb-frequently-bought-selector-link{
   pointer-events: none !important;
