@@ -4464,10 +4464,6 @@ p.custom-text {
     width: 90px !important;
     height: 80px !important;
   }
-  li.cbb-frequently-bought-product{
-    width: 90px !important;
-    height: 80px !important;
-  }
 }
 @media (max-width: 375px){
   .cbb-frequently-bought-product-image-link{
@@ -4475,10 +4471,6 @@ p.custom-text {
     height: 60px !important;
   }
   .cbb-frequently-bought-product-image{
-    width: 70px !important;
-    height: 60px !important;
-  }
-  li.cbb-frequently-bought-produc{
     width: 70px !important;
     height: 60px !important;
   }
