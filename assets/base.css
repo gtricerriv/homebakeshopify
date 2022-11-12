@@ -4287,8 +4287,8 @@ ul.cbb-frequently-bought-products {
 }
 @media (max-width: 500px){
   .cbb-frequently-bought-product-image-link{
-    width: 70px !important;
-    height: 60px !important;
+    width: 90px !important;
+    height: 80px !important;
   }
   .cbb-frequently-bought-product-image{
     width: 90px !important;
@@ -4296,6 +4296,10 @@ ul.cbb-frequently-bought-products {
   }
 }
 @media (max-width: 375px){
+  .cbb-frequently-bought-product-image-link{
+    width: 70px !important;
+    height: 60px !important;
+  }
   .cbb-frequently-bought-product-image{
     width: 70px !important;
     height: 60px !important;
