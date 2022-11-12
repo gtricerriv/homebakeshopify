@@ -4293,6 +4293,10 @@ ul.cbb-frequently-bought-products {
     width: 90px !important;
     height: 80px !important;
   }
+  .li.cbb-frequently-bought-product{
+    width: 90px !important;
+    height: 80px !important;
+  }
 }
 @media (max-width: 375px){
   .cbb-frequently-bought-product-image-link{
@@ -4300,6 +4304,10 @@ ul.cbb-frequently-bought-products {
     height: 60px !important;
   }
   .cbb-frequently-bought-product-image{
+    width: 70px !important;
+    height: 60px !important;
+  }
+  .li.cbb-frequently-bought-produc{
     width: 70px !important;
     height: 60px !important;
   }
@@ -4333,7 +4341,6 @@ button#triggers_realbtn:hover{
   color:#ffffff;
 }
 li.cbb-frequently-bought-product {
-
     display: flex !important;
     flex-direction: row;
     align-content: center;
