@@ -4291,6 +4291,12 @@ ul.cbb-frequently-bought-products {
     height: 60px !important;
   }
   .cbb-frequently-bought-product-image{
+    width: 90px !important;
+    height: 80px !important;
+  }
+}
+@media (max-width: 375px){
+  .cbb-frequently-bought-product-image{
     width: 70px !important;
     height: 60px !important;
   }
