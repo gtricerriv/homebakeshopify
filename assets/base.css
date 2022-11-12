@@ -4396,5 +4396,5 @@ p.custom-text {
   }
 }
 .cbb-frequently-bought-selector-input{
-  pointer-event:none;
+  pointer-event:none !important;
 }
