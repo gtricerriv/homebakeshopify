@@ -4440,7 +4440,7 @@ p.custom-text {
   top:50%;
   transform: translateY(-50%);
   height:1px;
-  width:45%;
+  width:calc(50% - 25px);
   background:#808080; 
   z-index: -1;
 }
@@ -4451,7 +4451,7 @@ p.custom-text {
   top:50%;
   transform: translateY(-50%);
   height:1px;
-  width:45%;
+  width:calc(50% - 25px);
   background:#808080; 
   z-index: -1;
 }
