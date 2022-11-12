@@ -4327,6 +4327,62 @@ p.custom-text {
     color: #808080;
     font-family: 'Apercu_reg';
 }
+.cbb-frequently-bought-selector-input{
+  pointer-events: none !important;
+  display:none !important;
+}
+.cbb-frequently-bought-selector-link{
+  pointer-events: none !important;
+}
+.cbb-frequently-bought-selector-label-name{
+  pointer-events: none !important;
+}
+.cbb-frequently-bought-selector-list li{
+  padding-left: 25px;
+  position:relative;
+}
+.cbb-frequently-bought-selector-list li::before{
+  content:'';
+  position:absolute;
+  left:0px;
+  top:10px;
+  width:13px;
+  height:13px;
+  box-shadow: 0px 0px 0px 3px #fff, 0px 0px 0px 4px #c3c3c3;
+  border-radius: 4px;
+  background: #C72063;
+}
+.product-form .or-divisor{
+  font-family: 'Apercu_reg'; 
+  text-align: center;
+  position:relative;
+  background:#FDFAFB;
+  padding:0px 10px;
+  z-index:1;
+  color: #808080;
+}
+.product-form .or-divisor::after{
+  content:'';
+  position:absolute;
+  left:0px;
+  top:50%;
+  transform: translateY(-50%);
+  height:1px;
+  width:calc(50% - 25px);
+  background:#EBEBEB; 
+  z-index: -1;
+}
+.product-form .or-divisor::before{
+  content:'';
+  position:absolute;
+  right:0px;
+  top:50%;
+  transform: translateY(-50%);
+  height:1px;
+  width:calc(50% - 25px);
+  background:#EBEBEB; 
+  z-index: -1;
+}
 @media (min-width: 425px){
   p.custom-text{
     top: 114.5rem;
@@ -4426,60 +4482,4 @@ p.custom-text {
     width: 70px !important;
     height: 60px !important;
   }
-}
-.cbb-frequently-bought-selector-input{
-  pointer-events: none !important;
-  display:none !important;
-}
-.cbb-frequently-bought-selector-link{
-  pointer-events: none !important;
-}
-.cbb-frequently-bought-selector-label-name{
-  pointer-events: none !important;
-}
-.cbb-frequently-bought-selector-list li{
-  padding-left: 25px;
-  position:relative;
-}
-.cbb-frequently-bought-selector-list li::before{
-  content:'';
-  position:absolute;
-  left:0px;
-  top:10px;
-  width:13px;
-  height:13px;
-  box-shadow: 0px 0px 0px 3px #fff, 0px 0px 0px 4px #c3c3c3;
-  border-radius: 4px;
-  background: #C72063;
-}
-.product-form .or-divisor{
-  font-family: 'Apercu_reg'; 
-  text-align: center;
-  position:relative;
-  background:#FDFAFB;
-  padding:0px 10px;
-  z-index:1;
-  color: #808080;
-}
-.product-form .or-divisor::after{
-  content:'';
-  position:absolute;
-  left:0px;
-  top:50%;
-  transform: translateY(-50%);
-  height:1px;
-  width:calc(50% - 25px);
-  background:#EBEBEB; 
-  z-index: -1;
-}
-.product-form .or-divisor::before{
-  content:'';
-  position:absolute;
-  right:0px;
-  top:50%;
-  transform: translateY(-50%);
-  height:1px;
-  width:calc(50% - 25px);
-  background:#EBEBEB; 
-  z-index: -1;
 }
