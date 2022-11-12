@@ -4425,3 +4425,22 @@ p.custom-text {
   border-radius: 4px;
   background: #C72063;
 }
+.product-form .or-divisor{
+  font-family: 'Apercu_reg'; 
+  text-align: center;
+  position:relative;
+  background:#FDFAFB;
+  padding:0px 10px;
+  z-index:1;
+}
+.product-form .or-divisor::before{
+  content:'';
+  position:absolute;
+  left:0px;
+  top:50%;
+  transform: translateY(-50%);
+  height:1px;
+  width:100%;
+  background:#808080; 
+  z-index: -1;
+}
