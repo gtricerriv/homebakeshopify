@@ -4401,3 +4401,6 @@ p.custom-text {
 .cbb-frequently-bought-selector-link{
   pointer-events: none !important;
 }
+.cbb-frequently-bought-selector-label-name{
+  pointer-events: none !important;
+}
