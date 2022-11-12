@@ -4290,13 +4290,14 @@ ul.cbb-frequently-bought-products {
     display: none !important;
 }
 button#triggers_realbtn {
-    background: #FFE485;
+    background: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 14px 36px;
     gap: 10px;
+    border: 1px solid #5E5E5E;
     border-radius: 24px;
     height: 48px;
     width: 100%;
