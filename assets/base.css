@@ -4395,3 +4395,6 @@ p.custom-text {
     right: unset;
   }
 }
+.cbb-frequently-bought-selector-input{
+  pointer-event:none;
+}
