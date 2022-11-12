@@ -4407,4 +4407,15 @@ p.custom-text {
 }
 .cbb-frequently-bought-selector-list li{
   padding-left:15px;
+  position:relative;
+}
+.cbb-frequently-bought-selector-list li::before{
+  content:'';
+  position:absolute;
+  left:0px;
+  top:2px;
+  width:16px;
+  height:16px;
+  border: 1px solid #C3C3C3;
+  border-radius: 4px;
 }
