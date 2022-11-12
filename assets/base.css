@@ -4405,3 +4405,6 @@ p.custom-text {
 .cbb-frequently-bought-selector-label-name{
   pointer-events: none !important;
 }
+.cbb-frequently-bought-selector-list li{
+  padding-left:15px;
+}
