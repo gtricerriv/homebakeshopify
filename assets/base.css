@@ -4398,3 +4398,6 @@ p.custom-text {
 .cbb-frequently-bought-selector-input{
   pointer-event:none !important;
 }
+.cbb-frequently-bought-selector-link{
+  pointer-event:none !important;
+}
