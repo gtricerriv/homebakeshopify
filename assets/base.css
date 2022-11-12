@@ -4290,6 +4290,10 @@ ul.cbb-frequently-bought-products {
     width: 70px !important;
     height: 60px !important;
   }
+  .cbb-frequently-bought-product-image{
+    width: 70px !important;
+    height: 60px !important;
+  }
 }
 .cbb-frequently-bought-total-price-box,
 .cbb-frequently-bought-add-button{
