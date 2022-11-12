@@ -4290,7 +4290,7 @@ ul.cbb-frequently-bought-products {
     display: none !important;
 }
 button#triggers_realbtn {
-    background: #fff;
+    background: #FFE485;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -4307,6 +4307,10 @@ button#triggers_realbtn {
     font-size: 16px;
     line-height: 20px;
     cursor: pointer;
+}
+button#triggers_realbtn:hover{
+  background:#000000;
+  color:#ffffff;
 }
 li.cbb-frequently-bought-product {
 
