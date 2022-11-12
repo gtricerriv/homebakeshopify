@@ -4464,6 +4464,9 @@ p.custom-text {
     width: 90px !important;
     height: 80px !important;
   }
+  .cbb-frequently-bought-recommendations-container{
+    max-height:90px;
+  }
 }
 @media (max-width: 375px){
   .cbb-frequently-bought-product-image-link{
