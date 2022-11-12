@@ -4307,6 +4307,7 @@ button#triggers_realbtn {
     font-size: 16px;
     line-height: 20px;
     cursor: pointer;
+    transition:.2s;
 }
 button#triggers_realbtn:hover{
   background:#000000;
