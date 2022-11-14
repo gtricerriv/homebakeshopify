@@ -43,6 +43,7 @@
     },
     "317b1f75-599f-4d23-8a25-0f4dab25722e": {
       "type": "images-in-a-row",
+      "disabled": true,
       "blocks": {
         "template--15956248690864__317b1f75-599f-4d23-8a25-0f4dab25722e-16664077606e3770e0-1": {
           "type": "logo_image",
