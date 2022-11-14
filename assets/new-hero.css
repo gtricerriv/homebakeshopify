@@ -46,3 +46,8 @@ img.imag-column {
     object-fit: cover;
   }
 }
+@media(min-width: 998px){
+  .column1 {
+    max-width: 60%;
+  }
+}
