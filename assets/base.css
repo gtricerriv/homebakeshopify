@@ -4478,3 +4478,10 @@ p.custom-text {
     height: 60px !important;
   }
 }
+@media(min-width: 5000px){
+  p.custom-text {
+    left: 55%;
+    right: unset;
+    top: 52rem;
+  }
+}
