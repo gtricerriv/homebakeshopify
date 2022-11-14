@@ -26,4 +26,9 @@ img.imag-column {
     justify-content: space-between;
     align-items: center;
   }
+  .logo-list__container{
+    gap: unset;
+    width: unset;
+    height: unset;
+  }
 }
