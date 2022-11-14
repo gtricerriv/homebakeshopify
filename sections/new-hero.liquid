@@ -55,7 +55,9 @@
                     </div>
                    </h2>
                   {% if section.settings.button != blank %}
-                      <a href="{{ section.settings.url }}" class="hero-button"> {{ section.settings.button }}</a>
+                  <div class="btn-wrapper">
+                    <a href="{{ section.settings.url }}" class="hero-button"> {{ section.settings.button }}</a>
+                  </div> 
                   {% endif %}
                     <div class="relative-image">
                     </div>
