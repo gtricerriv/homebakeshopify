@@ -4460,6 +4460,11 @@ p.custom-text {
     right: unset;
   }
 }
+@media (min-width:1800px){
+  p.custom-text {
+    left: 64%;
+  }
+}
 
 @media(min-width: 5000px){
   p.custom-text {
