@@ -39,4 +39,10 @@ img.imag-column {
     overflow: hidden;
     max-height: 77vh;
   }
+  img.imag-column {
+    height: 79vh;
+    width: 100%;
+    margin-bottom: 0;
+    object-fit: cover;
+  }
 }
