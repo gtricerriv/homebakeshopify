@@ -4455,6 +4455,11 @@ p.custom-text {
     right: unset;
   }
 }
+@media(min-width: 1400px ){
+  .custom-text{
+      left: 68%;
+  }
+}
 @media(min-width: 5000px){
   p.custom-text {
     left: 55%;
