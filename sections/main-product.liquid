@@ -275,7 +275,13 @@
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-
+  {% if page.request == 'checkout' %}
+      <style>
+          .cbb-frequently-bought-container.cbb-desktop-view{
+              display: none;
+          }
+      </style>
+  {% endif %}
   {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
   {%- if first_3d_model -%}
     {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
