@@ -1,5 +1,5 @@
 {{ 'image-with-text-bg.css' | asset_url | stylesheet_tag }}
-{{ 'new-hero.css' | asset_url | stylesheet_tag }}
+
 <style>
     .section-with-color{
         background-color: {{ section.settings.background-color }};
@@ -46,9 +46,7 @@
     {% endif %}
     {% if section.settings.heading != blank %}
         <div class="flex-child-heading">
-          {% if section.settings.button != blank %}
-              <a href="{{ section.settings.url }}" class="hero-button"> {{ section.settings.button }}</a>
-          {% endif %}
+        
            <h2 class="heading"> {{ section.settings.heading }}
             <div class="relative-image-with-text">
                 {% if section.settings.oval != blank %}
@@ -62,7 +60,9 @@
            {% if section.settings.subheading != blank %}
                 <div class="subheading"> {{ section.settings.subheading }}</div>
             {% endif %}
-            
+            {% if section.settings.button != blank %}
+                <a href="{{ section.settings.url }}" class="hero-button"> {{ section.settings.button }}</a>
+            {% endif %}
         
         </div>
     {% endif %}
