@@ -31,4 +31,8 @@ img.imag-column {
     width: unset !important;
     height: unset;
   }
+  .logo-list__item img {
+    width: 100%;
+    max-width: 90px;
+  }
 }
