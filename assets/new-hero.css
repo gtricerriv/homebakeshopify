@@ -63,4 +63,7 @@ img.imag-column {
   .logo-list__container {
     height: unset !important;
   }
+  .flex-columns {
+    background: #B52555;
+  }
 }
