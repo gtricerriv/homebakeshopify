@@ -54,4 +54,10 @@ img.imag-column {
     overflow: hidden;
     max-height: 100vh;
   }
+  img.imag-column {
+    height: 87.5vh;
+    width: 100%;
+    /* margin-bottom: unset; */
+    object-fit: cover;
+  }
 }
