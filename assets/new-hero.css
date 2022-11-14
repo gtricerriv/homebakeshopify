@@ -60,4 +60,7 @@ img.imag-column {
     /* margin-bottom: unset; */
     object-fit: cover;
   }
+  .logo-list__container{
+    height: unset !important!;
+  }
 }
