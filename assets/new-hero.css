@@ -50,4 +50,8 @@ img.imag-column {
   .column1 {
     max-width: 60%;
   }
+  .column2 {
+    overflow: hidden;
+    max-height: 100vh;
+  }
 }
