@@ -28,7 +28,7 @@ img.imag-column {
   }
   .logo-list__container{
     gap: unset;
-    width: unset;
+    width: unset !important;
     height: unset;
   }
 }
