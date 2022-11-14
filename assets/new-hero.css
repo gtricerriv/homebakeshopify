@@ -35,4 +35,8 @@ img.imag-column {
     width: 100%;
     max-width: 90px !important;
   }
+  .column2 {
+    overflow: hidden;
+    max-height: 77vh;
+  }
 }
