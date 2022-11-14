@@ -16,3 +16,6 @@ img.imag-column {
     width: 100%;
     margin-bottom: -1rem;
 }
+.image-with-text{
+  min-height: 77vh;
+}
