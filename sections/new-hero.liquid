@@ -1,12 +1,178 @@
+{{ 'image-with-text-bg.css' | asset_url | stylesheet_tag }}
+<style>
+    .section-with-color{
+        background-color: {{ section.settings.background-color }};
+        background-image: url("https://cdn.shopify.com/s/files/1/0607/3571/7552/files/41.png?v=1667962434");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .heading, 
+    .subheading{
+        color: {{ section.settings.text-color }};
+    }
+    .hero-button{
+        color: {{ section.settings.button-color }};
+        background: {{ section.settings.bg-btn }};
+    }
+    img.featured-hero-image {
+      max-width: 180px;
+      height: auto;
+    }
+
+</style>
+<div class="image-with-text">
+    {% if section.settings.image != blank %}
+        <div class="flex-child-image" >
+            <img
+                srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                src="{{ section.settings.image | image_url: width: 1500 }}"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                alt="{{ section.settings.image.alt | escape }}"
+                loading="lazy"
+                width="{{ section.settings.image.width }}"
+                height="{{ section.settings.image.height }}"
+                class="featured-hero-image"
+              >
+        </div>
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+    {% endif %}
+    {% if section.settings.heading != blank %}
+        <div class="flex-child-heading">
+        
+           <h2 class="heading"> {{ section.settings.heading }}
+            <div class="relative-image-with-text">
+                {% if section.settings.oval != blank %}
+                  <span> make a meal</span>
+                  <img loading="lazy" src="https://cdn.shopify.com/s/files/1/0607/3571/7552/files/Tall_oval.svg?v=1668010879" alt="Yellow oval image" class="oval-image">
+                {% endif %}
+            </div>
+           </h2>
+            <div class="relative-image">
+            </div>
+           {% if section.settings.subheading != blank %}
+                <div class="subheading"> {{ section.settings.subheading }}</div>
+            {% endif %}
+            {% if section.settings.button != blank %}
+                <a href="{{ section.settings.url }}" class="hero-button"> {{ section.settings.button }}</a>
+            {% endif %}
+        
+        </div>
+    {% endif %}
+</div>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "New Hero",
+  "class": "new-hero",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "oval",
+      "label": "Oval image"
+    },
+    {
+      "type": "color",
+      "id": "background-color",
+      "default": "#B52555",
+      "label": "Background color"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "t:sections.image-with-text.settings.layout.options__1.label"
+        },
+        {
+          "value": "text_first",
+          "label": "t:sections.image-with-text.settings.layout.options__2.label"
+        }
+      ],
+      "default": "image_first",
+      "label": "t:sections.image-with-text.settings.layout.label",
+      "info": "t:sections.image-with-text.settings.layout.info"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "middle",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "bottom",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__3.label"
+        }
+      ],
+      "default": "top",
+      "label": "t:sections.image-with-text.settings.desktop_content_position.label"
+    },
+    {
+        "type": "text",
+        "id": "heading",
+        "default": "Mix mains, veggies, and sides to make a meal. " ,
+        "label": "Heading" 
+    },
+    {
+        "type": "text",
+        "id": "subheading",
+        "default": "Cook all together for 30 minutes at 425º" ,
+        "label": "Sub heading" 
+    },
+    {
+        "type": "color",
+        "id": "text-color",
+        "default": "#fff",
+        "label": "Text color"
+    },
+    {
+        "type": "text",
+        "id": "button",
+        "default": "BUILD YOUR MEAL" ,
+        "label": "Text button" 
+    },
+    { 
+        "type": "color",
+        "id": "button-color",
+        "default": "#000",
+        "label": "Button text color"
+    },
+    {
+        "type": "color",
+        "id": "bg-btn",
+        "default": "#FFE485",
+        "label": "Background button color"
+    },
+    {
+        "type": "url",
+        "id": "url",
+        "label": "URL button"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Hero"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
