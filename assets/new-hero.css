@@ -19,3 +19,11 @@ img.imag-column {
 .image-with-text{
   min-height: 77vh;
 }
+@media (min-width: 767px){
+  .flex-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
