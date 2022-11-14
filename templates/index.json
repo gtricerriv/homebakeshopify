@@ -1,7 +1,24 @@
 {
   "sections": {
+    "ecce7aa4-f0a9-4052-b418-65fa32409f17": {
+      "type": "new-hero",
+      "settings": {
+        "oval": "shopify:\/\/shop_images\/Oval.png",
+        "background-color": "#B52555",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "heading": "Mix mains, veggies, and sides to make a meal.",
+        "subheading": "Cook all together for 30 minutes at 425º",
+        "text-color": "#fff",
+        "button": "BUILD YOUR MEAL",
+        "button-color": "#000",
+        "bg-btn": "#FFE485",
+        "url": ""
+      }
+    },
     "b13aee93-1a45-4c2b-b2a7-2a841d83b5b0": {
       "type": "image-with-text-bg",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/asset_81_31be69c8-4645-4850-8438-4d9ef536ec41.png",
         "oval": "shopify:\/\/shop_images\/Oval.png",
@@ -159,6 +176,7 @@
     }
   },
   "order": [
+    "ecce7aa4-f0a9-4052-b418-65fa32409f17",
     "b13aee93-1a45-4c2b-b2a7-2a841d83b5b0",
     "pagefly-home",
     "317b1f75-599f-4d23-8a25-0f4dab25722e",
