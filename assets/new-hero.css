@@ -33,6 +33,6 @@ img.imag-column {
   }
   .image-new-hero-list {
     width: 100%;
-    max-width: 90px;
+    max-width: 90px !important;
   }
 }
