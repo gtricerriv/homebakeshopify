@@ -1,5 +1,6 @@
 {{ 'image-with-text-bg.css' | asset_url | stylesheet_tag }}
 {{ 'new-hero.css' | asset_url | stylesheet_tag }}
+{{ 'logo-list.css' | asset_url | stylesheet_tag }}
 <style>
     .image-with-text{
         background-color: {{ section.settings.background-color }};
@@ -64,9 +65,7 @@
                    {% if section.settings.subheading != blank %}
                         <div class="subheading"> {{ section.settings.subheading }}</div>
                     {% endif %}
-                    
-                
-                </div>
+                  </div>
             {% endif %}
         </div>
     </div>
