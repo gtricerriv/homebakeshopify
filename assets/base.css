@@ -4449,17 +4449,18 @@ p.custom-text {
     font-size: 12px;
   }
 }
-@media (min-width:1600px){
-  p.custom-text {
-    left: 67%;
-    right: unset;
-  }
-}
 @media(min-width: 1400px ){
   .custom-text{
       left: 68%;
   }
 }
+@media (min-width:1600px){
+  p.custom-text {
+    left: 66%;
+    right: unset;
+  }
+}
+
 @media(min-width: 5000px){
   p.custom-text {
     left: 55%;
