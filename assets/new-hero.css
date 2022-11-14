@@ -11,3 +11,8 @@
 .list-container-img{
   padding: 0;
 }
+img.imag-column {
+    height: auto;
+    width: 100%;
+    margin-bottom: -1rem;
+}
