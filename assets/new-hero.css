@@ -86,10 +86,10 @@ img.imag-column {
 /* MAC RESOLUTION */
 @media screen 
   and (min-device-width: 1200px) 
-  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-min-device-pixel-ratio: 1.5)
   and (min-resolution: 192dpi) { 
   .new-hero-heading{
-    with: unset !important;
+    width: unset !important;
   }
 }
 @media(min-width: 1400px){
