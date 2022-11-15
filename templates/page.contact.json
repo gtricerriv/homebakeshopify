@@ -32,11 +32,17 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "59693778-d14d-4541-bc61-44428cd58540": {
+      "type": "bottom-banner",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "form",
-    "1654848496ce1f1dcf"
+    "1654848496ce1f1dcf",
+    "59693778-d14d-4541-bc61-44428cd58540"
   ]
 }
