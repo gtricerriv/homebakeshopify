@@ -4320,8 +4320,8 @@ li.cbb-frequently-bought-product {
     align-items: center;
 }
 p.custom-text {
-    position: absolute;
-    top: 112.5rem;
+    /* position: absolute;
+    top: 112.5rem; */
     font-size: 12px;
     color: #808080;
     font-family: 'Apercu_reg';
