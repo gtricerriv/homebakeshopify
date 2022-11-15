@@ -69,7 +69,7 @@ img.imag-column {
   }
   .column2 {
  /*    overflow: hidden; */
-    max-height: 100vh;
+ /*    max-height: 100vh; */
   }
   img.imag-column {
  /*    height: 87.5vh; */
