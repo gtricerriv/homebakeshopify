@@ -964,18 +964,22 @@
       ]
     }
   </script>
-   <script>
+</section>
+
+<script>
       btnOne = document.getElementById("triggers_realbtn")
       btnOne.addEventListener("click", function() {
         document.querySelector("button.cbb-frequently-bought-add-button.button").click();
       });
 
     const checkboxSelector =  document.querySelectorAll(".cbb-frequently-bought-selector-input")
-    
-  </script>     
-</section>
 
-
+    const pcustom = document.createElement("p");
+    const new_node = document.createTextNode("Based on what other users purchased.");
+    para.appendChild(new_node);
+    const position_e = document.querySelector(".cbb-frequently-bought-title");
+    position_e.appendChild(pcustom);
+</script>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
