@@ -19,6 +19,9 @@ img.imag-column {
 .image-with-text{
   min-height: 77vh;
 }
+.new-hero-heading{
+  width: 350px;
+}
 @media (min-width: 767px){
   .flex-columns {
     display: flex;
