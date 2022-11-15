@@ -84,11 +84,9 @@ img.imag-column {
   }
 }
 /* MAC RESOLUTION */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (-webkit-min-device-pixel-ratio: 1.5){ 
-  .new-hero-heading{
-    width: unset !important;
+@media(min-width: 1280px){
+  .new-hero-heading {
+    width: 566px;
   }
 }
 @media(min-width: 1400px){
