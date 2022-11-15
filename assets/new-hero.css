@@ -129,4 +129,7 @@ img.imag-column {
   .new-hero {
     min-height: 91rem;
   }
+  .column1{
+    padding-top: 20rem;
+  }
 }
