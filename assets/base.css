@@ -4040,7 +4040,7 @@ details-disclosure > details {
     background: #FFE485;
     color: #010F11;
     border: 2px solid #010F11;
-    border-radius: 50px; 
+    border-radius: 4px; 
     display: block;
     width: 100%;
     text-transform: uppercase;
