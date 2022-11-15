@@ -727,9 +727,14 @@
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-                {%- endform -%}
+                {%- endform -%} 
+            <p class="or-divisor">or</p>
               </product-form>
-              <div class="upsell__container">
+
+            <div class="">
+            <button id="triggers_realbtn">ADD 3 ITEMS FOR $34</button>
+            </div>
+           <!--   <div class="upsell__container">
                 <div class="upsell__divider">
                   <span>
                     or
@@ -774,7 +779,7 @@
                 <div>
                   <button>ADD 3 ITEMS FOR $34</button>
                 </div>
-              </div>
+              </div> -->
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
@@ -961,6 +966,15 @@
   </script>
 </section>
 
+<script>
+      btnOne = document.getElementById("triggers_realbtn")
+      btnOne.addEventListener("click", function() {
+        document.querySelector("button.cbb-frequently-bought-add-button.button").click();
+      });
+
+    const checkboxSelector =  document.querySelectorAll(".cbb-frequently-bought-selector-input")
+    
+</script>
 {% schema %}
 {
   "name": "t:sections.main-product.name",

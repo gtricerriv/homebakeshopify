@@ -53,12 +53,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "0a82d066-ee1d-438e-8bd5-c9ab9b0b9e23": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h4><\/h4>"
-          }
         }
       },
       "block_order": [
@@ -70,8 +64,7 @@
         "quantity_selector",
         "price",
         "buy_buttons",
-        "description",
-        "0a82d066-ee1d-438e-8bd5-c9ab9b0b9e23"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -101,56 +94,6 @@
         "padding_bottom": 100
       }
     },
-    "165484707053e1acef": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/footer-banner.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Updated",
-            "heading_size": "h2"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first one to know when we are open and get limited-time discounts!<\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "pagefly-product-section": {
       "type": "pagefly-product-section",
       "disabled": true,
@@ -161,8 +104,6 @@
   "order": [
     "main",
     "product-recommendations",
-    "165484707053e1acef",
-    "newsletter",
     "pagefly-product-section"
   ]
 }
