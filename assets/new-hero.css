@@ -50,7 +50,7 @@ img.imag-column {
   img.imag-column {
     height: 100vh;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: -1rem;
     object-fit: cover;
     
   }
