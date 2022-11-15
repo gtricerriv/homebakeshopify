@@ -84,4 +84,9 @@ img.imag-column {
   .flex-child-heading-new {
     max-width: 39vw;
   }
+  img.imag-column{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
 }
