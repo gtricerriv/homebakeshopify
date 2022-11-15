@@ -974,11 +974,11 @@
 
     const checkboxSelector =  document.querySelectorAll(".cbb-frequently-bought-selector-input")
 
-    const pcustom = document.createElement("p");
-    const new_node = document.createTextNode("Based on what other users purchased.");
-    para.appendChild(new_node);
-    const position_e = document.querySelector(".cbb-frequently-bought-title");
-    position_e.appendChild(pcustom);
+    const para = document.createElement("p");
+    const node = document.createTextNode("Based on what other users purchased.");
+    para.appendChild(node);
+    const element = document.querySelector(".cbb-frequently-bought-title");;
+    element.appendChild(para);
 </script>
 {% schema %}
 {
