@@ -45,3 +45,6 @@ form#ContactForm {
     max-width: 357px;
     margin: 0 auto;
 }
+h2.title.title-wrapper--no-top-margin.h2 {
+    text-align: center;
+}
