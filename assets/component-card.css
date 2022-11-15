@@ -13,10 +13,8 @@
 }
 
 .card:not(.ratio) {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-around;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .card--card {
@@ -86,7 +84,8 @@
 }
 
 .card__inner {
-  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .card--media .card__inner .card__content {
@@ -153,6 +152,7 @@
 }
 
 .card__heading {
+  min-height: 43px;
   margin-top: 12px;
   margin-bottom: 0;
 }
