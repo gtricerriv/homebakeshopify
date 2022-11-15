@@ -99,6 +99,9 @@ img.imag-column {
   .new-hero-heading {
     width: 566px;
   }
+  .new-hero {
+    min-height: 72rem;
+  }
 }
 @media(min-width: 1400px){
   .flex-columns{
