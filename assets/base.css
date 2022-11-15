@@ -4450,7 +4450,7 @@ p.custom-text {
   }
 }
 @media(min-width: 1400px ){
-  .custom-text{
+  p.custom-text{
       left: 68%;
   }
 }
