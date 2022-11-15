@@ -88,7 +88,7 @@ img.imag-column {
 @media(min-width: 1024px){
   .flex-columns {
     background: #B52555;
-    height: 85vh;
+/*     height: 85vh; */
   }
   .new-hero {
     min-height: 65rem;
@@ -106,7 +106,7 @@ img.imag-column {
 @media(min-width: 1400px){
   .flex-columns{
     width: 100vw;
-    height: 92vh;
+/*     height: 92vh; */
   }
   .column2{
     width: 40%;
