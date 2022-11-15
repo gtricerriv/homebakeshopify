@@ -18,6 +18,9 @@
   .contact .field {
     margin-bottom: 2rem;
   }
+  .contact.page-width.page-width--narrow.section-template--15956248821936__form-padding {
+    max-width: 600px;
+  }
 }
 
 .contact__button {
