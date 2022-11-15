@@ -29,6 +29,9 @@ img.imag-column {
     justify-content: space-between;
     align-items: center;
   }
+  .new-hero{
+    min-height: 740px;
+  }
   .logo-list__container{
     gap: unset;
     width: unset !important;
