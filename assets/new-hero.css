@@ -80,4 +80,7 @@ img.imag-column {
   .column2{
     width: 50%;
   }
+  .flex-child-heading-new {
+    max-width: 39vw;
+  }
 }
