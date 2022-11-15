@@ -2,9 +2,6 @@
     display: flex;
 }
 
-.flex-columns{
-  overflow: hidden;
-}
 .btn-wrapper {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -135,5 +132,11 @@ img.imag-column {
   }
   .column1{
     padding-top: 20rem;
+  }
+}
+
+@media(max-width:600px){
+  .flex-columns{
+    overflow: hidden;
   }
 }
