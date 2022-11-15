@@ -50,7 +50,7 @@
         "00d4a123-5ae9-42ac-84d9-981383a732ea": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"custom-text\">Based on what other users purchased.<\/p>"
+            "custom_liquid": ""
           }
         }
       },
