@@ -31,7 +31,7 @@ img.imag-column {
     width: 100vw;
   }
   .new-hero{
-    min-height: 780px;
+    min-height: 64rem;
     background-color: #b52555;
   }
   .logo-list__container{
