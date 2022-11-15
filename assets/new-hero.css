@@ -51,6 +51,9 @@ img.imag-column {
   .new-hero-heading {
     width: 400px;
   }
+  .image-with-text{
+    min-width: 67vw;
+  }
 }
 @media(min-width: 998px){
   .column1 {
