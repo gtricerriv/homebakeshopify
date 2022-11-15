@@ -90,6 +90,9 @@ img.imag-column {
     background: #B52555;
     height: 85vh;
   }
+  .new-hero {
+    min-height: 79rem;
+  }
 }
 /* MAC RESOLUTION */
 @media(min-width: 1280px){
