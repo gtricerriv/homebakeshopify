@@ -40,3 +40,8 @@
     grid-column-gap: 2rem;
   }
 }
+
+form#ContactForm {
+    max-width: 357px;
+    margin: 0 auto;
+}
