@@ -3554,12 +3554,12 @@ details-disclosure > details {
   }
   
   h1.main-page-title.page-title.h0 {
-    color: #F88078;
+    color: #f88078;
     text-align: center;
     font-family: 'Apercu';
     font-style: normal;
     font-weight: 700;
-    font-size: 6rem;
+    font-size: 32px;
     line-height: 120%;
     text-transform: uppercase;
     padding-top: 75px;
