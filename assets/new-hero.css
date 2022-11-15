@@ -1,6 +1,10 @@
 .new-hero {
     display: flex;
 }
+
+.flex-columns{
+  overflow: hidden;
+}
 .btn-wrapper {
     margin-top: 40px;
     margin-bottom: 40px;
