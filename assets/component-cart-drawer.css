@@ -54,7 +54,10 @@ cart-drawer.is-empty .drawer__inner {
 }
 
 cart-drawer.is-empty .drawer__header {
-  display: none;
+  background-color: rgb(var(--color-background));
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 cart-drawer:not(.is-empty) .cart-drawer__warnings,
