@@ -75,6 +75,6 @@ img.imag-column {
 }
 @media(min-width: 1400px){
   .flex-columns{
-    justify-content: space-around;
+    width: 100vw;
   }
 }
