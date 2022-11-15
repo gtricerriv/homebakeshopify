@@ -73,3 +73,8 @@ img.imag-column {
     height: 85vh;
   }
 }
+@media(min-width: 1400px){
+  .flex-columns{
+    justify-content: space-around;
+  }
+}
