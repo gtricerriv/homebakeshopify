@@ -15,13 +15,19 @@
    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5GQ4Z4K');</script>
     <!-- End Google Tag Manager -->
- <!-- The following line must be placed in the head tag -->
+    <!-- The following line must be placed in the head tag -->
     <script type="text/javascript" src="https://p.teads.tv/teads-fellow.js" async="true"></script>
     <script>
       window.teads_e = window.teads_e || [];
       window.teads_buyer_pixel_id = 6515;
     </script>
 
+    <!-- The following line must be placed in the body. Do not forget to include the pixel in the head -->
+    <script>
+      window.teads_e.push({
+        conversionType: "AddToCart"
+      });
+    </script>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
