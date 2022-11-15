@@ -2792,7 +2792,7 @@ details-disclosure > details {
 }
 
 .content-container {
-  border-radius: var(--text-boxes-radius);
+  border-radius: 4px;
   border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   position: relative;
 }
@@ -2804,7 +2804,7 @@ details-disclosure > details {
   right: calc(var(--text-boxes-border-width) * -1);
   bottom: calc(var(--text-boxes-border-width) * -1);
   left: calc(var(--text-boxes-border-width) * -1);
-  border-radius: var(--text-boxes-radius);
+  border-radius: 4px;
   box-shadow: var(--text-boxes-shadow-horizontal-offset)
     var(--text-boxes-shadow-vertical-offset)
     var(--text-boxes-shadow-blur-radius)
