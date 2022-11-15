@@ -29,6 +29,7 @@ img.imag-column {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    max-height: 65rem;
   }
   .new-hero{
     min-height: 64rem;
