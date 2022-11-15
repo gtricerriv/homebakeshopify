@@ -1211,3 +1211,16 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+@media(min-width:1200px){
+  .cbb-frequently-bought-title{
+    display: block;
+    position: relative;
+  }
+  .cbb-frequently-bought-title p {
+    font-size: 12px;
+    color: gray;
+    position: absolute;
+    right: -10rem;
+    top: 0;
+  }
+}
