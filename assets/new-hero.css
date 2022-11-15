@@ -48,6 +48,9 @@ img.imag-column {
     margin-bottom: 0;
     object-fit: cover;
   }
+  .new-hero-heading {
+    width: 400px;
+  }
 }
 @media(min-width: 998px){
   .column1 {
