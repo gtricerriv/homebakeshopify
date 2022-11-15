@@ -76,6 +76,7 @@ img.imag-column {
 @media(min-width: 1400px){
   .flex-columns{
     width: 100vw;
+    height: 92vh;
   }
   .column2{
     width: 50%;
