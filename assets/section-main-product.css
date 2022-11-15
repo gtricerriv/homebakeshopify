@@ -5,7 +5,10 @@
 .product.grid {
   gap: 0;
 }
-
+.cbb-frequently-bought-title p {
+    font-size: 12px;
+    color: #808080;
+}
 .product--no-media {
   max-width: 57rem;
   margin: 0 auto;
