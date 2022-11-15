@@ -44,7 +44,7 @@ img.imag-column {
   }
   .column2 {
     overflow: hidden;
-    max-height: 77vh;
+/*     max-height: 77vh; */
   }
   img.imag-column {
 /*     height: 79vh; */
