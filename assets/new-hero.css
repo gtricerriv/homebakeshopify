@@ -77,4 +77,7 @@ img.imag-column {
   .flex-columns{
     width: 100vw;
   }
+  .column2{
+    width: 50%;
+  }
 }
