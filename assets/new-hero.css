@@ -47,7 +47,7 @@ img.imag-column {
     max-height: 77vh;
   }
   img.imag-column {
-    height: 79vh;
+/*     height: 79vh; */
     width: 100%;
     margin-bottom: 0;
     object-fit: cover;
@@ -69,7 +69,7 @@ img.imag-column {
     max-height: 100vh;
   }
   img.imag-column {
-    height: 87.5vh;
+ /*    height: 87.5vh; */
     width: 100%;
     /* margin-bottom: unset; */
     object-fit: cover;
