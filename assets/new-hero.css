@@ -48,10 +48,11 @@ img.imag-column {
 /*     max-height: 77vh; */
   }
   img.imag-column {
-/*     height: 79vh; */
+    height: 100vh;
     width: 100%;
     margin-bottom: 0;
     object-fit: cover;
+    
   }
   .new-hero-heading {
     width: 400px;
