@@ -65,7 +65,7 @@ img.imag-column {
     margin: 0 auto;
   }
   .column2 {
-    overflow: hidden;
+ /*    overflow: hidden; */
     max-height: 100vh;
   }
   img.imag-column {
