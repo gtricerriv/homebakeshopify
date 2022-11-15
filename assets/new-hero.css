@@ -120,6 +120,11 @@ img.imag-column {
     object-fit: cover;
   }
 }
+@media(min-width:1900px){
+  .column2 {
+    width: 35%;
+  }
+}
 @media(min-width: 2560px){
   .new-hero {
     min-height: 91rem;
