@@ -4382,7 +4382,7 @@ p.custom-text {
   background:#EBEBEB; 
   z-index: -1;
 }
-@media (min-width: 425px){
+/* @media (min-width: 425px){
   p.custom-text{
     top: 114.5rem;
   }
@@ -4486,7 +4486,7 @@ p.custom-text {
     right: unset;
     top: 54.5rem;
   }
-}
+} */
 @media (max-width: 500px){
   .cbb-frequently-bought-product-image-link{
     width: 90px !important;
