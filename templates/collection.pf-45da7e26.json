@@ -72,6 +72,7 @@
     },
     "pf-45da7e26": {
       "type": "pf-45da7e26",
+      "disabled": true,
       "settings": {
       }
     }
