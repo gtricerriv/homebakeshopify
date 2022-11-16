@@ -37,7 +37,6 @@
     },
     "pagefly-home": {
       "type": "pagefly-home",
-      "disabled": true,
       "settings": {
       }
     },
