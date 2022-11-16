@@ -12,7 +12,7 @@
       </div>
       <div class="formFrame__form__inputWrap">
           <label for="zipCode" class="formFrame__form__label">ZIP Code</label>
-          <input type="text" name="zipCode" class="formFrame__form__input"/>
+          <input type="number" name="zipCode" class="formFrame__form__input"/>
       </div>
       <button type="button" id="checkout-btn" class="formFrame__form__button">CONTINUE</button>
   </form>
@@ -264,11 +264,13 @@
 <script>
 
 function validatorEmail() {
-  let email = $("input:text").val();
-  if(email !== ''){
+  let email = document.getElementById('email').value;
+  let result = email.toString();
+  if(result !== '' && result.includes('@') && result.includes('.com')){
     return true;
+    console.log(result);
   }else{
-    return false;
+    console.log(result);
   }
 }
 
@@ -282,7 +284,7 @@ $(document).ready(function(){
         $("#store-driver").show(400).css("display", "flex");
       }, 1000);
     }else{
-      alert("Email or Zipcode not inputed");
+      alert("Email or ZIP code with incorrect format !");
       console.log(validatorEmail());
     }
   });
