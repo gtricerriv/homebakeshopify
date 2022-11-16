@@ -23,6 +23,14 @@ img.imag-column {
 .new-hero-heading{
   width: 350px;
 }
+@media(max-width: 766px){
+  img.imag-column {
+    height: 500px;
+    width: 100%;
+    margin-bottom: -1rem;
+    object-fit: cover;
+  }
+}
 @media (min-width: 767px){
   .flex-columns {
     display: flex;
