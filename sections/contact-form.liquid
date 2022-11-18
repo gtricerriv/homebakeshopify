@@ -92,6 +92,19 @@
   </div>
 </div>
 
+<script type="text/javascript">
+_cio.identify({
+  // Required attributes
+  id: 'ce99aaf0a057f5dc5e5b', // Use either id or email. You can pass the email variable here
+  // Strongly recommended attributes
+  created_at: Date.now() / 1000, // Timestamp in your system that represents when the user first
+  // signed up. You'll want to send it as seconds since the epoch.
+  // Example attributes (you can name attributes what you wish)
+  contact_name: ‘John Doe’,
+  Phone_number: ‘813-123-4567’, // Format can be standardized on the page form
+  contact_us_ind: ‘Y’ // Indicates data came from Contact Us Page
+  });
+</script>
 {% schema %}
 {
   "name": "t:sections.contact-form.name",
