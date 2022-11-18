@@ -338,20 +338,36 @@
       concat(Array.prototype.slice.call(arguments,0)))}};b=["load","identify",
       "sidentify","track","page"];for(c=0;c<b.length;c++){_cio[b[c]]=a(b[c])};
       var t = document.createElement('script'),
-      s = document.getElementsByTagName('script')[0];
+        s = document.getElementsByTagName('script')[0];
       t.async = true;
       t.id = 'cio-tracker';
       t.setAttribute('data-site-id', 'ce99aaf0a057f5dc5e5b');
       t.setAttribute('data-base-url', 'https://customerioforms.com');
       t.setAttribute('data-use-array-params', 'true');
+
+        
       // To disable in-app messages, remove the two lines below
       t.setAttribute('data-in-app-org-id', 'undefined');
       t.setAttribute('data-use-in-app', 'true');
       // If data-in-app-org-id was not filled above, go to
       // the following link to find it: https://fly.customer.io/env/last/settings/actions/in_app'
+        
       t.src = 'https://assets.customer.io/assets/track.js';
       s.parentNode.insertBefore(t, s);
       })();
-</script>
+    </script>
+    <script type="text/javascript">
+      _cio.identify({
+      // Required attributes
+      id: 'ce99aaf0a057f5dc5e5b', // Use either id or email. You can pass the email variable here
+        
+      // Strongly recommended attributes
+      created_at: Date.now() / 1000, // Timestamp in your system that represents when the user first
+      // signed up. You'll want to send it as seconds since the epoch.
+      // Example attributes (you can name attributes what you wish)
+      zip: ‘10001’ // Use the entered postal code here
+      // You can add additional customer details here.
+      });
+    </script>
   </body>
 </html>
