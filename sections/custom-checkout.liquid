@@ -48,6 +48,32 @@
   subscribe_ind: ‘Y’, // Data based on the radio button of the email “Email me with news …”
   checkout_ind: ‘Y’ // Indicates data came from Checkout Page
   });
+
+  const handleSubmit = async (data: IEmailSubscriptionForm) => {
+    setFormStatus(‘submitting’);
+    await ResultAsync.fromPromise(
+      axios.post(‘/api/customerio/subscribe’, {
+        email: data.email,
+        zipCode: data.zipCode,
+      }),
+      (error: unknown) => {
+        if (error.response.status === 400) {
+          setFormStatus(‘alreadysubscribed’);
+        } else if (error.response.status === 500) {
+          setFormStatus(‘error’);
+        }
+      }
+    ).map((response) => {
+      if (response.status === 201) {
+        window.dataLayer?.push({
+          event: ‘subscribe’,
+          email: data.email,
+          zipCode: data.zipCode,
+        });
+        setFormStatus(‘success’);
+      }
+    });
+  };
 </script>
 {% schema %}
 {
