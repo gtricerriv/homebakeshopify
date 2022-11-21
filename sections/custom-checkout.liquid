@@ -44,36 +44,26 @@
   created_at: Date.now() / 1000, // Timestamp in your system that represents when the user first
   // signed up. You'll want to send it in seconds since the epoch.
   // Example attributes (you can name attributes what you wish)
-  zip: ‘10001’, // Use the entered postal code here
+  email: data.email,
+  zipCode: data.zipCode, // Use the entered postal code here
   subscribe_ind: ‘Y’, // Data based on the radio button of the email “Email me with news …”
   checkout_ind: ‘Y’ // Indicates data came from Checkout Page
   });
 
-  const handleSubmit = async (data: IEmailSubscriptionForm) => {
-    setFormStatus(‘submitting’);
-    await ResultAsync.fromPromise(
-      axios.post(‘/api/customerio/subscribe’, {
-        email: data.email,
-        zipCode: data.zipCode,
-      }),
-      (error: unknown) => {
-        if (error.response.status === 400) {
-          setFormStatus(‘alreadysubscribed’);
-        } else if (error.response.status === 500) {
-          setFormStatus(‘error’);
-        }
-      }
-    ).map((response) => {
-      if (response.status === 201) {
-        window.dataLayer?.push({
-          event: ‘subscribe’,
-          email: data.email,
-          zipCode: data.zipCode,
-        });
-        setFormStatus(‘success’);
-      }
-    });
-  };
+  const {
+ TrackClient,
+ RegionUS
+} = require(‘customerio-node’);
+let cio = new TrackClient(siteId, apiKey, {
+ region: RegionUS
+});
+// to create people in a workspace with default settings, the id (5) can also be an email address.
+// when creating people using an email address, do not include an email attribute.
+cio.identify(data.email, {
+ email: data.email,
+ created_at: Date.now() / 1000,
+ zipCode: data.zipCode
+});
 </script>
 {% schema %}
 {
