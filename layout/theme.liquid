@@ -349,10 +349,7 @@
       })();
 
      const { TrackClient, RegionUS } = require('customerio-node');
-    let cio = new TrackClient(siteId: 'ce99aaf0a057f5dc5e5b', apiKey: '3c59a1175cb7969a558c', { region: RegionUS });
-    
-    // Depending on your workspace settings, the id (5) may be an email address.
-    cio.addDevice(5, "device_id", "ios", { primary: true });
+     let cio = new TrackClient(siteId: 'ce99aaf0a057f5dc5e5b', apiKey: '3c59a1175cb7969a558c', { region: RegionUS });
   </script>
   </body>
 </html>
