@@ -75,16 +75,14 @@
 } = require(‘customerio-node’);
 let cio = new TrackClient(siteId, apiKey, {
  region: RegionUS
-});
+}); */
 // to create people in a workspace with default settings, the id (5) can also be an email address.
 // when creating people using an email address, do not include an email attribute.
-cio.identify(data.email, {
- email: data.email,
- created_at: Date.now() / 1000,
- zipCode: data.zipCode
-});
-</script>
-<script type=“text/javascript”> */
+//cio.identify(data.email, {
+// email: data.email,
+// created_at: Date.now() / 1000,
+// zipCode: data.zipCode
+//});
   
 </script>
 {% schema %}
