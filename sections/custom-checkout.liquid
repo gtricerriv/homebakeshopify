@@ -55,6 +55,7 @@
         setTimeout(function() {
           $("#checkout-form").hide(200);
           $("#store-driver").show(400).css("display", "flex");
+          var date = new Date();
           var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
         _cio.identify({
          id: document.getElementById("email").value,
