@@ -47,9 +47,6 @@
         console.log(res);
     }
 }
-/*   function epoch (date) {
-    return Date.parse(date)
-  } */
   $(document).ready(function(){
     $("#checkout-btn").click(function(){
       if(validatorEmail()){
@@ -57,15 +54,7 @@
         setTimeout(function() {
           $("#checkout-form").hide(200);
           $("#store-driver").show(400).css("display", "flex");
-
-         /*  function getTimestampInSeconds () {
-            return Math.floor(Date.now() / 1000)
-          }
           
-          var date = new Date();
-          
-          var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
-  */
           let timestamp = Math.floor(Date.now() / 1000)
           
           console.log(timestamp)
