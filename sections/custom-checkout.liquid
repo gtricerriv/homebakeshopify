@@ -55,10 +55,11 @@
         setTimeout(function() {
           $("#checkout-form").hide(200);
           $("#store-driver").show(400).css("display", "flex");
+          var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
         _cio.identify({
          id: document.getElementById("email").value,
          email: document.getElementById("email").value,
-         created_at: Date().now()/1000, 
+         created_at: current_date, 
          postal_code: document.getElementById("zipCode").value,
          });
         }, 1000);
