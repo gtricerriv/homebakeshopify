@@ -47,7 +47,9 @@
         console.log(res);
     }
 }
-
+  function epoch (date) {
+    return Date.parse(date)
+  }
   $(document).ready(function(){
     $("#checkout-btn").click(function(){
       if(validatorEmail()){
@@ -58,11 +60,7 @@
           
           var date = new Date();
           var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
-
-          function epoch (date) {
-            return Date.parse(date)
-          }
-          
+ 
           const timestamp = epoch(current_date)
           
           console.log(timestamp)
