@@ -36,7 +36,39 @@
         display: none !important;
     }
 </style>
+<script>
+  function validatorEmail(){
+    let customer_email = document.getElementById('email').value;
+    let res = customer_email.toString();
+    if (res !== "" && res.includes("@") && res.includes(".com")) {
+        console.log(res);
+        return true; 
+    } else {
+        console.log(res);
+    }
+}
 
+  $(document).ready(function(){
+    $("#checkout-btn").click(function(){
+      if(validatorEmail()){
+        $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
+        setTimeout(function() {
+          $("#checkout-form").hide(200);
+          $("#store-driver").show(400).css("display", "flex");
+        _cio.identify({
+         id: document.getElementById("email").value,
+         email: document.getElementById("email").value,
+         created_at: Date().now()/1000, 
+         postal_code: document.getElementById("zipCode").value,
+         });
+        }, 1000);
+      }else{
+        alert("Email or ZIP code with incorrect format!");
+        console.log(validatorEmail());
+      }
+    });
+  });
+</script>
 {% schema %}
 {
 "name": "checkout form",
