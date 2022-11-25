@@ -250,6 +250,9 @@
   </head>
 
   <body class="gradient">
+    <script>
+      console.log('{{template.name}}');
+    </script>
     {%if template.name == 'collection' or template.name == 'product'%}
     <!-- The following line must be placed in the body. Do not forget to include the pixel in the head -->
     <script>
