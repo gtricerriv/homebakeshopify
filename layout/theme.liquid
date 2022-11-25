@@ -32,13 +32,6 @@
       window.teads_buyer_pixel_id = 6515;
     </script>
 
-    <!-- The following line must be placed in the body. Do not forget to include the pixel in the head -->
-    <script>
-      window.teads_e.push({
-        conversionType: "AddToCart"
-      });
-    </script>
-
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -257,6 +250,15 @@
   </head>
 
   <body class="gradient">
+    {%if template.name == 'collection' or template.name == 'product'%}
+    <!-- The following line must be placed in the body. Do not forget to include the pixel in the head -->
+    <script>
+      console.log('template is collection or product')
+      window.teads_e.push({
+        conversionType: "AddToCart"
+      });
+    </script>
+    {%endif%}
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GQ4Z4K"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
