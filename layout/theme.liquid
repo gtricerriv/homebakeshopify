@@ -253,8 +253,7 @@
     {%if template.name == 'list-collections' or template.name == 'product'%}
     <!-- The following line must be placed in the body. Do not forget to include the pixel in the head -->
     <script>
-      console.log('Teads script entered');
-
+      // this is the teads tracking script
       $(document).ready(function(){
         $(".quick-add__submit, .product-form__submit , .teads-trigger-buy-all").on('click', function(event){
           event.stopPropagation();
@@ -262,7 +261,6 @@
           window.teads_e.push({
             conversionType: "AddToCart"
           });
-          console.log('trigger clicked');
         });
       });
 
