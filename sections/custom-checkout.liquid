@@ -40,11 +40,11 @@
   function validatorEmail(){
     let customer_email = document.getElementById('email').value;
     let res = customer_email.toString();
-    if (res !== "") {
+    if (res !== "" && res.includes("@") && res.includes(".com")) {
         console.log(res);
         return true; 
     } else {
-        console.log("error");
+        console.log(res);
     }
 }
 /*   function epoch (date) {
