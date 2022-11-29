@@ -50,7 +50,7 @@
 }
   $(document).ready(function(){
     $("#checkout-btn").click(function(){
-      if(validatorEmail()){
+      if(validatorEmail()== true){
         $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
         setTimeout(function() {
           $("#checkout-form").hide(200);
