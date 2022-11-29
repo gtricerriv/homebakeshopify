@@ -38,31 +38,19 @@
 </style>
 <script>
    function validatorEmail() {
-            var client_email = document.getElementById("email").value;
-            var error = document.getElementById("email");
-            var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-            if (re.test(client_email)) {
-               /*  alert("done"); */
-                return true;
-            }
-            else {
-                error.style.border = "red solid 3px";
-                return false;
-            }
+      var client_email = document.getElementById("email").value;
+      var error = document.getElementById("email");
+      var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if (re.test(client_email)) {
+         /*  alert("done"); */
+          return true;
+      }
+      else {
+          error.style.border = "red solid 3px";
+          return false;
+      }
   }
 
-  
-/*   function validatorEmail(){
-    let customer_email = document.getElementById('email').value;
-    let res = customer_email.toString();
-    var mailformat = /^[a-zA-Z0-9.!#$%&'*+\=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    if (res.value.match(mailformat)) {
-        console.log(res);
-        return true; 
-    } else {
-        console.log(res);
-    }
-} */
   $(document).ready(function(){
     $("#checkout-btn").click(function(){
       if(validatorEmail()== true){
