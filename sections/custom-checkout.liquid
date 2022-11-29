@@ -37,7 +37,7 @@
     }
 </style>
 <script>
-  function validatorEmail(){
+/*   function validatorEmail(){
     let customer_email = document.getElementById('email').value;
     let res = customer_email.toString();
     if (res !== "" && res.includes("@")) {
@@ -48,10 +48,9 @@
       return false;
     }
 }
-
+ */
   $(document).ready(function(){
     $("#checkout-btn").click(function(){
-      if(validatorEmail() == true){
         $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
         setTimeout(function() {
           $("#checkout-form").hide(200);
@@ -68,10 +67,7 @@
          postal_code: document.getElementById("zipCode").value,
          });
         }, 1000);
-      }else{
-        alert("Email or ZIP code with incorrect format!");
-       /*  console.log(validatorEmail()); */
-      }
+      
     });
   });
 </script>
