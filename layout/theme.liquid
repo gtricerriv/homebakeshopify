@@ -254,7 +254,8 @@
     <!-- The following line must be placed in the body. Do not forget to include the pixel in the head -->
     <script>
       // this is the teads tracking script
-      $(document).ready(function(){
+
+      $(window).on( "load", function(){
         $(".quick-add__submit, .product-form__submit , .teads-trigger-buy-all").on('click', function(event){
           event.stopPropagation();
           event.stopImmediatePropagation();
@@ -263,6 +264,15 @@
           });
         });
       });
+  /*     $(document).ready(function(){
+        $(".quick-add__submit, .product-form__submit , .teads-trigger-buy-all").on('click', function(event){
+          event.stopPropagation();
+          event.stopImmediatePropagation();
+          window.teads_e.push({
+            conversionType: "AddToCart"
+          });
+        });
+      }); */
 
     </script>
     {%endif%}
