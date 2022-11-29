@@ -40,7 +40,7 @@
   function validatorEmail(){
     let customer_email = document.getElementById('email').value;
     let res = customer_email.toString();
-    var mailformat = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    var mailformat = /^[a-zA-Z0-9.!#$%&'*+\=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (res.value.match(mailformat)) {
         console.log(res);
         return true; 
