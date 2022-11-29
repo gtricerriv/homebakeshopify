@@ -40,7 +40,8 @@
   function validatorEmail(){
     let customer_email = document.getElementById('email').value;
     let res = customer_email.toString();
-    if (res !== "" && res.includes("@") && res.includes(".com")) {
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (res.value.match(mailformat)) {
         console.log(res);
         return true; 
     } else {
