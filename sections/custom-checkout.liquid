@@ -40,7 +40,7 @@
   function validatorEmail(){
     let customer_email = document.getElementById('email').value;
     let res = customer_email.toString();
-    if (res !== "" && res.includes("@") ) {
+    if (res !== "" && res.includes("@") && res.includes(".com")) {
         console.log(res);
         return true; 
     } else {
