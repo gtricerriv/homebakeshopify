@@ -369,10 +369,9 @@
           let product_name = data.product.title[i];
           let product_price = data.product.price[i];
           let quantity = data.cart.item_count[i];
-
           const productObjet = [product_name, product_price, quantity]
-
           ArrayOfProducts.push(productObject);
+          i++;
         }
         _cio.track('add_to_cart', trackCartItems() )
       }
