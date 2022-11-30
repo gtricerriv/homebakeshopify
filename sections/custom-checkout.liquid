@@ -38,26 +38,35 @@
 </style>
 <script>
 
-  $(document).ready(function(){
-    $("#checkout-btn").click(function(){
-        $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
-        setTimeout(function() {
-          $("#checkout-form").hide(200);
-          $("#store-driver").show(400).css("display", "flex");
-
-          let timestamp = Math.floor(Date.now() / 1000)
-          
-          console.log(timestamp)
-          
-        _cio.identify({
-         id: document.getElementById("email").value,
-         email: document.getElementById("email").value,
-         created_at: timestamp, 
-         postal_code: document.getElementById("zipCode").value,
-         });
-        }, 1000);
-      
-    });
+$(document).ready(function() {
+   $(“#checkout-btn”).click(function() {
+    $(“#checkout-btn”).text(“LOADING...“).css(“opacity”, “0.5");
+    setTimeout(function() {
+     $(“#checkout-form”).hide(200);
+     $(“#store-driver”).show(400).css(“display”, “flex”);
+     let timestamp = Math.floor(Date.now() / 1000)
+     console.log(timestamp)
+     _cio.identify({
+      id: document.getElementById(“email”).value,
+      email: document.getElementById(“email”).value,
+      created_at: timestamp,
+      postal_code: document.getElementById(“zipCode”).value,
+     });
+            // Cart Block //
+     var mycart = [{
+      “product”: “Salad”,
+      “price”: 15.00,
+      “item_count”: 1
+     }, {
+      “product”: “Chipotle”,
+      “price”: 15.00,
+      “item_count”: 2
+     }];
+     
+     _cio.track(“add_to_cart”, mycart, {    useArrayParams: true
+     });
+    }, 1000);
+   });
   });
 </script>
 {% schema %}
