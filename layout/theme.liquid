@@ -373,7 +373,7 @@
           ArrayOfProducts.push(productObject);
           i++;
         }
-        _cio.track('add_to_cart', trackCartItems() )
+        _cio.track('add_to_cart', trackCartItems(), { useArrayParams: true } )
       }
       
     </script>
