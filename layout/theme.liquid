@@ -373,10 +373,10 @@
           const productObjet = [product_name, product_price, quantity]
 
           ArrayOfProducts.push(productObject);
-          
         }
+        _cio.track('add_to_cart', trackCartItems() )
       }
-      _cio.track('add_to_cart', trackCartItems() )
+      
     </script>
 
   </body>
