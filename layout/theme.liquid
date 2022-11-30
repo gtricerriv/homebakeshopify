@@ -361,7 +361,22 @@
     </script>
 
     <script>
-      _cio.track('add_to_cart', product_name: data.product.title, product_price: data.product.price, quantity: data.cart.item_count )
+      document.getElementById("CartDrawer-Checkout").addEventListener("click", trackCartItems());
+
+      trackCartItems(){
+        let ArrayOfProducts = new Array ();
+        for(let i = 1; i<= data.cart.items; i++ ){
+          let product_name = data.product.title[i];
+          let product_price = data.product.price[i];
+          let quantity = data.cart.item_count[i];
+
+          const productObjet = [product_name, product_price, quantity]
+
+          ArrayOfProducts.push(productObject);
+          
+        }
+      }
+      _cio.track('add_to_cart', trackCartItems() )
     </script>
 
   </body>
