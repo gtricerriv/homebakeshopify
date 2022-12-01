@@ -360,41 +360,45 @@
       });
     </script>
 <script>
+
+
+  
   document.getElementById("CartDrawer-Checkout").addEventListener("click", trackCartItems());
-  let trackCartItems(){
-  let ArrayOfProducts = new Array ();
-  for(let i = 1; i<= data.cart.items; i++ ){
+  let trackCartItems() {
+    let ArrayOfProducts = new Array ();
+    let arrayOfCartItems = jQuery.getJSON('/cart.js', function(cart) {
+       // now have access to Shopify cart object
+      if(cart.items_count > 0){
+        let items = cart.items;
+        let product_name = cart.product.title;
+        let product_price = cart.product.price;
+        let quantity = cart.item_count;
+        for (let i = 1; i<= cart.items_count; i++){
+          const productObjet = [product_name[i], product_price[i], quantity[i]];
+          ArrayOfProducts.push(productObject);
+          i++;
+        }
+        return ArrayOfProducts;
+      } 
+    });
+  }
+  let itemsPurchased = JSON.stringify(trackCartItems())
+  let itemTracked = sessionStorage.setItem('itemsPurchased', itemsPurchased)
+
+/*   for(let i = 1; i<= data.cart.items; i++ ){
     let product_name = data.product.title[i];
     let product_price = data.product.price[i];
     let quantity = data.cart.item_count[i];
     const productObjet = [product_name, product_price, quantity]
     ArrayOfProducts.push(productObject);
     i++;
-  }
-  return ArrayOfProducts;
-  }
-  let itemsPurchased = JSON.stringify(trackCartItems())
-  let itemTracked = sessionStorage.setItem('itemsPurchased', itemsPurchased)
-</script>
-<!--     <script>
-      document.getElementById("CartDrawer-Checkout").addEventListener("click", trackCartItems());
+  } */
 
-      let trackCartItems(){
-        let ArrayOfProducts = new Array ();
-        for(let i = 1; i<= data.cart.items; i++ ){
-          let product_name = data.product.title[i];
-          let product_price = data.product.price[i];
-          let quantity = data.cart.item_count[i];
-          const productObjet = [product_name, product_price, quantity]
-          ArrayOfProducts.push(productObject);
-          i++;
-        }
-        return ArrayOfProducts;
-        
-      }
-      var trackItems = trackCartItems();
-      _cio.track('add_to_cart', trackItems, { useArrayParams: true } )
-    </script> -->
+  }
+
+
+</script>
+
 
   </body>
 </html>
