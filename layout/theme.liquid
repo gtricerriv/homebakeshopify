@@ -359,7 +359,23 @@
         conversionType: "AddToCart"
       });
     </script>
-
+<script>
+  document.getElementById("CartDrawer-Checkout").addEventListener("click", trackCartItems());
+  let trackCartItems(){
+  let ArrayOfProducts = new Array ();
+  for(let i = 1; i<= data.cart.items; i++ ){
+    let product_name = data.product.title[i];
+    let product_price = data.product.price[i];
+    let quantity = data.cart.item_count[i];
+    const productObjet = [product_name, product_price, quantity]
+    ArrayOfProducts.push(productObject);
+    i++;
+  }
+  return ArrayOfProducts;
+  }
+  let itemsPurchased = JSON.stringify(trackCartItems())
+  let itemTracked = sessionStorage.setItem('itemsPurchased', itemsPurchased)
+</script>
 <!--     <script>
       document.getElementById("CartDrawer-Checkout").addEventListener("click", trackCartItems());
 
