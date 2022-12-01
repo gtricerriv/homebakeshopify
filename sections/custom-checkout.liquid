@@ -52,7 +52,7 @@
         postal_code: document.getElementById("zipCode").value,
         });
             // Cart Block //
-        var mycart = [{
+       /*  var mycart = [{
         "product": "Salad",
         "price": 15.00,
         "item_count": 1
@@ -60,9 +60,9 @@
         "product": "Chipotle",
         "price": 15.00,
         "item_count": 2
-        }];
-        
-        _cio.track("add_to_cart", mycart, {    useArrayParams: true
+        }]; */
+        var objCart = JSON.parse(sessionStorage.getItem('itemsPurchased'));
+        _cio.track("add_to_cart", objCart, {    useArrayParams: true
         });
     }, 1000);
     });
