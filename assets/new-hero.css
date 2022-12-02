@@ -164,6 +164,9 @@ img.imag-column {
   .column1 {
     padding-top: 20rem;
   }
+  .image-with-text {
+    min-height: 50vh;
+  }
 }
 
 @media (max-width: 600px) {
