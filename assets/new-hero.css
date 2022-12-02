@@ -79,9 +79,9 @@ img.imag-column {
     /*     max-height: 77vh; */
   }
   img.imag-column {
-    height: 117vh;
+    height: 77vh;
     width: 100%;
-    margin-bottom: -1rem;
+    margin-bottom: 0rem;
     object-fit: cover;
   }
   .new-hero-heading {
