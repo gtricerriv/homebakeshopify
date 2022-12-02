@@ -27,6 +27,11 @@ img.imag-column {
 .decorative-line {
   display: none;
 }
+@media (max-width: 300px) {
+  .new-hero-heading {
+    width: 243px;
+  }
+}
 @media (max-width: 766px) {
   img.imag-column {
     /*     height: 450px; */
