@@ -77,6 +77,9 @@ img.background-image {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .text-column {
+    justify-content: space-between;
+  }
 }
 @media (max-width: 600px) {
   .content-wrapper {
