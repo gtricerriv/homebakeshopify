@@ -89,7 +89,7 @@ img.imag-column {
     width: 400px;
   }
   .image-with-text{
-    min-width: 67vw;
+    min-width: 55vw;
   }
 }
 @media(min-width: 998px){
