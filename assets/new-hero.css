@@ -23,6 +23,9 @@ img.imag-column {
 .new-hero-heading{
   width: 350px;
 }
+.decorative-line{
+  display: none;
+}
 @media(max-width: 766px){
   img.imag-column {
 /*     height: 450px; */
@@ -41,6 +44,7 @@ img.imag-column {
     max-height: 65rem;
   }
   .decorative-line {
+    display: block;
     max-width: 150px;
     color: white;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.25);
