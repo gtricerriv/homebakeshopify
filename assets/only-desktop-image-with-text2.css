@@ -83,7 +83,7 @@
     margin-bottom: 4rem;
   }
   .blue_section_img_container img {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 }
 @media (max-width: 600px) {
