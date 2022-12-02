@@ -44,26 +44,30 @@
         $("#checkout-form").hide(200);
         $("#store-driver").show(400).css("display", "flex");
         let timestamp = Math.floor(Date.now() / 1000)
-        console.log(timestamp)
+     /*    console.log(timestamp) */
+
+         /* TEXTDATA will contain the cart items in a string format.
+   
+               It can follow the format below where 
+                    columns are delimited by "|" and 
+                    rows are delimited by "\"
+       
+          'Item1|Price1|Quatity1\Item2|Price2|Quantity2'
+   
+      example:
+      
+          TEXTDATA='Chicken Parmesan|15.00|1\South wester style|15.00|2'*/
+         var mycart = TEXTDATA
+
+
+      
         _cio.identify({
         id: document.getElementById("email").value,
         email: document.getElementById("email").value,
         created_at: timestamp,
         postal_code: document.getElementById("zipCode").value,
         });
-            // Cart Block //
-       /*  var mycart = [{
-        "product": "Salad",
-        "price": 15.00,
-        "item_count": 1
-        }, {
-        "product": "Chipotle",
-        "price": 15.00,
-        "item_count": 2
-        }]; */
-        var objCart = JSON.parse(sessionStorage.getItem('itemsPurchased'));
-        _cio.track("add_to_cart", objCart, {    useArrayParams: true
-        });
+
     }, 1000);
     });
     });
