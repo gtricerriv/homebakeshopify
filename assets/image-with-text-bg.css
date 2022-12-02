@@ -39,7 +39,7 @@ img.oval-image {
     top: 55%;
     left: 54%;
     height: 28px;
-    z-index: 0;
+    z-index: -1;
     width: 100%;
 }
 .flex-child-heading {
