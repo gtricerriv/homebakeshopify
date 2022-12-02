@@ -54,7 +54,7 @@ img.imag-column {
   }
   .decorative-line {
     display: block;
-    max-width: 150px;
+    max-width: 70px;
     color: white;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.25);
     height: 0.2px;
