@@ -40,6 +40,14 @@ img.imag-column {
     width: 100vw;
     max-height: 65rem;
   }
+  .decorative-line {
+    max-width: 150px;
+    color: white;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.25);
+    height: 0.2px;
+    position: relative;
+    width: 100%;
+  }
   .new-hero{
     min-height: 64rem;
     background-color: #b52555;
