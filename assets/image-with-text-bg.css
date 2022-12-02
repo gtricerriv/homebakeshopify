@@ -48,6 +48,7 @@ img.oval-image {
 .relative-image-with-text{
   display: inline;
   position: relative;
+  z-index: 1;
 }
 .relative-image{
   display: none;
