@@ -45,7 +45,8 @@
       throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`);
     }
      var mycart = getCart();
-    console.log(mycart);
+    mycartstring= JSON.stringify(mycart)
+    console.log(mycartstring);
     $(document).ready(function() {
     $("#checkout-btn").click(function() {
     $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
