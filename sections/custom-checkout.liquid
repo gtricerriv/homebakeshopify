@@ -37,6 +37,14 @@
     }
 </style>
 <script>
+      async function getCart() {
+      const result = await fetch("/cart.json");
+      if (result.status === 200) {
+          return result.json();
+      }        
+      throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`);
+    }
+     var mycart = await getCart();
     $(document).ready(function() {
     $("#checkout-btn").click(function() {
     $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
@@ -45,15 +53,9 @@
         $("#store-driver").show(400).css("display", "flex");
         let timestamp = Math.floor(Date.now() / 1000)
       
-        async function getCart() {
-          const result = await fetch("/cart.json");
-          if (result.status === 200) {
-              return result.json();
-          }        
-          throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`);
-        }
-        var mycart = await getCart();
-        console.log( await getCart());
+
+   
+        console.log(mycart);
         _cio.identify({
         id: document.getElementById("email").value,
         email: document.getElementById("email").value,
