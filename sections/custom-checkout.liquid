@@ -53,7 +53,7 @@
           throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`);
         }
         var mycart = await getCart();
-      
+        console.log(mycart);
         _cio.identify({
         id: document.getElementById("email").value,
         email: document.getElementById("email").value,
