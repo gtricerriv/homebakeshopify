@@ -53,20 +53,15 @@
 <script>
   
   
+  
+  
       async function getCart() {
       fetch("/cart.json").then((response) => response.json())
   .then((data) => {
     let { items } = data
-    return JSON.stringify(items)
-  });
+    let  mycart = JSON.stringify(items)
 
-    /*   if (result.status === 200) {
-          return result.json();
-      }        
-      throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`); */
-    }
-     let mycart = getCart().then((response)=>{
-        $(document).ready(function() {
+    $(document).ready(function() {
     $("#checkout-btn").click(function() {
     $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
     setTimeout(function() {
@@ -85,10 +80,19 @@
     }, 1000);
     });
     });
-     });
+  });
+
+    /*   if (result.status === 200) {
+          return result.json();
+      }        
+      throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`); */
+    }
+   getCart();
 
     console.log(mycart);
    
+
+
 
 
 </script>
