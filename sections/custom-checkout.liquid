@@ -38,7 +38,9 @@
 </style>
 <script>
       async function getCart() {
-      const result = await fetch("/cart.json");
+      const result = await fetch("/cart.json").then((val)=>{
+        console.log(val);
+      });
       if (result.status === 200) {
           return result.json();
       }        
