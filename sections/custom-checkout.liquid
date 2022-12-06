@@ -44,7 +44,7 @@
       }        
       throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`);
     }
-     var mycart = getCart();
+     let mycart = getCart();
     mycartstring= JSON.stringify(mycart)
     console.log(mycartstring);
     $(document).ready(function() {
