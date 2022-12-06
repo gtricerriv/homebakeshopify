@@ -38,13 +38,13 @@
 </style>
 <script>
       async function getCart() {
-      const result = await fetch("/cart.json").then((val)=>{
+      fetch("/cart.json").then((val)=>{
         console.log(val);
       });
-      if (result.status === 200) {
+    /*   if (result.status === 200) {
           return result.json();
       }        
-      throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`);
+      throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`); */
     }
      let mycart = getCart();
     mycartstring= JSON.stringify(mycart)
