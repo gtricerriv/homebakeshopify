@@ -57,10 +57,12 @@
   
   
   
+  
       async function getCart() {
       fetch("/cart.json").then((response) => response.json())
   .then((data) => {
     let { items } = data
+    console.log(items);
     let  mycart = JSON.stringify(items)
     console.log(mycart);
     $(document).ready(function() {
@@ -93,6 +95,7 @@
 
 
    
+
 
 
 
