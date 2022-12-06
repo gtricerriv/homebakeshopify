@@ -39,15 +39,19 @@
 <script>
       async function getCart() {
       fetch("/cart.json").then((response) => response.json())
-  .then((data) => console.log(data));
+  .then((data) => {
+    let { items } = data
+    return JSON.stringify(items)
+  });
+
     /*   if (result.status === 200) {
           return result.json();
       }        
       throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`); */
     }
-     let mycart = getCart();
-    mycartstring= JSON.stringify(mycart)
-    console.log(mycartstring);
+     let mycart = await getCart();
+
+    console.log(mycart);
     $(document).ready(function() {
     $("#checkout-btn").click(function() {
     $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
@@ -61,7 +65,7 @@
         email: document.getElementById("email").value,
         created_at: timestamp,
         postal_code: document.getElementById("zipCode").value,
-        cart_items: mycartstring
+        cart_items: mycart
         });
 
     }, 1000);
