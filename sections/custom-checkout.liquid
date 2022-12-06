@@ -58,11 +58,12 @@
   
   
   
+  
       async function getCart() {
       fetch("/cart.json").then((response) => response.json())
   .then((data) => {
     let { items } = data
-    let  mycart = JSON.stringify(items)
+    let  mycart = JSON.stringify(items, ["product_title", "price","quantity"])
     console.log(mycart);
     $(document).ready(function() {
     $("#checkout-btn").click(function() {
@@ -94,6 +95,7 @@
 
 
    
+
 
 
 
