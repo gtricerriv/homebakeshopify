@@ -49,7 +49,7 @@
       }        
       throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`); */
     }
-     let mycart = await getCart();
+     let mycart = getCart();
 
     console.log(mycart);
     $(document).ready(function() {
