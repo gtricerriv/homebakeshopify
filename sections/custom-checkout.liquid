@@ -38,9 +38,8 @@
 </style>
 <script>
       async function getCart() {
-      .then(response => {
-        console.log(response);
-      });
+      .then((response) => response.json())
+      .then((data) => console.log(data));
     /*   if (result.status === 200) {
           return result.json();
       }        
