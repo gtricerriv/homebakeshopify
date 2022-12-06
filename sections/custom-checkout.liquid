@@ -51,35 +51,48 @@
   }
 </style>
 <script>
+  
   async function getCart() {
-      fetch("/cart.json").then((response) => response.json())
+
+ var items = {};
+ var mycart = "";
+
+ fetch("/cart.json").then((response) => response.json())
   .then((data) => {
-    let { items } = data
-    console.log(items);
-    let  mycart = JSON.stringify(items)
-    console.log(mycart);
-    $(document).ready(function() {
-    $("#checkout-btn").click(function() {
-    $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
-    setTimeout(function() {
-        $("#checkout-form").hide(200);
-        $("#store-driver").show(400).css("display", "flex");
-        let timestamp = Math.floor(Date.now() / 1000)
-
-        _cio.identify({
-        id: document.getElementById("email").value,
-        email: document.getElementById("email").value,
-        created_at: timestamp,
-        postal_code: document.getElementById("zipCode").value,
-        cart_items: mycart
-        });
-
-    }, 1000);
-    });
-    });
+   items = data;
   });
-    }
-   getCart();
+
+ console.log(items);
+ mycart = JSON.stringify(items);
+ console.log(mycart);
+
+ $(document).ready(function() {
+  $("#checkout-btn").click(function() {
+   $("#checkout-btn").text("LOADING...").css("opacity", "0.5");
+   setTimeout(function() {
+    $("#checkout-form").hide(200);
+    $("#store-driver").show(400).css("display", "flex");
+    let timestamp = Math.floor(Date.now() / 1000);
+
+    _cio.identify({
+     id: document.getElementById("email").value,
+     email: document.getElementById("email").value,
+     created_at: timestamp,
+     postal_code: document.getElementById("zipCode").value,
+     cart_items: mycart
+    });
+
+   }, 1000);
+  });
+ });
+
+ /*   if (result.status === 200) {
+       return result.json();
+   }        
+   throw new Error(`Failed to get request, Shopify returned ${result.status} ${result.statusText}`); */
+}
+getCart();
+
 </script>
 {% schema %}
 {
