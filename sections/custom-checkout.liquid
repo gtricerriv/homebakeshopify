@@ -55,15 +55,12 @@
         $("#store-driver").show(400).css("display", "flex");
         let timestamp = Math.floor(Date.now() / 1000)
       
-
-   
-      
         _cio.identify({
         id: document.getElementById("email").value,
         email: document.getElementById("email").value,
         created_at: timestamp,
         postal_code: document.getElementById("zipCode").value,
-        cart_items: mycart
+        cart_items: mycartstring
         });
 
     }, 1000);
