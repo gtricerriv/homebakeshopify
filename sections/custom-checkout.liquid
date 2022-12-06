@@ -55,6 +55,7 @@
   
   
   
+  
       async function getCart() {
       fetch("/cart.json").then((response) => response.json())
   .then((data) => {
@@ -74,7 +75,7 @@
         email: document.getElementById("email").value,
         created_at: timestamp,
         postal_code: document.getElementById("zipCode").value,
-        cart_items: response
+        cart_items: mycart
         });
 
     }, 1000);
@@ -91,6 +92,7 @@
 
     console.log(mycart);
    
+
 
 
 
