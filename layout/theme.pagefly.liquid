@@ -21,17 +21,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     <!-- End Google Tag Manager -->
     <!-- The following line must be placed in the head tag -->
     <script type="text/javascript" src="https://p.teads.tv/teads-fellow.js" async="true"></script>
-    <script>
-      window.teads_e = window.teads_e || [];
-      window.teads_buyer_pixel_id = 6515;
-    </script>
-
-    <!-- The following line must be placed in the body. Do not forget to include the pixel in the head -->
-    <script>
-      window.teads_e.push({
-        conversionType: "AddToCart"
-      });
-    </script>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -244,10 +233,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     
     <script src="//cdn.pricespider.com/1/lib/ps-widget.js" async></script>
     <script type="text/javascript" src="https://p.teads.tv/teads-fellow.js" async="true"></script>
-    <script>
-      window.teads_e = window.teads_e || [];
-      window.teads_buyer_pixel_id = 6515;
-    </script>
   </head>
 
   <body class="gradient"><div class="pagefly-container">{{ content_for_layout }}</div></body>
