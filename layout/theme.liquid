@@ -1,6 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    <script>
+      window.teads_e = window.teads_e || [];
+      window.teads_buyer_pixel_id = 6515;
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CT45YJY4BN"></script>
     <script>
@@ -27,10 +31,7 @@
     <!-- End Google Tag Manager -->
     <!-- The following line must be placed in the head tag -->
     <script type="text/javascript" src="https://p.teads.tv/teads-fellow.js" async="true"></script>
-    <script>
-      window.teads_e = window.teads_e || [];
-      window.teads_buyer_pixel_id = 6515;
-    </script>
+
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -243,10 +244,6 @@
     
     <script src="//cdn.pricespider.com/1/lib/ps-widget.js" async></script>
     <script type="text/javascript" src="https://p.teads.tv/teads-fellow.js" async="true"></script>
-<!--     <script>
-      window.teads_e = window.teads_e || [];
-      window.teads_buyer_pixel_id = 6515;
-    </script> -->
   </head>
 
   <body class="gradient">
