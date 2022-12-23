@@ -243,6 +243,7 @@
     </script>
     
     <script src="//cdn.pricespider.com/1/lib/ps-widget.js" async></script>
+    <script type="text/javascript" src="https://p.teads.tv/teads-fellow.js" async="true"></script>
   </head>
 
   <body class="gradient">
@@ -253,6 +254,8 @@
 
       $(window).on( "load", function(){
         $(".quick-add__submit, .product-form__submit , .teads-trigger-buy-all").on('click', function(event){
+          event.stopPropagation();
+          event.stopImmediatePropagation();
           window.teads_e.push({
             conversionType: "AddToCart"
           });
@@ -321,29 +324,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
-<!--     <script type="text/javascript">
-       function myTrigger() {
-          window.teads_e.push({
-            conversionType: "AddToCart"
-          });
-       }
-    </script> -->
-    <script type="text/javascript">
-      var classname = document.getElementsByClassName("product-form__submit button button--full-width button--primary");
-      var addToCart = function() {
-        window.teads_e.push({
-        conversionType: "AddToCart"
-        });
-      }; for (var i = 0; i < classname.length; i++) {
-      classname[i].addEventListener('click', addToCart, false);
-      }
-    </script>
-   <script>
-      window.teads_e.push({
-        conversionType: "AddToCart"
-      });
-    </script>
 <script>
 
 
